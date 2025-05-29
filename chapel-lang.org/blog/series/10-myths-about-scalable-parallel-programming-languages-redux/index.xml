@@ -6,6 +6,21 @@
     <description>Recent content in 10 Myths About Scalable Parallel Programming Languages (Redux) on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/series/10-myths-about-scalable-parallel-programming-languages-redux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 2: Past Failures and Future Attempts</title>
+      <link>https://chapel-lang.org/blog/posts/10myths-part2/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/10myths-part2/</guid>
+      <description>Another archival post from the IEEE TCSC blog in 2012 with a current reflection on it</description>
+    </item>
+    <item>
+      <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 1: Productivity and Performance</title>
+      <link>https://chapel-lang.org/blog/posts/10myths-part1/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/10myths-part1/</guid>
+      <description>An archival post from the IEEE TCSC blog in 2012 with a current reflection on it</description>
+    </item>
   </channel>
 </rss>
