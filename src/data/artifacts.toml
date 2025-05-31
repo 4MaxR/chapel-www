@@ -80,6 +80,7 @@
   venue = "PhD thesis, University of Luxembourg / University of Lille"
   date = "January 10, 2025"
   url = "https://hal.science/tel-04902137v1"
+  slides = "/presentations/Helbecque-defense.pdf"
   description = "This thesis explores a PGAS-based approach to designing scalable and portable parallel Branch-and-Bound algorithms for exascale systems, with contributions spanning multi-level work-stealing and multi-GPU acceleration, implemented in Chapel."
   type = ["paper"]
 
@@ -234,6 +235,8 @@
   date = "July 2–4, 2024"
   url = "https://www.iccs-meeting.org/archive/iccs2024/papers/148340097.pdf"
   slides = "ICCS_2024-slides.pdf"
+  extraLink = "https://hal.science/hal-04636184v1"
+  extraLinkText = "Preprint"
   description = "This paper introduces a PGAS-based data structure and work-stealing mechanism for parallel depth-first traversal of unbalanced trees, implemented as the Chapel DistributedBag module."
   type = ["paper", "presentation"]
 
@@ -253,6 +256,8 @@
   date = "May 31, 2024"
   url = "https://ieeexplore.ieee.org/document/10596398"
   slides = "PDCO2024-slides.pdf"
+  extraLink = "https://hal.science/hal-04551856v1"
+  extraLinkText = "Preprint"
   description = "This paper presents a proof-of-concept GPU-accelerated tree search algorithm in Chapel, showcasing a portable PGAS-based approach to parallel backtracking on both Nvidia and AMD GPU architectures."
   type = ["paper", "presentation"]
 
