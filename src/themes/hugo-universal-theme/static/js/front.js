@@ -434,11 +434,9 @@ function openAutoDetails() {
     var hash = window.location.hash.substring(1);
     if (hash) {
       var summary = document.getElementById(hash);
-      if (summary && summary.tagName.toLowerCase() === 'summary') {
-        var details = summary.parentElement;
-        if (details && details.tagName.toLowerCase() === 'details') {
-          details.open = true;
-        }
+      if (summary?.tagName?.toLowerCase() === 'summary') {
+        var details = summary.closest('details');
+        details?.setAttribute('open', true);
       }
     }
   }
