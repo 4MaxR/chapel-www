@@ -29,14 +29,14 @@ keywords = ["TODO"]
   url="https://chapel.discourse.group/c/notifications"
 
 [[WrittenConversation]]
-  name="Gitter"
-  description="A place for live Matrix chat about Chapel"
-  url="https://gitter.im/chapel-lang/chapel"
-
-[[WrittenConversation]]
   name="Discord"
   description="A newer place for general chat about Chapel"
   url="https://discord.gg/xu2xg45yqH"
+
+[[WrittenConversation]]
+  name="Gitter"
+  description="A place for live Matrix chat about Chapel"
+  url="https://gitter.im/chapel-lang/chapel"
 
 [[WrittenConversation]]
   name="GitHub Issues"
