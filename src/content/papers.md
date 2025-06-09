@@ -8,6 +8,7 @@ keywords = ["TODO"]
 {{<publication-list "featuredPublications" "Featured Publications">}}
   {{<artifact-listing "hpec24-vf2-ps">}}
   {{<artifact-listing "ipdps2024">}}
+  {{<artifact-listing "hcw2024">}}
   {{<artifact-listing "europar24">}}
   {{<artifact-listing "ccpe23">}}
   {{<artifact-listing "ems23">}}
