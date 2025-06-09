@@ -89,8 +89,8 @@ disableKinds = ['taxonomy', 'term']
     weight     = 5
 
 [[menu.main]]
-    name       = "Tutorials"
-    url        = "/tutorials"
+    name       = "Presentations"
+    url        = "/presentations"
     weight     = 1
     parent     = "menu.resources"
 
@@ -101,8 +101,8 @@ disableKinds = ['taxonomy', 'term']
     parent     = "menu.resources"
 
 [[menu.main]]
-    name       = "Presentations"
-    url        = "/presentations"
+    name       = "Tutorials"
+    url        = "/tutorials"
     weight     = 3
     parent     = "menu.resources"
 
