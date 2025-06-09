@@ -4,15 +4,16 @@
   venue = "HIPS 2025 keynote at IPDPS 2025"
   date = "June 3, 2025"
   url = "ChamberlainHIPS2025-presented.pdf"
-  description = "This keynote uses the 30th instance of the HIPS workshop as an opportunity to reflect on the past 30 years of HPC programming language design and adoption (or lack thereof)"
+  description = "This keynote uses the 30th instance of HIPS as an opportunity to reflect on the past 30 years of HPC programming language design and adoption (or lack thereof)"
   type = ["presentation"]
 
-[pnwplse2025]
+[pnw-plse25]
   title = "The Secret Sauce of Vendor-Neutral GPU Programming (in Chapel)"
   authors = "Jade Abraham"
   venue = "PNW PLSE 2025"
   date = "May 7, 2025"
   url = "pnw-plse2025.pdf"
+  video = "https://youtu.be/7yBVQeRKKrI?si=dSGPRq2DNUIP1SaL"
   description = "A lightning talk introducing Chapel's support for vendor-neutral GPU programming and how it is implemented"
   type = ["presentation"]
 
@@ -287,8 +288,9 @@
   venue = "Heterogeneity in Computing Workshop (HCW 2024) at IPDPS 2024"
   date = "May 27, 2024"
   url = "https://milthorpe.org/pubs/performance-portability-of-the-chapel-language-on-heterogeneous-architectures/"
+  slides = "/presentations/Milthorpe_HCW2024_Perf_Portability.pdf"
   description = "This paper uses mini-applications to compare the performance portability of Chapel with OpenMP, Kokkos, CUDA, and HIP across a wide range of CPU and GPU platforms."
-  type = ["paper"]
+  type = ["paper", "presentation"]
 
 [bader]
   title = "Arachne: An Open-Source Framework for Interactive Massive-Scale Graph Analytics"
@@ -598,7 +600,7 @@
   authors = "Brad Chamberlain"
   venue = "PNW PLSE 2024, Seattle WA"
   date = "May 7, 2024"
-  description = "This lightning talk illustrates Chapel implementing several variants of Bale IndexGather—a random access computation: serially, for multicore processors, for GPUs, and on supercomputers. It touts the benefits of parallel languages in making such computations straightforward, yet fast and scalable."
+  description = "A lightning talk illustrating Chapel through several variants of a simple computation: serially, multicore, for GPUs, and on supercomputers."
   url = "/presentations/ChapelForPNWPLSE2024-unabridged.pdf"
   video = "https://www.youtube.com/watch?v=ydsM51T7Pts&list=PLuqM5RJ2KYFin_PkkaAJWJF1KjcVGnagh&index=4"
   type = ["presentation", "video"]
@@ -608,7 +610,7 @@
   authors = "Michael Ferguson"
   venue = "Open Source Connector, Burlington VT (presented remotely)"
   date = "February 7, 2024"
-  description = "This talk demonstrates how, as a parallel language, Chapel's standard library can easily support parallel implementations, permitting codes that are as succinct as other popular languages to outperform them by 10x–400x. It is also unique among the talks here in that it includes a live demo of programming using Chapel and Arkouda."
+  description = "This talk and demo show how Chapel's standard library easily supports parallel implementations, permitting succinct codes to outperform popular languages by 10x–400x."
   url = "/presentations/chapel-open-source-connector.pdf"
   video = "https://www.youtube.com/watch?v=gwrbBQiP5HQ"
   extraLink = "https://youtu.be/gwrbBQiP5HQ?si=CFd_KHB_JG560lXH&t=1380"
@@ -673,7 +675,7 @@
   authors = "Engin Kayraklioglu"
   venue = "internal HPE talk (edited for public consumption)"
   date = "January 9, 2024"
-  description = "This talk provides an in-depth introduction to Chapel's support for GPU programming from motivation to key concepts, applications, implementation approach, and ongoing work."
+  description = "This talk provides an in-depth introduction to Chapel's support for GPU programming from motivation to key concepts, applications, implementation, and ongoing work."
   url = "/presentations/EnginTechTalk2024-static-public.pdf"
   type = ["presentation"]
 
@@ -746,6 +748,7 @@
   date = "April 20, 2022"
   description = "This talk provides background on Chapel, such as how it compares to other mainstream language and HPC programming models, along with some of its benefits in the Arkouda and CHAMPS applications."
   url = "/presentations/ChapelForHPEMunchAndLearn-presented.pdf"
+  video = "https://youtu.be/7Qk8T7_bevo?si=pQjrpQQSAS6P870-"
   type = ["presentation"]
 
 [pasc23]
@@ -762,7 +765,7 @@
   authors = "Michelle Strout"
   venue = "WAMTA 2023 keynote, Baton Rouge LA"
   date = "February 15, 2023"
-  description = "This keynote demonstrates how Chapel's support for task-parallelism is being used to express a wide variety of computations while also generating good performance and scalability."
+  description = "This keynote demonstrates Chapel's support for task-parallelism and its use to express a wide variety of computations while generating good performance and scalability."
   url = "/presentations/WAMTA-keynote-Feb2023.pdf"
   video = "https://www.youtube.com/watch?v=nS-g6ZCjAKQ"
   type = ["presentation", "video"]
