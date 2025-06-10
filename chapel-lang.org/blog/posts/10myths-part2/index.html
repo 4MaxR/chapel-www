@@ -1,143 +1,121 @@
 <!DOCTYPE html>
+
 <html data-theme="light" lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#00cbff">
-    
-    <meta name="description" content="Another archival post from the IEEE TCSC blog in 2012 with a current reflection on it">
-    
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" media="screen,print">
-    
-    
-    
-    
-    
-    
-    
-    <style>.sidenote-checkbox { display: none; }</style>
-    <style>.feather { width: 1rem; height: 1rem; }</style>
-    <link rel="stylesheet" href="../../scss/style.min.css" media="screen,print">
-    <link rel="stylesheet" href="../../scss/sidenotes.min.css" media="screen,print">
-    <link rel="stylesheet" href="../../css/syntax.min.css" media="screen,print">
-    <link rel="stylesheet" href="../../scss/syntax-terminal.min.css" media="screen,print">
-    <link rel="stylesheet" href="../../scss/code.min.css" media="screen,print">
-    <link rel="icon" type="image/png" href="../../img/favicon.ico">
-
-    <script src="../../js/dropdown-menu.js" defer></script>
-
-    <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 2: Past Failures and Future Attempts</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#00cbff" name="theme-color"/>
+<meta content="Another archival post from the IEEE TCSC blog in 2012 with a current reflection on it" name="description"/>
+<link href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" media="screen,print" rel="stylesheet"/>
+<style>.sidenote-checkbox { display: none; }</style>
+<style>.feather { width: 1rem; height: 1rem; }</style>
+<link href="../../scss/style.min.css" media="screen,print" rel="stylesheet"/>
+<link href="../../scss/sidenotes.min.css" media="screen,print" rel="stylesheet"/>
+<link href="../../css/syntax.min.css" media="screen,print" rel="stylesheet"/>
+<link href="../../scss/syntax-terminal.min.css" media="screen,print" rel="stylesheet"/>
+<link href="../../scss/code.min.css" media="screen,print" rel="stylesheet"/>
+<link href="../../img/favicon.ico" rel="icon" type="image/png"/>
+<script defer="" src="../../js/dropdown-menu.js"></script>
+<title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 2: Past Failures and Future Attempts</title>
 </head>
 <body>
 <header>
-    
-    <div class="container">
-        <a class="site-title" href="../../">
-            <img alt="Chapel logo" width="50" height="50" src="../../img/logo.png">
-            <h1>Chapel Language Blog</h1>
-        </a>
-    </div>
-    <nav id="Header">
-        <div class="container">
-            <a href="../../about">About</a>
-            <a href="https://chapel-lang.org">Chapel Website</a>
-            <a href="../../featured">Featured</a>
-            <a href="../../series">Series</a>
-            <a href="../../tags">Tags</a>
-            <a href="../../authors">Authors</a>
-            <a href="../../posts">All Posts</a>
-        </div>
-    </nav>
-    
+<div class="container">
+<a class="site-title" href="../../">
+<img alt="Chapel logo" height="50" src="../../img/logo.png" width="50"/>
+<h1>Chapel Language Blog</h1>
+</a>
+</div>
+<nav id="Header">
+<div class="container">
+<a href="../../about">About</a>
+<a href="https://chapel-lang.org">Chapel Website</a>
+<a href="../../featured">Featured</a>
+<a href="../../series">Series</a>
+<a href="../../tags">Tags</a>
+<a href="../../authors">Authors</a>
+<a href="../../posts">All Posts</a>
+</div>
+</nav>
 </header>
 <main class="container">
 <h2>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 2: Past Failures and Future Attempts</h2>
 <div class="post-subscript">
-    <p>Posted on May 28, 2025.</p>
-    <p>
+<p>Posted on May 28, 2025.</p>
+<p>
         Tags:
         
         <a class="button" href="../../tags/editorial">Editorial</a>
-        
-        <a class="button" href="../../tags/archival-posts-/-reprints">Archival Posts / Reprints</a>
-        
-        <a class="button" href="../../tags/gpu-programming">GPU Programming</a>
-        
-    </p>
-    <p>
+<a class="button" href="../../tags/archival-posts-/-reprints">Archival Posts / Reprints</a>
+<a class="button" href="../../tags/gpu-programming">GPU Programming</a>
+</p>
+<p>
     By:
     <a href="../../authors/brad-chamberlain">Brad Chamberlain</a>
-    </p>
+</p>
 </div>
-
 <div class="post-content">
-    
-    <div class="table-of-contents">
-        <div class="wrapper">
-            <span class="header">Table of Contents</span>
-            <nav id="TableOfContents">
-  <ul>
-    <li><a href="#background">Background</a></li>
-    <li><a href="#the-original-article-reprinted">The Original Article, Reprinted</a>
-      <ul>
-        <li><a href="#myth-2-because-hpf-failed-your-language-will-not-succeed">Myth #2: Because HPF failed, your language will not succeed.</a></li>
-        <li><a href="#references">References</a></li>
-      </ul>
-    </li>
-    <li><a href="#reflections-on-the-original-article">Reflections on the Original Article</a>
-      <ul>
-        <li><a href="#datedness-of-hpf-focus-or-not">Datedness of HPF focus (or not?)</a></li>
-        <li><a href="#the-rise-of-gpu-computing">The rise of GPU computing</a></li>
-        <li><a href="#more-departed-parallel-languages">More Departed Parallel Languages</a></li>
-        <li><a href="#wrapping-up">Wrapping Up</a></li>
-      </ul>
-    </li>
-  </ul>
+<div class="table-of-contents">
+<div class="wrapper">
+<span class="header">Table of Contents</span>
+<nav id="TableOfContents">
+<ul>
+<li><a href="#background">Background</a></li>
+<li><a href="#the-original-article-reprinted">The Original Article, Reprinted</a>
+<ul>
+<li><a href="#myth-2-because-hpf-failed-your-language-will-not-succeed">Myth #2: Because HPF failed, your language will not succeed.</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+</li>
+<li><a href="#reflections-on-the-original-article">Reflections on the Original Article</a>
+<ul>
+<li><a href="#datedness-of-hpf-focus-or-not">Datedness of HPF focus (or not?)</a></li>
+<li><a href="#the-rise-of-gpu-computing">The rise of GPU computing</a></li>
+<li><a href="#more-departed-parallel-languages">More Departed Parallel Languages</a></li>
+<li><a href="#wrapping-up">Wrapping Up</a></li>
+</ul>
+</li>
+</ul>
 </nav>
-        </div>
-    </div>
-    
-
-    
-
-    <h3 id="background">
-  <a href="#background">Background</a>
+</div>
+</div>
+<h3 id="background">
+<a href="#background">Background</a>
 </h3>
 <p>In 2012, I wrote a series of eight blog articles for the IEEE
-<span class="sidenote"><label class="sidenote-label" for="sidenote-0">TCSC</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-0"></input><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>TCSC = Technical Community on Scalable
-Computing<span class="sidenote-delimiter">]</span></span></span> blog entitled &ldquo;Myths About Scalable Parallel
-Programming Languages.&rdquo;  In it, I described discouraging attitudes
+<span class="sidenote"><label class="sidenote-label" for="sidenote-0">TCSC</label><input class="sidenote-checkbox" id="sidenote-0" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>TCSC = Technical Community on Scalable
+Computing<span class="sidenote-delimiter">]</span></span></span> blog entitled “Myths About Scalable Parallel
+Programming Languages.”  In it, I described discouraging attitudes
 that our team encountered when talking about developing a language
 like Chapel, and also gave my personal perspective and rebuttal to
 them.  That series has been generally unavailable for many years, so I
-thought it&rsquo;d be interesting to reprint the original series in honor of
+thought it’d be interesting to reprint the original series in honor of
 its 13th anniversary, along with new commentary reflecting on how well
 or poorly the ideas have held up over time.  For a more detailed
 introduction, to both the original series and this one, please see
-<a href="../../posts/10myths-part1/">last month&rsquo;s article</a>.</p>
-<p>Here&rsquo;s the second article from the series, originally published on May
+<a href="../../posts/10myths-part1/">last month’s article</a>.</p>
+<p>Here’s the second article from the series, originally published on May
 28, 2012, followed by <a href="#reflections-on-the-original-article">new sections</a> with current reflections on
 it:</p>
-<hr>
+<hr/>
 <h3 id="the-original-article-reprinted">
-  <a href="#the-original-article-reprinted">The Original Article, Reprinted</a>
+<a href="#the-original-article-reprinted">The Original Article, Reprinted</a>
 </h3>
-<p class="big">Myths About Scalable Parallel Programming Languages:<br>
+<p class="big">Myths About Scalable Parallel Programming Languages:<br/>
 Part 2: Past Failures and Future Attempts</p>
 <p>This is the second in a series of blog articles I’m writing with the
 goal of describing and responding to some of the assumptions about
 scalable parallel programming languages that our team frequently
 encounters when talking about our work designing and implementing
-Chapel (<a href="https://chapel-lang.org"target="_blank" rel="noopener">https://chapel-lang.org</a>).  For more background on Chapel or
+Chapel (<a href="https://chapel-lang.org" rel="noopener" target="_blank">https://chapel-lang.org</a>).  For more background on Chapel or
 this series, please refer to <a href="../../posts/10myths-part1/#the-original-article-reprinted">part 1</a>.</p>
 <h4 id="myth-2-because-hpf-failed-your-language-will-not-succeed">
-  <a href="#myth-2-because-hpf-failed-your-language-will-not-succeed">Myth #2: Because HPF failed, your language will not succeed.</a>
+<a href="#myth-2-because-hpf-failed-your-language-will-not-succeed">Myth #2: Because HPF failed, your language will not succeed.</a>
 </h4>
 <p>In describing Chapel, one of the earliest reactions we encountered
 within the HPC community (and one that still comes up today with
 surprising frequency) was “How can your language possibly succeed when
 HPF failed?” Another popular variation is: “How can it possibly succeed when I can name
-<span class="sidenote"><label class="sidenote-label" for="sidenote-1">dozens (hundreds?) of parallel languages</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-1"></input><span class="sidenote-content sidenote-right" style="margin-top: -13.5rem"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-1">dozens (hundreds?) of parallel languages</label><input class="sidenote-checkbox" id="sidenote-1" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -13.5rem"><span class="sidenote-delimiter">[note:</span>
 These days, HPF doesn't come up very frequently, as the HPC community
 has largely gotten over it by now.  However, this second, more
 general, question still comes up from time to time, and some people
@@ -147,21 +125,19 @@ programming communities had taken this defeatist stance and failed to
 develop Java, Python, Go, Swift, or Rust as alternatives to C, C++,
 and Perl.<span class="sidenote-delimiter">]</span></span></span> that have failed?”</p>
 <blockquote class="pull-quote">
-    <div class="quote-wrapper">
-        <div class="quote-container"><span class="open-quote">“</span></div>
-            <div class="quote-content">
-                <p>
+<div class="quote-wrapper">
+<div class="quote-container"><span class="open-quote">“</span></div>
+<div class="quote-content">
+<p>
 The failure of one language doesn’t dictate the failure of all future
 languages any more than early failed attempts at flight or putting
 rockets into space meant those feats were impossible.
 </p>
-            </div>
-        <div class="quote-container"><span class="close-quote">”</span></div>
-    </div>
-    
+</div>
+<div class="quote-container"><span class="close-quote">”</span></div>
+</div>
 </blockquote>
-
-<p>For the young <span class="sidenote"><label class="sidenote-label" for="sidenote-2">and the forgetful</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-2"></input><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>On reflection,
+<p>For the young <span class="sidenote"><label class="sidenote-label" for="sidenote-2">and the forgetful</label><input class="sidenote-checkbox" id="sidenote-2" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>On reflection,
 that seems a bit rude, 2012-era Brad...  Maybe it felt more obviously
 humorous at the time since HPF was recent enough that it was unlikely
 to have been forgotten?  🤔<span class="sidenote-delimiter">]</span></span></span>: HPF (High Performance
@@ -194,7 +170,7 @@ to repeat it” and all that.  With Chapel, we went into our language
 design effort by considering HPF’s failure and learning from it rather
 than blindly pretending it didn’t happen.  We also dissected other
 failed and struggling languages of the time like NESL, Sisal, Cilk,
-ZPL, UPC, <span class="sidenote"><label class="sidenote-label" for="sidenote-3">Coarray Fortran</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-3"></input><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Today, I wince a
+ZPL, UPC, <span class="sidenote"><label class="sidenote-label" for="sidenote-3">Coarray Fortran</label><input class="sidenote-checkbox" id="sidenote-3" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Today, I wince a
 bit at the inclusion of Coarray Fortran in this list given that my
 Fortran-oriented colleagues would rightly point out that co-arrays were
 incorporated into the Fortran 2008 standard and have found an
@@ -208,7 +184,7 @@ single fatal flaw, but failed due to a combination of factors.  I’ll
 list some of the main ones here, and summarize our response to them in
 Chapel.</p>
 <h6 id="hpf-did-not-achieve-sufficient-performance-fast-enough">
-  <a href="#hpf-did-not-achieve-sufficient-performance-fast-enough">“HPF did not achieve sufficient performance fast enough”</a>
+<a href="#hpf-did-not-achieve-sufficient-performance-fast-enough">“HPF did not achieve sufficient performance fast enough”</a>
 </h6>
 <p>This is perhaps the most frequently cited reason given for HPF’s
 failure, and one that’s compounded by the promise of the appearance of
@@ -219,7 +195,7 @@ believe that if there had been a brighter light at the end of the
 tunnel, the community would have worked through its impatience.  In
 our work on Chapel, we share a similar threat of losing potential
 users’ interest
-<span class="sidenote"><label class="sidenote-label" for="sidenote-4">by not achieving the performance they ultimately want</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-4"></input><span class="sidenote-content sidenote-right" style="margin-top: -10.5rem"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-4">by not achieving the performance they ultimately want</label><input class="sidenote-checkbox" id="sidenote-4" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -10.5rem"><span class="sidenote-delimiter">[note:</span>
 This definitely was a challenge for us in the years
 since this article was published.  While current Chapel performance
 typically competes with or beats Fortran or C++ with MPI, many who
@@ -229,7 +205,7 @@ Chapel themselves.<span class="sidenote-delimiter">]</span></span></span> quickl
 we encourage users to reason about whether there are features in Chapel
 that will inherently prevent it from achieving good performance
 (instead of simply
-<span class="sidenote"><label class="sidenote-label" for="sidenote-5">taking a stopwatch to its current performance</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-5"></input><span class="sidenote-content sidenote-right" style="margin-top: 5.5rem"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-5">taking a stopwatch to its current performance</label><input class="sidenote-checkbox" id="sidenote-5" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: 5.5rem"><span class="sidenote-delimiter">[note:</span>
 Happily, unlike 2012, we no longer have to ask people to reason about
 whether we're on a path to good performance—now, they can just try
 Chapel and time it themselves.  Of course, there are still a few areas
@@ -243,7 +219,7 @@ while Chapel’s design is aggressive, it is not inherently flawed with
 respect to its potential to generate competitive performance.  If it
 is, we’d surely like to hear about it to address those flaws.</p>
 <h6 id="hpf-left-too-much-unspecified-in-its-execution-model-resulting-in-challenges-to-portable-performance">
-  <a href="#hpf-left-too-much-unspecified-in-its-execution-model-resulting-in-challenges-to-portable-performance">“HPF left too much unspecified in its execution model, resulting in challenges to portable performance”</a>
+<a href="#hpf-left-too-much-unspecified-in-its-execution-model-resulting-in-challenges-to-portable-performance">“HPF left too much unspecified in its execution model, resulting in challenges to portable performance”</a>
 </h6>
 <p>This was the rallying cry within the ZPL group in which several
 members of the Chapel team (myself included) worked in the 1990’s [2].
@@ -256,7 +232,7 @@ a user could expect to happen.  This hypothesis was borne out as
 multiple HPF compilers began to emerge, and programs needed to be
 tuned for each one independently [3].  In Chapel, as in ZPL, we have
 strived to avoid this pitfall by being far more explicit about
-<span class="sidenote"><label class="sidenote-label" for="sidenote-6">how the language will be implemented</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-6"></input><span class="sidenote-content sidenote-right" style="margin-top: 4.5rem"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-6">how the language will be implemented</label><input class="sidenote-checkbox" id="sidenote-6" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: 4.5rem"><span class="sidenote-delimiter">[note:</span>
 A great example of this is Chapel's <code>forall</code> loop, which
 many casual users assume relies on compiler smarts or
 auto-parallelization.  In reality, Chapel's <code>forall</code> loop
@@ -266,23 +242,21 @@ a result, its behavior can be reasoned about very
 explicitly.<span class="sidenote-delimiter">]</span></span></span> so that programmers have a concrete
 execution model to guide their use of its features.</p>
 <blockquote class="pull-quote">
-    <div class="quote-wrapper">
-        <div class="quote-container"><span class="open-quote">“</span></div>
-            <div class="quote-content">
-                <p>
+<div class="quote-wrapper">
+<div class="quote-container"><span class="open-quote">“</span></div>
+<div class="quote-content">
+<p>
 In Chapel’s design, we built our data-parallel features on a
 foundation of task-parallel and concurrent programming concepts in
 order to support arbitrary mixing and nesting of different styles of
 parallelism within a single program.
 </p>
-            </div>
-        <div class="quote-container"><span class="close-quote">”</span></div>
-    </div>
-    
+</div>
+<div class="quote-container"><span class="close-quote">”</span></div>
+</div>
 </blockquote>
-
 <h6 id="hpf-only-supported-a-single-level-of-data-parallelism-and-no-support-for-task-parallelism-concurrency-or-nested-parallelism">
-  <a href="#hpf-only-supported-a-single-level-of-data-parallelism-and-no-support-for-task-parallelism-concurrency-or-nested-parallelism">“HPF only supported a single level of data-parallelism, and no support for task-parallelism, concurrency, or nested parallelism.”</a>
+<a href="#hpf-only-supported-a-single-level-of-data-parallelism-and-no-support-for-task-parallelism-concurrency-or-nested-parallelism">“HPF only supported a single level of data-parallelism, and no support for task-parallelism, concurrency, or nested parallelism.”</a>
 </h6>
 <p>The argument here is that while HPF contained reasonably attractive
 data-parallel features that supported some important common cases,
@@ -291,14 +265,14 @@ concurrency, as well as opportunities for nested parallel regions.
 For this reason, in Chapel’s design, we built our data-parallel
 features on a foundation of task-parallel and concurrent programming
 concepts in order to support
-<span class="sidenote"><label class="sidenote-label" for="sidenote-7">arbitrary mixing and nesting of different styles of parallelism</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-7"></input><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-7">arbitrary mixing and nesting of different styles of parallelism</label><input class="sidenote-checkbox" id="sidenote-7" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>
 This also turned out to be invaluable for GPU computing, which I'll
 come back to later on.<span class="sidenote-delimiter">]</span></span></span> within a single program.
 This permits us to support the general case and optimize for the
 common case of data parallelism rather than only supporting the common
 case.</p>
 <h6 id="hpf-supported-only-a-fixed-set-of-distributions-on-dense-arrays">
-  <a href="#hpf-supported-only-a-fixed-set-of-distributions-on-dense-arrays">“HPF supported only a fixed set of distributions on dense arrays”</a>
+<a href="#hpf-supported-only-a-fixed-set-of-distributions-on-dense-arrays">“HPF supported only a fixed set of distributions on dense arrays”</a>
 </h6>
 <p>Though attractive, HPF’s data-parallel features also had drawbacks,
 the most commonly-cited one being that if you didn’t like the handful
@@ -309,7 +283,7 @@ limitation by: (i) supporting a rich set of array types including
 multidimensional, sparse, associative, and unstructured arrays; (ii)
 permitting end users to implement local and distributed parallel
 arrays within Chapel itself [4]; and (iii) writing standard array distributions
-<span class="sidenote"><label class="sidenote-label" for="sidenote-8">using the same mechanism that an end-user would</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-8"></input><span class="sidenote-content sidenote-right" style="margin-top: -4.5rem"><span class="sidenote-delimiter">[note:</span>
+<span class="sidenote"><label class="sidenote-label" for="sidenote-8">using the same mechanism that an end-user would</label><input class="sidenote-checkbox" id="sidenote-8" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -4.5rem"><span class="sidenote-delimiter">[note:</span>
 This was arguably the biggest barrier to Chapel achieving better
 performance sooner.  Building array capabilities from scratch within
 the language itself and getting performance that could compete with
@@ -319,13 +293,12 @@ gap to an acceptable level, and that delay to achieving performance
 led to a lot of doubt and cynicism around Chapel in the 2010's, some
 of which persists to this day.  However, this approach was also an
 investment that has paid off—for example, the recently-added sparse
-features and optimizations <a href =
-"../10myths-part1/#the-sparse-example">mentioned last month</a> were
+features and optimizations <a href="../10myths-part1/#the-sparse-example">mentioned last month</a> were
 made with no changes to the compiler thanks to this
 approach.<span class="sidenote-delimiter">]</span></span></span>, with the goal of avoiding a performance
 cliff between “built-in” and user-defined distributions.</p>
 <h6 id="hpf-did-not-provide-sufficient-mechanisms-for-the-user-to-drop-to-lower-more-explicit-levels-of-control">
-  <a href="#hpf-did-not-provide-sufficient-mechanisms-for-the-user-to-drop-to-lower-more-explicit-levels-of-control">“HPF did not provide sufficient mechanisms for the user to drop to lower, more explicit levels of control”</a>
+<a href="#hpf-did-not-provide-sufficient-mechanisms-for-the-user-to-drop-to-lower-more-explicit-levels-of-control">“HPF did not provide sufficient mechanisms for the user to drop to lower, more explicit levels of control”</a>
 </h6>
 <p>This is closely related to the last few items, the point being that if
 and when HPF’s high-level language abstractions failed you, there
@@ -337,7 +310,7 @@ task parallelism and locality control.  This permits users to move up
 and down the layers of abstraction as required by their algorithms or
 performance requirements.</p>
 <h6 id="hpf-lacked-an-open-source-implementation">
-  <a href="#hpf-lacked-an-open-source-implementation">“HPF lacked an open-source implementation”</a>
+<a href="#hpf-lacked-an-open-source-implementation">“HPF lacked an open-source implementation”</a>
 </h6>
 <p>To be fair, HPF was being developed at a time when open-source
 software was not as commonplace in HPC as it is today.  Nevertheless,
@@ -350,19 +323,17 @@ my thinking, it is regrettable that so much money and effort was
 invested in HPF, yet the community doesn’t have an open-source
 compiler artifact to represent or re-evaluate that effort today.</p>
 <blockquote class="pull-quote">
-    <div class="quote-wrapper">
-        <div class="quote-container"><span class="open-quote">“</span></div>
-            <div class="quote-content">
-                <p>
+<div class="quote-wrapper">
+<div class="quote-container"><span class="open-quote">“</span></div>
+<div class="quote-content">
+<p>
 Our plan is to keep striving to make Chapel worthy of being called
 your favorite scalable parallel programming language.
 </p>
-            </div>
-        <div class="quote-container"><span class="close-quote">”</span></div>
-    </div>
-    
+</div>
+<div class="quote-container"><span class="close-quote">”</span></div>
+</div>
 </blockquote>
-
 <p>It obviously remains to be seen whether Chapel will be considered a
 success or another disappointing failure.  As we pursue it, people
 often wonder why we even bother trying, given the long odds a new
@@ -379,19 +350,19 @@ making Chapel worthy of being called your favorite scalable parallel
 programming language.</p>
 <p>This leads to my conclusion for this month:</p>
 <h5 id="counterpoint-2-past-language-failures-do-not-dictate-future-ones-moreover-they-give-us-a-wealth-of-experience-to-learn-from-and-improve-upon">
-  <a href="#counterpoint-2-past-language-failures-do-not-dictate-future-ones-moreover-they-give-us-a-wealth-of-experience-to-learn-from-and-improve-upon">Counterpoint #2: Past language failures do not dictate future ones; moreover, they give us a wealth of experience to learn from and improve upon.</a>
+<a href="#counterpoint-2-past-language-failures-do-not-dictate-future-ones-moreover-they-give-us-a-wealth-of-experience-to-learn-from-and-improve-upon">Counterpoint #2: Past language failures do not dictate future ones; moreover, they give us a wealth of experience to learn from and improve upon.</a>
 </h5>
 <p>Tune in next time for more myths about scalable parallel programming
 languages.</p>
 <h4 id="references">
-  <a href="#references">References</a>
+<a href="#references">References</a>
 </h4>
-<p>[1] K. Kennedy, C. Koelbel, and H. Zima. <a href="https://dl.acm.org/doi/10.1145/1238844.1238851"target="_blank" rel="noopener">The rise and fall of High
+<p>[1] K. Kennedy, C. Koelbel, and H. Zima. <a href="https://dl.acm.org/doi/10.1145/1238844.1238851" rel="noopener" target="_blank">The rise and fall of High
 Performance Fortran: an historical object
 lesson.</a> In
 Proceedings of the third ACM SIGPLAN conference on History of
 programming languages (HOPL III), 2007.</p>
-<p>[2] L. Snyder, <a href="https://doi.acm.org/10.1145/1238844.1238852"target="_blank" rel="noopener">The design and development of
+<p>[2] L. Snyder, <a href="https://doi.acm.org/10.1145/1238844.1238852" rel="noopener" target="_blank">The design and development of
 ZPL.</a> In Proceedings of
 the third ACM SIGPLAN conference on History of programming languages
 (HOPL III), 2007.</p>
@@ -400,24 +371,24 @@ Data Parallel Languages. In Proceedings of the 1997 ACM/IEEE
 Supercomputing Conference on High Performance Networking and Computing
 (SC97), November 1997.</p>
 <p>[4] B. L. Chamberlain, S.-E. Choi, S. J. Deitz, D. Iten, V. Litvinov,
-<a href="https://chapel-lang.org/publications/cug11-final.pdf"target="_blank" rel="noopener">Authoring User-Defined Domain Maps in
+<a href="https://chapel-lang.org/publications/cug11-final.pdf" rel="noopener" target="_blank">Authoring User-Defined Domain Maps in
 Chapel</a>, CUG
 2011, May 2011.</p>
-<hr>
+<hr/>
 <h3 id="reflections-on-the-original-article">
-  <a href="#reflections-on-the-original-article">Reflections on the Original Article</a>
+<a href="#reflections-on-the-original-article">Reflections on the Original Article</a>
 </h3>
 <h4 id="datedness-of-hpf-focus-or-not">
-  <a href="#datedness-of-hpf-focus-or-not">Datedness of HPF focus (or not?)</a>
+<a href="#datedness-of-hpf-focus-or-not">Datedness of HPF focus (or not?)</a>
 </h4>
-<p>This month&rsquo;s article doesn&rsquo;t feel quite as timeless as the <a href="../../posts/10myths-part1/">previous
+<p>This month’s article doesn’t feel quite as timeless as the <a href="../../posts/10myths-part1/">previous
 one</a> due to its focus on HPF.  Today, I
 would guess that most programmers, HPC or otherwise, are not
 particularly aware of HPF or concerned about its failure.  While the
 characterizations of Chapel made in the article are still accurate and
 important, and capture key ways in which we learned from parallel
 languages that preceded us, focusing on HPF may be less motivational
-to a contemporary audience than it was in the early 2000&rsquo;s.</p>
+to a contemporary audience than it was in the early 2000’s.</p>
 <p>That said, it is definitely still possible to find people of my
 generation or older who feel burned by the HPF experience and mistrust
 working on new parallel languages as a result.  One of my teammates
@@ -429,23 +400,22 @@ that Chapel learned from HPF and improved upon by supporting task
 parallelism, explicit parallel loops, and a zippered interpretation of
 whole-array operations.</p>
 <details>
-    <summary><strong>(A zippered interpretation of whole-array operations?)</strong></summary>
-
-    <div style="padding-left: 2vw; padding-right: 2vw; padding-bottom: 2ch;">
-        <p>To clarify what I mean here without distracting too much from the
-article&rsquo;s flow, most languages with support for whole-array
+<summary><strong>(A zippered interpretation of whole-array operations?)</strong></summary>
+<div style="padding-left: 2vw; padding-right: 2vw; padding-bottom: 2ch;">
+<p>To clarify what I mean here without distracting too much from the
+article’s flow, most languages with support for whole-array
 operations define an array statement like:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="nx">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">B</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">C</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">sin</span><span class="p">(</span><span class="nx">D</span><span class="p">);</span><span class="w">
+<div class="highlight"><pre class="chroma" tabindex="0"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="nx">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">B</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">C</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">sin</span><span class="p">(</span><span class="nx">D</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></div><p>as meaning:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="nx">T1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">B</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">C</span><span class="p">;</span><span class="w">
+<div class="highlight"><pre class="chroma" tabindex="0"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="nx">T1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">B</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">C</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">T2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sin</span><span class="p">(</span><span class="nx">D</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">A</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">T1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">T2</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><p>The introduction of these temporary arrays, <code>T1</code> and <code>T2</code>, can lead to
 many more memory operations, slowing the application down while
-increasing the program&rsquo;s memory footprint.  They can be optimized away
+increasing the program’s memory footprint.  They can be optimized away
 using transformations such as
-<span class="sidenote"><label class="sidenote-label" for="sidenote-9"><em>loop fusion</em> and <em>array contraction</em></label><input class="sidenote-checkbox" type="checkbox" id="sidenote-9"></input><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>See, for
-example, <a href = "https://dl.acm.org/doi/10.1145/277652.277663">The
+<span class="sidenote"><label class="sidenote-label" for="sidenote-9"><em>loop fusion</em> and <em>array contraction</em></label><input class="sidenote-checkbox" id="sidenote-9" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>See, for
+example, <a href="https://dl.acm.org/doi/10.1145/277652.277663">The
 implementation and evaluation of fusion and contraction in array
 languages</a> by E Christopher Lewis, Calvin Lin, and Lawrence Snyder
 in <i>Proceedings of the ACM Conference on Programming Language Design
@@ -455,60 +425,58 @@ be non-trivial to implement in a general purpose language like HPF.</p>
 <p>In Chapel, whole-array operations are defined using a <em>zippered</em>
 parallel iteration over all the arrays, avoiding the need for
 temporary arrays:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="k">forall</span><span class="w"> </span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="w"> </span><span class="nx">b</span><span class="p">,</span><span class="w"> </span><span class="nx">c</span><span class="p">,</span><span class="w"> </span><span class="nx">d</span><span class="p">)</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="k">zip</span><span class="p">(</span><span class="nx">A</span><span class="p">,</span><span class="w"> </span><span class="nx">B</span><span class="p">,</span><span class="w"> </span><span class="nx">C</span><span class="p">,</span><span class="w"> </span><span class="nx">D</span><span class="p">)</span><span class="w">
+<div class="highlight"><pre class="chroma" tabindex="0"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="k">forall</span><span class="w"> </span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="w"> </span><span class="nx">b</span><span class="p">,</span><span class="w"> </span><span class="nx">c</span><span class="p">,</span><span class="w"> </span><span class="nx">d</span><span class="p">)</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="k">zip</span><span class="p">(</span><span class="nx">A</span><span class="p">,</span><span class="w"> </span><span class="nx">B</span><span class="p">,</span><span class="w"> </span><span class="nx">C</span><span class="p">,</span><span class="w"> </span><span class="nx">D</span><span class="p">)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">b</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">c</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">sin</span><span class="p">(</span><span class="nx">d</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></div><p>This results in great performance without relying on optimizations by
 improving locality and cache utilization.  Moreover, programmers can
 write such zippered loops and parallel iterators themselves, providing
 far more control over array computations than in HPF or other parallel
 languages.</p>
-
-    </div>
+</div>
 </details>
-
 <p>The speaker also voiced a concern that was not addressed in my
 original article, which was that new languages require every vendor to
 invest effort implementing them—and this was certainly the approach
-taken with HPF in the 90&rsquo;s.  However, it&rsquo;s not something that needs to
+taken with HPF in the 90’s.  However, it’s not something that needs to
 be the case for well-designed languages and compilers.</p>
 <p>In the case of Chapel, though its development has been led by
 Cray/HPE, we have always strived to run on systems and chips from as
 many vendors as we have had access to, including early runs on Sun and
 IBM systems during the HPCS years.  Chapel currently supports Intel,
 AMD, and Arm CPUs, various networks including InfiniBand and Ethernet,
-and <span class="sidenote"><label class="sidenote-label" for="sidenote-10">NVIDIA and AMD GPUs</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-10"></input><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Apple and Intel GPUs
+and <span class="sidenote"><label class="sidenote-label" for="sidenote-10">NVIDIA and AMD GPUs</label><input class="sidenote-checkbox" id="sidenote-10" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Apple and Intel GPUs
 represent additional cases we would like to support going
 forward<span class="sidenote-delimiter">]</span></span></span>.  All of this has been achieved without
 explicit support from the respective vendors.</p>
 <p>A key factor in our ability to achieve this kind of portability is the
-LLVM compiler infrastructure.  Since Chapel&rsquo;s inception, LLVM has
+LLVM compiler infrastructure.  Since Chapel’s inception, LLVM has
 become a mature and broadly adopted open-source compiler that many
-vendors have invested in.  Because Chapel uses LLVM as <span class="sidenote"><label class="sidenote-label" for="sidenote-11">its preferred back-end compiler</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-11"></input><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Generating C is also an
+vendors have invested in.  Because Chapel uses LLVM as <span class="sidenote"><label class="sidenote-label" for="sidenote-11">its preferred back-end compiler</label><input class="sidenote-checkbox" id="sidenote-11" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -5.5rem"><span class="sidenote-delimiter">[note:</span>Generating C is also an
 option for non-GPU targets.<span class="sidenote-delimiter">]</span></span></span>, any vendor whose chips are
 supported by LLVM—whether through their investment or the
-community&rsquo;s—can also be supported by Chapel.  Moreover, this
-typically <span class="sidenote"><label class="sidenote-label" for="sidenote-12">should</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-12"></input><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>Vendors with more exotic
+community’s—can also be supported by Chapel.  Moreover, this
+typically <span class="sidenote"><label class="sidenote-label" for="sidenote-12">should</label><input class="sidenote-checkbox" id="sidenote-12" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>Vendors with more exotic
 hardware may need to use or define a dialect of MLIR, working to
 ensure that the Chapel compiler can target it.<span class="sidenote-delimiter">]</span></span></span> involve
-no additional effort on the vendor&rsquo;s part beyond what they needed to
+no additional effort on the vendor’s part beyond what they needed to
 do to support C.</p>
-<p>It&rsquo;s important to note that since Chapel has also been developed as an
-open-source project, a vendor who wants to improve Chapel&rsquo;s support
+<p>It’s important to note that since Chapel has also been developed as an
+open-source project, a vendor who wants to improve Chapel’s support
 for their systems could do so within the community code base, or by
 creating their own fork of it, rather than starting from scratch as so
-many vendors did for HPF in the 90&rsquo;s.</p>
+many vendors did for HPF in the 90’s.</p>
 <h4 id="the-rise-of-gpu-computing">
-  <a href="#the-rise-of-gpu-computing">The rise of GPU computing</a>
+<a href="#the-rise-of-gpu-computing">The rise of GPU computing</a>
 </h4>
 <p>As mentioned in the 2012 article, we always felt it was crucial that
 Chapel support task parallelism and nested parallelism, since many
-parallel computations can&rsquo;t be expressed using just a single level of
+parallel computations can’t be expressed using just a single level of
 data parallelism.  However, one unanticipated outcome of this is that
 as GPU computing has begun dominating HPC–a trend that was starting
 right around the time this article was originally published–Chapel did
 not require a massive redesign due to its support for
 data-parallelism, task-parallelism, and locality control.  To make
-clear just how unanticipated GPU computing was at Chapel&rsquo;s outset,
+clear just how unanticipated GPU computing was at Chapel’s outset,
 note that its core features for parallelism and locality—which still
 form the backbone of the language today—were designed before multicore
 processors had even become commoditized and commonplace.  At that
@@ -516,44 +484,44 @@ time, we were focused exclusively on single-core processors,
 distributed-memory computing, and the vector and multithreaded
 processors of the Cray X1 and XMT.</p>
 <p>Chapel has remained relevant across all of these architectural changes
-because <span class="sidenote"><label class="sidenote-label" for="sidenote-13">parallelism</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-13"></input><span class="sidenote-content sidenote-right" style="margin-top: -3.5rem"><span class="sidenote-delimiter">[note:</span> "What should run
-concurrently?"  <span class="sidenote-delimiter">]</span></span></span> and <span class="sidenote"><label class="sidenote-label" for="sidenote-14">locality</label><input class="sidenote-checkbox" type="checkbox" id="sidenote-14"></input><span class="sidenote-content sidenote-right" style="margin-top: 0.5rem"><span class="sidenote-delimiter">[note:</span> "Where should these computations run?"  "Where should these
+because <span class="sidenote"><label class="sidenote-label" for="sidenote-13">parallelism</label><input class="sidenote-checkbox" id="sidenote-13" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -3.5rem"><span class="sidenote-delimiter">[note:</span> "What should run
+concurrently?"  <span class="sidenote-delimiter">]</span></span></span> and <span class="sidenote"><label class="sidenote-label" for="sidenote-14">locality</label><input class="sidenote-checkbox" id="sidenote-14" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: 0.5rem"><span class="sidenote-delimiter">[note:</span> "Where should these computations run?"  "Where should these
 variables be allocated?"<span class="sidenote-delimiter">]</span></span></span> are so fundamental to scalable
 parallel computing.  As a result, the same core features designed for
 expressing parallelism and locality on the clusters, X1, and XMT of
-the early 2000&rsquo;s did not have to change as multicore and GPU
+the early 2000’s did not have to change as multicore and GPU
 processing became dominant.  Contrast this with MPI, which was not
 well-suited for GPU computing.  Or with OpenMP, which had to change
 from being a semantically neutral markup notation for parallelism to
 a far more imperative and embedded mini-language of its own.  And then
 there are all of the brand new notations that were developed specially
 for GPU programming to address these gaps (CUDA, HIP, SYCL, OpenACC,
-OpenCL, &hellip;).</p>
+OpenCL, …).</p>
 <p>For Chapel, the biggest challenge to supporting GPUs was less about
 expressing the computations and more about generating code
 (instructions) for them.  Happily, this has been another area where
-LLVM&rsquo;s success as a community compiler back-end has made a huge
+LLVM’s success as a community compiler back-end has made a huge
 difference.  To learn more about GPU computing in Chapel see <a href="../../series/gpu-programming-in-chapel/">this
 series of blog articles</a>.</p>
 <h4 id="more-departed-parallel-languages">
-  <a href="#more-departed-parallel-languages">More Departed Parallel Languages</a>
+<a href="#more-departed-parallel-languages">More Departed Parallel Languages</a>
 </h4>
 <p>Before wrapping up, I want to acknowledge that since the original
-publication date of this month&rsquo;s article, two additional noteworthy
-parallel languages have fallen by the wayside—specifically, Chapel&rsquo;s
+publication date of this month’s article, two additional noteworthy
+parallel languages have fallen by the wayside—specifically, Chapel’s
 two peer languages within the DARPA HPCS program: Fortress from Sun
 Microsystems and X10 from IBM.  Fortress began closing up shop in
 2012, a few months after this article was originally published, when
-Guy Steele wrote a blog post entitled <a href="https://web.archive.org/web/20160924201206/https://blogs.oracle.com/projectfortress/entry/fortress_wrapping_up"target="_blank" rel="noopener"><em>Fortress Wrapping
+Guy Steele wrote a blog post entitled <a href="https://web.archive.org/web/20160924201206/https://blogs.oracle.com/projectfortress/entry/fortress_wrapping_up" rel="noopener" target="_blank"><em>Fortress Wrapping
 Up</em></a>.
-X10 stuck around for several more years, and it still has <a href="https://github.com/x10-lang"target="_blank" rel="noopener">a presence
+X10 stuck around for several more years, and it still has <a href="https://github.com/x10-lang" rel="noopener" target="_blank">a presence
 on GitHub</a>, but its last release was in
 January 2019, and very few commits have been made since then.</p>
-<p>An obvious theme of this month&rsquo;s reprint was about learning from past
+<p>An obvious theme of this month’s reprint was about learning from past
 languages; but one of the highlights of my professional career was
 interacting with the technical members of the X10 and Fortress teams
 to hear about what they were pursuing in their language designs, and
-to learn from them in real-time rather than postmortem.  I&rsquo;m
+to learn from them in real-time rather than postmortem.  I’m
 particularly remembering a multi-day workshop that John Mellor-Crummey
 hosted at Rice, in which our three teams were able to dig into several
 of the choices we were making in our languages in detail, discussing
@@ -569,70 +537,55 @@ Vijay Saraswat, Dave Grove, and Josh Milthorpe at IBM for all the good
 language design discussions during those years, and the positive
 impact they had on Chapel.</p>
 <h4 id="wrapping-up">
-  <a href="#wrapping-up">Wrapping Up</a>
+<a href="#wrapping-up">Wrapping Up</a>
 </h4>
-<p>That wraps up this month&rsquo;s article.  While its focus on HPF may seem
+<p>That wraps up this month’s article.  While its focus on HPF may seem
 dated, I think the content remains interesting by capturing some of
-the ways in which Chapel learned from HPF&rsquo;s example, improved upon it,
+the ways in which Chapel learned from HPF’s example, improved upon it,
 and has enjoyed much more longevity as a result.  Today, Chapel is
 being used to develop performance-critical applications across diverse
 fields by <a href="../../series/7-questions-for-chapel-users/">many different users</a>.</p>
-<p>It&rsquo;s also interesting to consider how much the parallel computing
+<p>It’s also interesting to consider how much the parallel computing
 landscape has changed in the past 13 years, from the advent and
 dominance of GPU computing to the rise of cloud computing and AI.
-Chapel&rsquo;s focus on expressing general parallelism and locality has
+Chapel’s focus on expressing general parallelism and locality has
 permitted it to remain relevant across all these changes, and I expect
 that those fundamentals will continue to be of crucial importance in
 the years to come as well.</p>
-<p>Next month, we&rsquo;ll revisit the third article in the series, which
+<p>Next month, we’ll revisit the third article in the series, which
 wrestles with the tradeoffs between creating new languages versus
 extending existing ones.</p>
-
 </div>
-
-        </main>
+</main>
 <div class="container">
-    <div class="share-view">
-        <h3>Share this article:</h3>
-        <div class="share-buttons">
-        
-        
-        
-        <a style="--button-color: #6cb0f9; --button-color-light: white;" class="button share-button" href="https://bsky.app/intent/compose?text=Check&#43;out&#43;this&#43;post&#43;entitled&#43;%2210&#43;Myths&#43;About&#43;Scalable&#43;Parallel&#43;Programming&#43;Languages&#43;%28Redux%29%2C&#43;&#43;Part&#43;2%3A&#43;Past&#43;Failures&#43;and&#43;Future&#43;Attempts%22&#43;on&#43;the&#43;Chapel&#43;Programming&#43;Language&#43;blog%3A&#43;https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" target="_blank" rel="noopener noreferrer">
-    <img width="30" height="30" src="../../img/bluesky-logo.jpg" alt="Share on BlueSky">
+<div class="share-view">
+<h3>Share this article:</h3>
+<div class="share-buttons">
+<a class="button share-button" href="https://bsky.app/intent/compose?text=Check+out+this+post+entitled+%2210+Myths+About+Scalable+Parallel+Programming+Languages+%28Redux%29%2C++Part+2%3A+Past+Failures+and+Future+Attempts%22+on+the+Chapel+Programming+Language+blog%3A+https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" rel="noopener noreferrer" style="--button-color: #6cb0f9; --button-color-light: white;" target="_blank">
+<img alt="Share on BlueSky" height="30" src="../../img/bluesky-logo.jpg" width="30"/>
 </a>
-
-        <a style="--button-color: #3a559f; --button-color-light: white;" class="button share-button" href="https://www.facebook.com/sharer/sharer.php?description=Check&#43;out&#43;this&#43;post&#43;entitled&#43;%2210&#43;Myths&#43;About&#43;Scalable&#43;Parallel&#43;Programming&#43;Languages&#43;%28Redux%29%2C&#43;&#43;Part&#43;2%3A&#43;Past&#43;Failures&#43;and&#43;Future&#43;Attempts%22&#43;on&#43;the&#43;Chapel&#43;Programming&#43;Language&#43;blog%3A&amp;u=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" target="_blank" rel="noopener noreferrer">
-    <img width="30" height="30" src="../../img/facebook-logo.png" alt="Share on Facebook">
+<a class="button share-button" href="https://www.facebook.com/sharer/sharer.php?description=Check+out+this+post+entitled+%2210+Myths+About+Scalable+Parallel+Programming+Languages+%28Redux%29%2C++Part+2%3A+Past+Failures+and+Future+Attempts%22+on+the+Chapel+Programming+Language+blog%3A&amp;u=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" rel="noopener noreferrer" style="--button-color: #3a559f; --button-color-light: white;" target="_blank">
+<img alt="Share on Facebook" height="30" src="../../img/facebook-logo.png" width="30"/>
 </a>
-
-        <a style="--button-color: #2867b2; --button-color-light: white;" class="button share-button" href="https://linkedin.com/share?text=Check&#43;out&#43;this&#43;post&#43;entitled&#43;%2210&#43;Myths&#43;About&#43;Scalable&#43;Parallel&#43;Programming&#43;Languages&#43;%28Redux%29%2C&#43;&#43;Part&#43;2%3A&#43;Past&#43;Failures&#43;and&#43;Future&#43;Attempts%22&#43;on&#43;the&#43;Chapel&#43;Programming&#43;Language&#43;blog%3A&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" target="_blank" rel="noopener noreferrer">
-    <img width="30" height="30" src="../../img/linkedin-logo.png" alt="Share on LinkedIn">
+<a class="button share-button" href="https://linkedin.com/share?text=Check+out+this+post+entitled+%2210+Myths+About+Scalable+Parallel+Programming+Languages+%28Redux%29%2C++Part+2%3A+Past+Failures+and+Future+Attempts%22+on+the+Chapel+Programming+Language+blog%3A&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" rel="noopener noreferrer" style="--button-color: #2867b2; --button-color-light: white;" target="_blank">
+<img alt="Share on LinkedIn" height="30" src="../../img/linkedin-logo.png" width="30"/>
 </a>
-
-        <a style="--button-color: #ff4500; --button-color-light: white;" class="button share-button" href="https://new.reddit.com/submit?title=10&#43;Myths&#43;About&#43;Scalable&#43;Parallel&#43;Programming&#43;Languages&#43;%28Redux%29%2C&#43;&#43;Part&#43;2%3A&#43;Past&#43;Failures&#43;and&#43;Future&#43;Attempts&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" target="_blank" rel="noopener noreferrer">
-    <img width="30" height="30" src="../../img/reddit-logo.svg" alt="Share on Reddit">
+<a class="button share-button" href="https://new.reddit.com/submit?title=10+Myths+About+Scalable+Parallel+Programming+Languages+%28Redux%29%2C++Part+2%3A+Past+Failures+and+Future+Attempts&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" rel="noopener noreferrer" style="--button-color: #ff4500; --button-color-light: white;" target="_blank">
+<img alt="Share on Reddit" height="30" src="../../img/reddit-logo.svg" width="30"/>
 </a>
-
-        <a style="--button-color: #000000; --button-color-light: #7a7a7a;" class="button share-button" href="http://x.com/share?text=Check&#43;out&#43;this&#43;post&#43;entitled&#43;%2210&#43;Myths&#43;About&#43;Scalable&#43;Parallel&#43;Programming&#43;Languages&#43;%28Redux%29%2C&#43;&#43;Part&#43;2%3A&#43;Past&#43;Failures&#43;and&#43;Future&#43;Attempts%22&#43;on&#43;the&#43;Chapel&#43;Programming&#43;Language&#43;blog%3A&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" target="_blank" rel="noopener noreferrer">
-    <img width="30" height="30" src="../../img/x-logo.svg" alt="Share on X">
+<a class="button share-button" href="http://x.com/share?text=Check+out+this+post+entitled+%2210+Myths+About+Scalable+Parallel+Programming+Languages+%28Redux%29%2C++Part+2%3A+Past+Failures+and+Future+Attempts%22+on+the+Chapel+Programming+Language+blog%3A&amp;url=https%3A%2F%2Fchapel-lang.org%2Fblog%2Fposts%2F10myths-part2%2F" rel="noopener noreferrer" style="--button-color: #000000; --button-color-light: #7a7a7a;" target="_blank">
+<img alt="Share on X" height="30" src="../../img/x-logo.svg" width="30"/>
 </a>
-
-        </div>
-    </div>
 </div>
-
-    
-    
-    <nav class="container series-navigation">
-        
-        <div class="series-button-wrapper prev">
-            <a class="button" href=../../posts/10myths-part1/>
-                <svg class="feather">
-    <use xlink:href="../../feather-sprite.svg#chevrons-left"/>
+</div>
+</div>
+<nav class="container series-navigation">
+<div class="series-button-wrapper prev">
+<a class="button" href="../../posts/10myths-part1/">
+<svg class="feather">
+<use xlink:href="../../feather-sprite.svg#chevrons-left"></use>
 </svg>
-
-                <span>
+<span>
                     Previous in series
                     <span class="series-button-name">
                         
@@ -640,13 +593,9 @@ extending existing ones.</p>
 
 
                     </span>
-                </span>
-            </a>
-        </div>
-        
-        
-    </nav>
-
-
-    </body>
+</span>
+</a>
+</div>
+</nav>
+</body>
 </html>
