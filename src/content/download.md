@@ -69,9 +69,9 @@ id="linux"
 description="""
 We provide Chapel packages for several different Linux distributions, though they come with some performance caveats. They can be installed as follows:
 1. Download the package for your system using one of the following links:
-{{<pkg-list "2.4.0">}}
+{{<pkg-list "2.5.0">}}
 
-2. Check its SHA256 checksum using the values and instructions on the corresponding [GitHub release page](https://github.com/chapel-lang/chapel/releases/tag/2.4.0/).
+2. Check its SHA256 checksum using the values and instructions on the corresponding [GitHub release page](https://github.com/chapel-lang/chapel/releases/tag/2.5.0/).
 
 3. Install using the system package manager. 
   - For RPM based distributions (Fedora, RHEL, etc), use: `dnf install ./<chapel package name>`
