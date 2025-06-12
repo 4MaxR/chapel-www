@@ -1,11 +1,4 @@
 [[pkgConfigs]]
-  name="AlmaLinux 9"
-  path="el9"
-  singleLocale=true
-  gasnet=true
-  slurm=true
-
-[[pkgConfigs]]
   name="Amazon Linux 2023"
   path="amzn2023"
   singleLocale=true
