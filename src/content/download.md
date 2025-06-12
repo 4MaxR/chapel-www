@@ -1,17 +1,17 @@
 +++
-title = "Downloading Chapel"
-description = "Instructions for downloading Chapel"
+title = "Download and Install Chapel"
+description = "Instructions for downloading and installing Chapel"
 keywords = ["TODO"]
 
 [[configurations]]
-title="Downloading from Source"
+title="Install from Source"
 id="source"
 description="""
 To download and install Chapel from source, download **[chapel-2.5.0.tar.gz](https://github.com/chapel-lang/chapel/releases/download/2.5.0/chapel-2.5.0.tar.gz)** from [GitHub](https://github.com/chapel-lang/chapel/releases/tag/2.5.0), then unpack and build it as described in the [Quickstart instructions](https://chapel-lang.org/docs/usingchapel/QUICKSTART.html).
 """
 
 [[configurations]]
-title="Downloading with Spack"
+title="Install with Spack"
 id="spack"
 description="""
 To get started with the Chapel Spack package:
@@ -22,7 +22,7 @@ To get started with the Chapel Spack package:
 """
 
 [[configurations]]
-title="Downloading with Docker"
+title="Install with Docker"
 id="docker"
 description="""
 To get started with the Chapel Docker image:
@@ -33,7 +33,7 @@ To get started with the Chapel Docker image:
 """
 
 [[configurations]]
-title="Downloading with Homebrew"
+title="Install with Homebrew"
 id="homebrew"
 description="""
 [Homebrew](http://brew.sh/) users can install a single-locale build of Chapel on Mac/Linux as follows:
@@ -45,7 +45,7 @@ description="""
 """
 
 [[configurations]]
-title="Downloading on HPE Systems"
+title="Install on HPE Systems"
 id="hpe"
 description="""
 #### Using and Installing Chapel on HPE Cray EX systems
@@ -65,7 +65,7 @@ Users of other HPE or Cray systems should download Chapel and build from source,
 
 
 [[configurations]]
-title="Installing with Linux Package Managers"
+title="Install with Linux Package Managers"
 id="linux"
 description="""
 We provide Chapel packages for several different Linux distributions, though they come with some performance caveats. They can be installed as follows:
