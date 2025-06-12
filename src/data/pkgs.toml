@@ -20,13 +20,6 @@
   slurm=false
 
 [[pkgConfigs]]
-  name="Fedora 40"
-  path="fc40"
-  singleLocale=true
-  gasnet=true
-  slurm=false
-
-[[pkgConfigs]]
   name="Fedora 41"
   path="fc41"
   singleLocale=true
@@ -34,8 +27,22 @@
   slurm=false
 
 [[pkgConfigs]]
+  name="Fedora 42"
+  path="fc42"
+  singleLocale=true
+  gasnet=true
+  slurm=false
+
+[[pkgConfigs]]
   name="RHEL 9"
   path="el9"
+  singleLocale=true
+  gasnet=true
+  slurm=true
+
+[[pkgConfigs]]
+  name="RHEL 10"
+  path="el10"
   singleLocale=true
   gasnet=true
   slurm=true
