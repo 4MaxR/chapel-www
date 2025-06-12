@@ -41,13 +41,6 @@
   slurm=true
 
 [[pkgConfigs]]
-  name="RockyLinux 9"
-  path="el9"
-  singleLocale=true
-  gasnet=true
-  slurm=true
-
-[[pkgConfigs]]
   name="Ubuntu 22.04"
   path="ubuntu22"
   singleLocale=true
