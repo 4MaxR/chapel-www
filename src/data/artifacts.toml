@@ -103,6 +103,15 @@
   description = "The presentation of our application to HPSF covering Chapel's motivation and synergies with HPSF along with a summary of our development process"
   type = ["presentation"]
 
+[bachman-eco-ind]
+  title = "Remotely sensed spectral variability predicts reef fish diversity"
+  authors = "A.C.B. Bakker, A.C.R. Gleason, A.C. Dempsey, S. Bachman, D. Burdick, A.M. Tarano, V. Chirayath, S.J. Purkis"
+  venue = "Ecological Indicators, volume 169"
+  date = "December 2024"
+  url = "https://www.sciencedirect.com/science/article/pii/S1470160X24012809?via%3Dihub"
+  description = "This paper uses a Chapel program for satellite image analysis to study the role of remote sensing in measuring the biodiversity of fish populations around coastal reefs."
+  type = ["paper"]
+
 [hppss-sc24]
   title = "Exploring Data at Scale with Arkouda: A Practical Introduction to Scalable Data Science"
   authors = "Ben McDonald"

@@ -6,6 +6,7 @@ keywords = ["TODO"]
 # Papers {#papers}
 
 {{<publication-list "featured" "Featured Publications">}}
+  {{<artifact-listing "bachman-eco-ind">}}
   {{<artifact-listing "hpec24-vf2-ps">}}
   {{<artifact-listing "hcw2024">}}
   {{<artifact-listing "europar24">}}
