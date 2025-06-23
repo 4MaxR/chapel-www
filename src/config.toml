@@ -188,6 +188,8 @@ disableKinds = ['taxonomy', 'term']
     name_logo = "img/ChapelName.png"
     logo_small = "img/chapel-logo.svg"
     tagline="Productive parallel computing at every scale."
+    announcement="Join us at ChapelCon '25!"
+    announcement_link="/ChapelCon25"
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
@@ -503,3 +505,5 @@ writeln(A);
     image = "img/socials/spack.png"
 
 
+[markup.goldmark.renderer]
+unsafe= true

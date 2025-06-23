@@ -34,7 +34,7 @@
                 {{ errorf "Mismatched number of links and link names in entry '%s': %p" $var $.Position }}
               {{ end }}
               {{ $entry := . }}
-              {{ range $i := (len .linkList) }}
+              {{ range $i := seq (len .linkList) }}
                 <li><a href="{{ index $entry.linkList $i }}">{{ index $entry.linkListTexts $i }}</a></li>
               {{ end }}
             </ul>
