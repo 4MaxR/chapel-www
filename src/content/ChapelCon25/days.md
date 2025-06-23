@@ -6,7 +6,7 @@
 October 7th and 8th
 {.subtitle}
 
-Guided tutorials, hands on exercises, [office hours](#), and free
+Guided tutorials, hands on exercises, office hours, and free
 coding session.
 
 [More on Tutorial Days →](#about-tutorial-days)

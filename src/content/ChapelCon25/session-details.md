@@ -6,7 +6,7 @@ Tutorial days will begin with in-depth tutorials covering a range of topics: bui
 #### Free Coding Sessions
 Work on projects with other Chapel enthusiasts in the Free Coding session. We'll begin with guided exercises to warm up then shift to less structured work on personal projects or provided prompts. The Free Coding Sessions will be a relaxed working environment, with Chapel developers present to answer questions, and breakout rooms for short demo sessions focused on solving specific, common problems.
 #### Office Hours
-Book an Office Hour for an in-depth peer-programming session with a [Chapel contributor](https://github.com/chapel-lang/chapel/blob/main/CONTRIBUTORS.md) The team is here to help with just about anything–understanding features, resolving bugs, or diagnosing/resolving performance issues. To sign up for a session, fill out a short survey to help us understand your problem and best match you with a Chapel developer. The survey can be found [here](https://chapel-lang.org/ChapelCon25).
+Book an Office Hour for an in-depth peer-programming session with a [Chapel contributor](https://github.com/chapel-lang/chapel/blob/main/CONTRIBUTORS.md) The team is here to help with just about anything–understanding features, resolving bugs, or diagnosing/resolving performance issues. To sign up for a session, fill out a short survey to help us understand your problem and best match you with a Chapel developer.
 
 ### About Conference Days
 The two conference days will feature a mix of talks and demos from the community, a State of the Project update, a Keynote address, and Community Discussions. 
