@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <style>
+        body {
+            background-image: url("bg.png");
+            background-size: 100% auto;
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 1em;
+            margin-top: 0;
+        }
+
+        .container {
+            max-width: 80rem;
+            box-sizing: border-box;
+            margin: auto;
+        }
+
+        .banner {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1em;
+            border: 0.05em solid #fafafa;
+            border-radius: 0.15em;
+            max-width: 40rem;
+            box-sizing: border-box;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+
+            font-size: 1.2rem;
+            margin-bottom: 7rem;
+            margin-top: 7rem;
+        }
+
+        .banner.wide {
+            max-width: 60rem;
+            box-sizing: border-box;
+        }
+
+        .banner.wide p {
+            margin: 0;
+        }
+
+        .banner.wide img {
+            border-radius: 50%;
+            max-width: 10em;
+            margin-right: 1em;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.25em;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-top: 0;
+            margin-bottom: 0.25em;
+        }
+        h3 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            margin-bottom: 0.25em;
+
+        }
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0.25em;
+            font-size: 1.6rem;
+        }
+        p {
+            font-size: 1.3rem;
+        }
+
+        li {
+            font-size: 1.3rem;
+            margin-bottom: 0.2rem;
+        }
+        nav {
+            background-color: white;
+            margin-bottom: 3rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0daefd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            padding: 1.5em;
+            padding-left: 0;
+            display: inline-block;
+            border-top: 0.3em solid transparent;
+
+            transition: border-top 0.2s;
+        }
+
+        nav a:hover {
+            border-top: 0.3em solid #00a5dd;
+        }
+
+        a.button {
+            background-color: white;
+            color: black;
+            border: 0.1em solid rgba(0, 0, 0, 0.15);
+            border-radius: 0.2em;
+            padding: 0.5em;
+            font-size: 1.2rem;
+
+            transition: background-color 0.2s;
+        }
+
+        a.button:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        a.button.primary {
+            background-color: rgba(0, 165, 221, 0.7);
+        }
+
+        a.button.primary:hover {
+            background-color: rgba(0, 165, 221, 0.8);
+        }
+
+        section.white {
+            background-color: white;
+            padding: 2rem;
+        }
+
+        .side-by-side {
+            display: flex;
+        }
+
+        .element {
+            border: 0.075rem solid rgba(0, 0, 0, 0.15);
+            border-radius: 0.2rem;
+            padding: 2rem;
+            flex-grow: 1;
+            flex-basis: 0;
+            margin: 1rem;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+        }
+
+        .element.small {
+            flex-grow: 0;
+        }
+
+        .banner > .side-by-side {
+            align-items: center;
+        }
+
+        .banner > .side-by-side .element {
+            border: none;
+            padding: 0;
+        }
+
+        img {
+            border-radius: 0.2rem;
+        }
+
+        .element:first-child {
+            margin-left: 0;
+        }
+        .element:last-child {
+            margin-left: 0;
+        }
+
+
+
+        .subtitle {
+            font-size: 1.3rem;
+            margin-top: 0.25rem;
+        }
+
+        section > * > h2 {
+            font-size: 2.5rem;
+        }
+
+        ul.timeline {
+            list-style: none;
+            position: relative;
+            font-size: 1.2rem;
+            border-left: 0.1em solid rgba(0, 0, 0, 0.5);
+            padding-left: 0.5em;
+            margin-left: 1em;
+        }
+
+        ul.timeline li {
+            padding: 1em;
+            padding-left: 1em;
+            position: relative;
+        }
+
+        ul.timeline li::before {
+            content: "";
+            position: relative;
+            display: inline-block;
+            left: -1.8em;
+            top: 0;
+            width: 0.5em;
+            height: 0.5em;
+            border-radius: 50%;
+            background-color: black;
+        }
+
+    </style>
+  </head>
+  <body>
+      <nav>
+          <div class="container">
+              
+                  <a href="#timeline">Timeline</a>
+              
+                  <a href="#sessions">Sessions</a>
+              
+                  <a href="#organization">Organization</a>
+              
+                  <a href="#contact">Contact</a>
+              
+              <a href="../">Chapel Website</a>
+          </div>
+      </nav>
+      <p><section >
+    <div class="container">
+        
+          <div class="banner" >
+    <h1 id="chapelcon-25">ChapelCon &lsquo;25</h1>
+<h3 id="october-7-10-2025">October 7-10, 2025</h3>
+<p>Join us at <em>the</em> annual <a href="https://chapel-lang.org/">Chapel Programming Language</a>
+event to talk about the language, libraries, and applications! ChapelCon is
+free to attend and will be held virtually.</p>
+<p><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=188767" class="button"><strong>Call for Papers</strong></a></p>
+
+</div>
+
+        
+    </div>
+</section>
+<section class="white">
+    <div class="container">
+        
+          <p class="subtitle">ChapelCon &lsquo;25 welcomes anyone with computing challenges that demand performance, particularly through parallelism and scalability. ChapelCon &lsquo;25 brings together Chapel users, enthusiasts, researchers, and developers to exchange ideas, present their work, and forge new collaborations. Anyone interested in parallel programming, programming languages, or high performance computing is encouraged to attend. A wide range of sessions support all levels of experience, with Tutorials and Free Coding sessions for those looking to hone their skills, Office Hour sessions for those looking for help from Chapel developers, and Conference sessions for those looking to share and discuss their work. <strong>ChapelCon &lsquo;25 is free to attend and will be held virtually.</strong></p>
+<h2 id="timeline">Timeline</h2>
+<ul class="timeline">
+<li><strong>June 25</strong>: CFP Released</li>
+<li><strong>June 27</strong>: Submissions Open</li>
+<li><strong>July 25</strong>: Submissions Due</li>
+<li><strong>August 26</strong>: Acceptance Notifications</li>
+<li><strong>September 23</strong>: Office Hours Requests Due</li>
+<li><strong>October 7-8</strong>: ChapelCon &lsquo;25 Tutorial Days</li>
+<li><strong>October 9-10</strong>: ChapelCon &lsquo;25 Conference Days</li>
+</ul>
+
+        
+    </div>
+</section>
+<section >
+    <div class="container">
+        
+          <div class="side-by-side ">
+    
+<div class="element ">
+    <h2 id="tutorial-days">Tutorial Days</h2>
+<p class="subtitle">October 7th and 8th</p>
+<p>Guided tutorials, hands on exercises, office hours, and free
+coding session.</p>
+<p><a href="#about-tutorial-days">More on Tutorial Days →</a></p>
+
+</div>
+
+<div class="element ">
+    <h2 id="conference-days">Conference Days</h2>
+<p class="subtitle">October 9th and 10th</p>
+<p>Keynote, talks, and demos from the Chapel community.</p>
+<p><a href="#about-conference-days">More on Conference Days →</a></p>
+
+</div>
+
+</div>
+
+        
+    </div>
+</section>
+<section class="white">
+    <div class="container">
+        
+          <h2 id="sessions">Sessions</h2>
+<h3 id="about-tutorial-days">About Tutorial Days</h3>
+<p>The first two days of ChapelCon &lsquo;25 (October 7 and October 8) will focus on action. Each day will begin with a guided tutorial, followed by hands-on exercises in the group, followed by free coding sessions, where participants can work on their own applications or on provided project prompts.</p>
+<h4 id="tutorials">Tutorials</h4>
+<p>Tutorial days will begin with in-depth tutorials covering a range of topics: building/installing Chapel, traditional programming language features (basic usage, classes/records, IO, standard modules), and HPC-focused topics (locality, parallelism, distributed data, synchronization). No prior knowledge or preparation needed.</p>
+<h4 id="free-coding-sessions">Free Coding Sessions</h4>
+<p>Work on projects with other Chapel enthusiasts in the Free Coding session. We&rsquo;ll begin with guided exercises to warm up then shift to less structured work on personal projects or provided prompts. The Free Coding Sessions will be a relaxed working environment, with Chapel developers present to answer questions, and breakout rooms for short demo sessions focused on solving specific, common problems.</p>
+<h4 id="office-hours">Office Hours</h4>
+<p>Book an Office Hour for an in-depth peer-programming session with a <a href="https://github.com/chapel-lang/chapel/blob/main/CONTRIBUTORS.md">Chapel contributor</a> The team is here to help with just about anything–understanding features, resolving bugs, or diagnosing/resolving performance issues. To sign up for a session, fill out a short survey to help us understand your problem and best match you with a Chapel developer.</p>
+<h3 id="about-conference-days">About Conference Days</h3>
+<p>The two conference days will feature a mix of talks and demos from the community, a State of the Project update, a Keynote address, and Community Discussions.</p>
+<h4 id="talks">Talks</h4>
+<p>If you have research or applications involving Chapel, we want to hear about it! This track is an opportunity to showcase any study ranging from preliminary to already published work and get feedback from the Chapel community. Talk slots can run from 5 to 30 minutes.</p>
+<h4 id="demos">Demos</h4>
+<p>If you have code or visualization from Chapel-based work, this track is for you. You can demonstrate key parts of your implementation, show how it runs live, or advertise a new module or application you are working on. Demo slots can run from 5 to 30 minutes.</p>
+<h4 id="posters-and-extended-abstracts">Posters and Extended Abstracts</h4>
+<p>ChapelCon &lsquo;25 will accept submissions of posters and extended abstracts, with or without accompanying presentations. These contributions will be reviewed by the program committee and accepted work will be shared with attendees as part of the conference. These tracks are ideal for folks who are interested in sharing their work with the Chapel community but are unable to present on the day.</p>
+<h4 id="community-discussions">Community Discussions</h4>
+<p>As in previous years, conference days will include informal discussion periods to draw connections between different work presented each day.</p>
+
+        
+    </div>
+</section>
+<section class="white">
+    <div class="container">
+        
+          <h2 id="organization">Organization</h2>
+<ul>
+<li><strong>General Chair</strong>: Brandon Neth, <em>Hewlett Packard Enterprise</em></li>
+<li><strong>Program Committee Chair</strong>: Luca Ferranti, <em>Aalto University</em></li>
+<li><strong>Tutorial Days Chair</strong>: Daniel Fedorin, <em>Hewlett Packard Enterprise</em></li>
+<li><strong>Office Hours Chair</strong>: Jade Abraham, <em>Hewlett Packard Enterprise</em></li>
+</ul>
+<h4 id="program-committee">Program Committee</h4>
+<ul>
+<li>Coming Soon</li>
+</ul>
+<h4 id="advisory-committee">Advisory Committee</h4>
+<ul>
+<li>Engin Kayraklıoğlu, <em>Hewlett Packard Enterprise</em></li>
+<li>Brad Chamberlain, <em>Hewlett Packard Enterprise</em></li>
+</ul>
+
+        
+    </div>
+</section>
+<section class="white">
+    <div class="container">
+        
+          <h2 id="contact">Contact</h2>
+<p>If you have questions or suggestions about ChapelCon, please  post to the <a href="https://chapel.discourse.group/t/chapelcon-25/41967">ChapelCon &lsquo;25 discourse thread</a> or email us at <a href="mailto:chapel+con@discoursemail.com">chapel+con@discoursemail.com</a>.</p>
+
+        
+    </div>
+</section></p>
+
+  </body>
+</html>

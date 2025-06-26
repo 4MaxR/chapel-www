@@ -8,6 +8,48 @@
     <language>en-us</language>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>/chapelcon25/banner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/banner/</guid>
+      <description>&lt;div class=&#34;banner&#34; &gt;&#xA;    &lt;h1 id=&#34;chapelcon-25&#34;&gt;ChapelCon &amp;lsquo;25&lt;/h1&gt;&#xA;&lt;h3 id=&#34;october-7-10-2025&#34;&gt;October 7-10, 2025&lt;/h3&gt;&#xA;&lt;p&gt;Join us at &lt;em&gt;the&lt;/em&gt; annual &lt;a href=&#34;https://chapel-lang.org/&#34;&gt;Chapel Programming Language&lt;/a&gt;&#xA;event to talk about the language, libraries, and applications! ChapelCon is&#xA;free to attend and will be held virtually.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=188767&#34; class=&#34;button&#34;&gt;&lt;strong&gt;Call for Papers&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/chapelcon25/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/contact/</guid>
+      <description>&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;p&gt;If you have questions or suggestions about ChapelCon, please  post to the &lt;a href=&#34;https://chapel.discourse.group/t/chapelcon-25/41967&#34;&gt;ChapelCon &amp;lsquo;25 discourse thread&lt;/a&gt; or email us at &lt;a href=&#34;mailto:chapel+con@discoursemail.com&#34;&gt;chapel+con@discoursemail.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/chapelcon25/days/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/days/</guid>
+      <description>&lt;div class=&#34;side-by-side &#34;&gt;&#xA;    &#xA;&lt;div class=&#34;element &#34;&gt;&#xA;    &lt;h2 id=&#34;tutorial-days&#34;&gt;Tutorial Days&lt;/h2&gt;&#xA;&lt;p class=&#34;subtitle&#34;&gt;October 7th and 8th&lt;/p&gt;&#xA;&lt;p&gt;Guided tutorials, hands on exercises, office hours, and free&#xA;coding session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#about-tutorial-days&#34;&gt;More on Tutorial Days →&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;element &#34;&gt;&#xA;    &lt;h2 id=&#34;conference-days&#34;&gt;Conference Days&lt;/h2&gt;&#xA;&lt;p class=&#34;subtitle&#34;&gt;October 9th and 10th&lt;/p&gt;&#xA;&lt;p&gt;Keynote, talks, and demos from the Chapel community.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;#about-conference-days&#34;&gt;More on Conference Days →&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/chapelcon25/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/organization/</guid>
+      <description>&lt;h2 id=&#34;organization&#34;&gt;Organization&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;General Chair&lt;/strong&gt;: Brandon Neth, &lt;em&gt;Hewlett Packard Enterprise&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Program Committee Chair&lt;/strong&gt;: Luca Ferranti, &lt;em&gt;Aalto University&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tutorial Days Chair&lt;/strong&gt;: Daniel Fedorin, &lt;em&gt;Hewlett Packard Enterprise&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Office Hours Chair&lt;/strong&gt;: Jade Abraham, &lt;em&gt;Hewlett Packard Enterprise&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;program-committee&#34;&gt;Program Committee&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Coming Soon&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;advisory-committee&#34;&gt;Advisory Committee&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Engin Kayraklıoğlu, &lt;em&gt;Hewlett Packard Enterprise&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Brad Chamberlain, &lt;em&gt;Hewlett Packard Enterprise&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/chapelcon25/session-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/session-details/</guid>
+      <description>&lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;about-tutorial-days&#34;&gt;About Tutorial Days&lt;/h3&gt;&#xA;&lt;p&gt;The first two days of ChapelCon &amp;lsquo;25 (October 7 and October 8) will focus on action. Each day will begin with a guided tutorial, followed by hands-on exercises in the group, followed by free coding sessions, where participants can work on their own applications or on provided project prompts.&lt;/p&gt;&#xA;&lt;h4 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h4&gt;&#xA;&lt;p&gt;Tutorial days will begin with in-depth tutorials covering a range of topics: building/installing Chapel, traditional programming language features (basic usage, classes/records, IO, standard modules), and HPC-focused topics (locality, parallelism, distributed data, synchronization). No prior knowledge or preparation needed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/chapelcon25/summary-and-timeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/chapelcon25/summary-and-timeline/</guid>
+      <description>&lt;p class=&#34;subtitle&#34;&gt;ChapelCon &amp;lsquo;25 welcomes anyone with computing challenges that demand performance, particularly through parallelism and scalability. ChapelCon &amp;lsquo;25 brings together Chapel users, enthusiasts, researchers, and developers to exchange ideas, present their work, and forge new collaborations. Anyone interested in parallel programming, programming languages, or high performance computing is encouraged to attend. A wide range of sessions support all levels of experience, with Tutorials and Free Coding sessions for those looking to hone their skills, Office Hour sessions for those looking for help from Chapel developers, and Conference sessions for those looking to share and discuss their work. &lt;strong&gt;ChapelCon &amp;lsquo;25 is free to attend and will be held virtually.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Accelerate Development with a Productive Language</title>
       <link>/productive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

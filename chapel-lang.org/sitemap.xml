@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chapel-lang.org/chapelcon25/banner/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/contact/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/days/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/organization/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/session-details/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/summary-and-timeline/</loc>
+  </url><url>
     <loc>https://chapel-lang.org/productive/</loc>
   </url><url>
     <loc>https://chapel-lang.org/fast/</loc>
@@ -9,6 +21,8 @@
     <loc>https://chapel-lang.org/community/</loc>
   </url><url>
     <loc>https://chapel-lang.org/parallel/</loc>
+  </url><url>
+    <loc>https://chapel-lang.org/chapelcon25/</loc>
   </url><url>
     <loc>https://chapel-lang.org/download/</loc>
   </url><url>
