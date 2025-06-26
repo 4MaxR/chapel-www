@@ -7,5 +7,5 @@ Join us at _the_ annual [Chapel Programming Language](https://chapel-lang.org/)
 event to talk about the language, libraries, and applications! ChapelCon is 
 free to attend and will be held virtually.
 
-{{< button url="https://easychair.org/cfp/ChapelCon25"  >}}**Call for Papers**{{</button >}}
+{{< button url="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=188767"  >}}**Call for Papers**{{</button >}}
 {{< /div >}}
