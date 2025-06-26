@@ -189,7 +189,7 @@ disableKinds = ['taxonomy', 'term']
     logo_small = "img/chapel-logo.svg"
     tagline="Productive parallel computing at every scale."
     announcement="Join us at ChapelCon '25!"
-    announcement_link="/ChapelCon25"
+    announcement_link="/chapelcon25"
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
