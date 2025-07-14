@@ -6,6 +6,8 @@ ChapelCon '25 welcomes anyone with computing challenges that demand performance,
 ## Timeline
 * __June 25__: CFP Released
 * __June 27__: Submissions Open
+* __July 15__: [ChapelCon AMA, 10AM Pacific](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2M5M2E2NTEtNTFkMi00ZjA1LThiNDQtMjFjY2U2ZDc5ODk3%40thread.v2/0?context=%7b%22Tid%22%3a%22105b2061-b669-4b31-92ac-24d304d195dc%22%2c%22Oid%22%3a%22bef28eea-6179-4f21-b284-84c6a0aeacc3%22%7d)
+* __July 22__: [ChapelCon Night of Unfinished Abstracts, 10AM Pacific](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2M5M2E2NTEtNTFkMi00ZjA1LThiNDQtMjFjY2U2ZDc5ODk3%40thread.v2/0?context=%7b%22Tid%22%3a%22105b2061-b669-4b31-92ac-24d304d195dc%22%2c%22Oid%22%3a%22bef28eea-6179-4f21-b284-84c6a0aeacc3%22%7d)
 * __July 25__: Submissions Due
 * __August 26__: Acceptance Notifications
 * __September 23__: Office Hours Requests Due
