@@ -12,11 +12,6 @@ nav:
     section: "organization"
   - title: "Contact"
     section: "contact"
-aliases:
-- "/chapelcon25"
-- "/ChapelCon25"
-- "/chapelcon2025"
-- "/ChapelCon2025"
 ---
 
 {{< section "banner.md" >}}

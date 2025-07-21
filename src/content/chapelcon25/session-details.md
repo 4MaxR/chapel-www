@@ -1,3 +1,6 @@
+---
+headless: true
+---
 ## Sessions
 ### About Tutorial Days
 The first two days of ChapelCon '25 (October 7 and October 8) will focus on action. Each day will begin with a guided tutorial, followed by hands-on exercises in the group, followed by free coding sessions, where participants can work on their own applications or on provided project prompts. 

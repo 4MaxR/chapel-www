@@ -1,4 +1,5 @@
 ---
+headless: true
 ---
 {{< div "banner" >}}
 # ChapelCon '25
