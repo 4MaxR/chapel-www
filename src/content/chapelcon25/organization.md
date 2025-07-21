@@ -16,7 +16,7 @@ headless: true
 - Tom Westerhout, _Radboud University_
 - Sameer Shende, _University of Oregon & Paratools, Inc._
 - Rich Vuduc, _Georgia Institute of Technology_
-- Tiago Carneiro
+- Tiago Carneiro, _Chapel User_
 - Patrick Diehl, _Los Alamos National Laboratory_
 #### Advisory Committee
  - Engin Kayraklıoğlu, _Hewlett Packard Enterprise_
