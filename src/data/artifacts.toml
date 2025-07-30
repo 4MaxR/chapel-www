@@ -12,7 +12,7 @@
   authors = "Brad Chamberlain"
   venue = "HIPS 2025 keynote at IPDPS 2025"
   date = "June 3, 2025"
-  url = "ChamberlainHIPS2025-presented.pdf"
+  url = "presentations/ChamberlainHIPS2025-presented.pdf"
   description = "This keynote uses the 30th instance of HIPS as an opportunity to reflect on the past 30 years of HPC programming language design and adoption (or lack thereof)"
   type = ["presentation"]
 
@@ -224,7 +224,7 @@
   venue = "IEEE HPEC 2024"
   date = "September 24, 2024"
   url = "https://davidbader.net/publication/2024-drbpdb/"
-  slides = "HPEC2024-VF2-PAR.pdf"
+  slides = "/papers/HPEC2024-VF2-PAR.pdf"
   description = "This paper introduces VF2-PS, a parallel and scalable implementation of the VF2 algorithm for subgraph monomorphism, developed in Chapel and integrated into the Arachne framework, demonstrating speedups of up to 97.0× on 128 cores compared to existing sequential Python-based tools."
   type = ["paper"]
 
@@ -233,7 +233,7 @@
   authors = "Garrett Gonzalez-Rivas, Zhihui Du, David Bader"
   venue = "IEEE HPEC 2024"
   date = "September 24, 2024"
-  slides = "HPEC2024-DeployArachne.pdf"
+  slides = "/papers/HPEC2024-DeployArachne.pdf"
   url = "https://davidbader.net/publication/2024-gdb/"
   description = "The paper presents a deployment tool designed to simplify the installation process for Arachne, a large-scale, Arkouda-based graph analytics framework, reducing setup time from over a week to a significantly shorter period while improving efficiency for both users and developers."
   type = ["paper"]
