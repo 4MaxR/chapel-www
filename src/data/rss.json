@@ -1,5 +1,22 @@
 [
   {
+    "title": "7 Questions for Tiago Carneiro and Guillaume Helbecque: Combinatorial Optimization in Chapel",
+    "date": "2025-07-30 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/7qs-chop/",
+    "description": "An interview with the two principal developers of ChOp, the Chapel-based Optimization Project",
+    "authors": [
+      {
+        "name": "Engin Kayraklioglu",
+        "url": "https://chapel-lang.org/blog/authors/engin-kayraklioglu"
+      },
+      {
+        "name": "Brad Chamberlain",
+        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+      }
+    ],
+    "image": "blog/posts/7qs-chop/tiago-guillaume.jpg"
+  },
+  {
     "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 4: Syntax Matters",
     "date": "2025-07-23 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/10myths-part4/",
