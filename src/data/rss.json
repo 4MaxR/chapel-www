@@ -1,5 +1,18 @@
 [
   {
+    "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 5: Productivity and Magic Compilers",
+    "date": "2025-08-20 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/10myths-part5/",
+    "description": "The fifth archival post from the 2012 IEEE TCSC blog series with a current reflection on it",
+    "authors": [
+      {
+        "name": "Brad Chamberlain",
+        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+      }
+    ],
+    "image": "img/news/stencil27.jpg"
+  },
+  {
     "title": "7 Questions for Tiago Carneiro and Guillaume Helbecque: Combinatorial Optimization in Chapel",
     "date": "2025-07-30 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/7qs-chop/",
@@ -15,19 +28,6 @@
       }
     ],
     "image": "blog/posts/7qs-chop/tiago-guillaume.jpg"
-  },
-  {
-    "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 4: Syntax Matters",
-    "date": "2025-07-23 00:00:00+00:00",
-    "url": "https://chapel-lang.org/blog/posts/10myths-part4/",
-    "description": "The fourth archival post from the 2012 IEEE TCSC blog series with a current reflection on it",
-    "authors": [
-      {
-        "name": "Brad Chamberlain",
-        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
-      }
-    ],
-    "image": "img/news/myth4.jpg"
   },
   {
     "title": "Announcing Chapel 2.5!",
