@@ -41,7 +41,7 @@ description="""
 1. Make sure your brew is up-to-date: `brew update`
 2. Install the Chapel formula: `brew install chapel`
 3. Note that for a homebrew install, `$CHPL_HOME` can be determined by running `chpl --print-chpl-home`.
-4. If you're not already familiar with Chapel, jump to the "Compile an exmaple program step in the [Quickstart Instructions](https://chapel-lang.org/docs/usingchapel/QUICKSTART.html).
+4. If you're not already familiar with Chapel, jump to the "Compile an example program step in the [Quickstart Instructions](https://chapel-lang.org/docs/usingchapel/QUICKSTART.html).
 """
 
 [[configurations]]
