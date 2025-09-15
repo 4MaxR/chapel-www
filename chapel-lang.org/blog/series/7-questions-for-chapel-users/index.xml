@@ -6,8 +6,15 @@
     <description>Recent content in 7 Questions for Chapel Users on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/series/7-questions-for-chapel-users/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 Questions for Marjan Asgari: Optimizing Hydrological Models with Chapel</title>
+      <link>https://chapel-lang.org/blog/posts/7qs-asgari/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/7qs-asgari/</guid>
+      <description>An interview with Dr. Marjan Asgari about her use of Chapel for hydrological research</description>
+    </item>
     <item>
       <title>7 Questions for Tiago Carneiro and Guillaume Helbecque: Combinatorial Optimization in Chapel</title>
       <link>https://chapel-lang.org/blog/posts/7qs-chop/</link>

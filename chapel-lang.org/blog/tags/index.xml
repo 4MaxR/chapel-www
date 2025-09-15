@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Earth Sciences</title>
+      <link>https://chapel-lang.org/blog/tags/earth-sciences/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/earth-sciences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interviews</title>
+      <link>https://chapel-lang.org/blog/tags/interviews/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/interviews/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Experiences</title>
+      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI/ML</title>
       <link>https://chapel-lang.org/blog/tags/ai/ml/</link>
@@ -41,20 +62,6 @@
       <link>https://chapel-lang.org/blog/tags/editorial/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/editorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interviews</title>
-      <link>https://chapel-lang.org/blog/tags/interviews/</link>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/interviews/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>User Experiences</title>
-      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
       <description></description>
     </item>
     <item>
@@ -111,13 +118,6 @@
       <link>https://chapel-lang.org/blog/tags/sparse-arrays/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/sparse-arrays/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Earth Sciences</title>
-      <link>https://chapel-lang.org/blog/tags/earth-sciences/</link>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/earth-sciences/</guid>
       <description></description>
     </item>
     <item>

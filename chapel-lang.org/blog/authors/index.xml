@@ -6,28 +6,28 @@
     <description>Recent content in Authors on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Daniel Fedorin</title>
-      <link>https://chapel-lang.org/blog/authors/daniel-fedorin/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/daniel-fedorin/</guid>
-      <description>Daniel is a compiler developer on the Chapel team who also does web development for this blog.</description>
-    </item>
     <item>
       <title>Brad Chamberlain</title>
       <link>https://chapel-lang.org/blog/authors/brad-chamberlain/</link>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/authors/brad-chamberlain/</guid>
       <description>Brad is the technical lead of the Chapel project and the editor of the Chapel blog.</description>
     </item>
     <item>
       <title>Engin Kayraklioglu</title>
       <link>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</link>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</guid>
       <description>Engin is a member of the Chapel team at HPE and currently leads the GPU subteam.</description>
+    </item>
+    <item>
+      <title>Daniel Fedorin</title>
+      <link>https://chapel-lang.org/blog/authors/daniel-fedorin/</link>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/daniel-fedorin/</guid>
+      <description>Daniel is a compiler developer on the Chapel team who also does web development for this blog.</description>
     </item>
     <item>
       <title>Ben Harshbarger</title>

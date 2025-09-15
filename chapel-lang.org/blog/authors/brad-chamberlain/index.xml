@@ -6,7 +6,7 @@
     <description>Recent content in Brad Chamberlain on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/brad-chamberlain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the Chapel blog!</title>
@@ -63,6 +63,13 @@
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/aoc2022-day00-intro/</guid>
       <description>The Chapel team&amp;rsquo;s plan for blogging during Advent of Code 2022.</description>
+    </item>
+    <item>
+      <title>7 Questions for Marjan Asgari: Optimizing Hydrological Models with Chapel</title>
+      <link>https://chapel-lang.org/blog/posts/7qs-asgari/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/7qs-asgari/</guid>
+      <description>An interview with Dr. Marjan Asgari about her use of Chapel for hydrological research</description>
     </item>
     <item>
       <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 5: Productivity and Magic Compilers</title>

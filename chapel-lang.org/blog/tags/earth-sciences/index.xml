@@ -6,14 +6,28 @@
     <description>Recent content in Earth Sciences on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/earth-sciences/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7 Questions for Marjan Asgari: Optimizing Hydrological Models with Chapel</title>
+      <link>https://chapel-lang.org/blog/posts/7qs-asgari/</link>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/7qs-asgari/</guid>
+      <description>An interview with Dr. Marjan Asgari about her use of Chapel for hydrological research</description>
+    </item>
     <item>
       <title>Chapel/Fortran Interop in an Ocean Model: Introduction</title>
       <link>https://chapel-lang.org/blog/posts/fortran-marbl1/</link>
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/fortran-marbl1/</guid>
       <description>An introduction to interoperating between Chapel and Fortran</description>
+    </item>
+    <item>
+      <title>7 Questions for Nelson Luís Dias: Atmospheric Turbulence in Chapel</title>
+      <link>https://chapel-lang.org/blog/posts/7qs-dias/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/7qs-dias/</guid>
+      <description>An interview with Professor of Environmental Engineering Nelson Luís Dias about his use of Chapel in analyzing Atmospheric Turbulence</description>
     </item>
     <item>
       <title>7 Questions for Scott Bachman: Analyzing Coral Reefs with Chapel</title>
