@@ -6,7 +6,7 @@
     <description>Recent content in Brad Chamberlain on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/brad-chamberlain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the Chapel blog!</title>
@@ -63,6 +63,13 @@
       <pubDate>Wed, 30 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/aoc2022-day00-intro/</guid>
       <description>The Chapel team&amp;rsquo;s plan for blogging during Advent of Code 2022.</description>
+    </item>
+    <item>
+      <title>Announcing Chapel 2.6!</title>
+      <link>https://chapel-lang.org/blog/posts/announcing-chapel-2.6/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/announcing-chapel-2.6/</guid>
+      <description>Highlights from the September 2025 release of Chapel 2.6</description>
     </item>
     <item>
       <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 6: Performance of Higher-Level Languages</title>

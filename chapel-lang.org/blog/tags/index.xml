@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging</title>
+      <link>https://chapel-lang.org/blog/tags/debugging/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dyno</title>
+      <link>https://chapel-lang.org/blog/tags/dyno/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/dyno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interoperability</title>
+      <link>https://chapel-lang.org/blog/tags/interoperability/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/interoperability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release Announcements</title>
+      <link>https://chapel-lang.org/blog/tags/release-announcements/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/release-announcements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://chapel-lang.org/blog/tags/tools/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Archival Posts / Reprints</title>
       <link>https://chapel-lang.org/blog/tags/archival-posts-/-reprints/</link>
@@ -79,13 +114,6 @@
       <description></description>
     </item>
     <item>
-      <title>Tools</title>
-      <link>https://chapel-lang.org/blog/tags/tools/</link>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/tools/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>GPU Programming</title>
       <link>https://chapel-lang.org/blog/tags/gpu-programming/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
@@ -100,27 +128,6 @@
       <description></description>
     </item>
     <item>
-      <title>Debugging</title>
-      <link>https://chapel-lang.org/blog/tags/debugging/</link>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/debugging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dyno</title>
-      <link>https://chapel-lang.org/blog/tags/dyno/</link>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/dyno/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Release Announcements</title>
-      <link>https://chapel-lang.org/blog/tags/release-announcements/</link>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/release-announcements/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Sorting</title>
       <link>https://chapel-lang.org/blog/tags/sorting/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
@@ -132,13 +139,6 @@
       <link>https://chapel-lang.org/blog/tags/sparse-arrays/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/sparse-arrays/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interoperability</title>
-      <link>https://chapel-lang.org/blog/tags/interoperability/</link>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/interoperability/</guid>
       <description></description>
     </item>
     <item>
