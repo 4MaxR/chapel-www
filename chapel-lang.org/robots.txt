@@ -30,6 +30,7 @@ Disallow: /docs/2.2/
 Disallow: /docs/2.3/
 Disallow: /docs/2.4/
 Disallow: /docs/2.5/
+Disallow: /docs/2.6/
 Disallow: /docs/main/
 
 Sitemap: https://chapel-lang.org/sitemap.xml
