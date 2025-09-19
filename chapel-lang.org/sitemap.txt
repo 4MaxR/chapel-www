@@ -285,6 +285,7 @@ https://chapel-lang.org/docs/developer/bestPractices/ErrorWarningMessaging.html
 https://chapel-lang.org/docs/developer/bestPractices/GASNetOnDesktops.html
 https://chapel-lang.org/docs/developer/bestPractices/GeneratedCode.html
 https://chapel-lang.org/docs/developer/bestPractices/GettingStarted.html
+https://chapel-lang.org/docs/developer/bestPractices/MemoryProfiling.html
 https://chapel-lang.org/docs/developer/bestPractices/NightlyTesting.html
 https://chapel-lang.org/docs/developer/bestPractices/Potpourri.html
 https://chapel-lang.org/docs/developer/bestPractices/RuntimeLibrary.html
@@ -385,7 +386,6 @@ https://chapel-lang.org/docs/modules/packages/Crypto.html
 https://chapel-lang.org/docs/modules/packages/Crypto/C_OpenSSL.html
 https://chapel-lang.org/docs/modules/packages/Curl.html
 https://chapel-lang.org/docs/modules/packages/DistributedBag.html
-https://chapel-lang.org/docs/modules/packages/DistributedBagDeprecated.html
 https://chapel-lang.org/docs/modules/packages/DistributedDeque.html
 https://chapel-lang.org/docs/modules/packages/DistributedIters.html
 https://chapel-lang.org/docs/modules/packages/DynamicLoading.html
@@ -421,7 +421,6 @@ https://chapel-lang.org/docs/modules/packages/RecordParser.html
 https://chapel-lang.org/docs/modules/packages/ReplicatedVar.html
 https://chapel-lang.org/docs/modules/packages/Search.html
 https://chapel-lang.org/docs/modules/packages/Socket.html
-https://chapel-lang.org/docs/modules/packages/Sort.html
 https://chapel-lang.org/docs/modules/packages/SortedMap.html
 https://chapel-lang.org/docs/modules/packages/SortedSet.html
 https://chapel-lang.org/docs/modules/packages/TOML.html
@@ -438,7 +437,6 @@ https://chapel-lang.org/docs/modules/packages/ZMQ.html
 https://chapel-lang.org/docs/modules/packages/Zarr.html
 https://chapel-lang.org/docs/modules/standard.html
 https://chapel-lang.org/docs/modules/standard/Allocators.html
-https://chapel-lang.org/docs/modules/standard/AutoGpu.html
 https://chapel-lang.org/docs/modules/standard/BigInteger.html
 https://chapel-lang.org/docs/modules/standard/BitOps.html
 https://chapel-lang.org/docs/modules/standard/CTypes.html
@@ -479,11 +477,21 @@ https://chapel-lang.org/docs/modules/standard/Version.html
 https://chapel-lang.org/docs/modules/standard/WeakPointer.html
 https://chapel-lang.org/docs/platforms/
 https://chapel-lang.org/docs/platforms/aws.html
+https://chapel-lang.org/docs/platforms/comm-layers/gasnet.html
+https://chapel-lang.org/docs/platforms/comm-layers/libfabric.html
+https://chapel-lang.org/docs/platforms/comm-layers/ugni.html
 https://chapel-lang.org/docs/platforms/cray.html
 https://chapel-lang.org/docs/platforms/ibm.html
 https://chapel-lang.org/docs/platforms/infiniband.html
 https://chapel-lang.org/docs/platforms/libfabric.html
+https://chapel-lang.org/docs/platforms/linux.html
 https://chapel-lang.org/docs/platforms/macosx.html
+https://chapel-lang.org/docs/platforms/networks/aries.html
+https://chapel-lang.org/docs/platforms/networks/efa.html
+https://chapel-lang.org/docs/platforms/networks/ethernet.html
+https://chapel-lang.org/docs/platforms/networks/infiniband.html
+https://chapel-lang.org/docs/platforms/networks/omnipath.html
+https://chapel-lang.org/docs/platforms/networks/slingshot.html
 https://chapel-lang.org/docs/platforms/omnipath.html
 https://chapel-lang.org/docs/platforms/raspberrypi.html
 https://chapel-lang.org/docs/platforms/udp.html
@@ -545,7 +553,6 @@ https://chapel-lang.org/docs/technotes/forwarding.html
 https://chapel-lang.org/docs/technotes/globalvars.html
 https://chapel-lang.org/docs/technotes/gpu.html
 https://chapel-lang.org/docs/technotes/initTypeAlias.html
-https://chapel-lang.org/docs/technotes/initequals.html
 https://chapel-lang.org/docs/technotes/interfaces.html
 https://chapel-lang.org/docs/technotes/ioSerializers.html
 https://chapel-lang.org/docs/technotes/libraries.html
@@ -558,7 +565,6 @@ https://chapel-lang.org/docs/technotes/module_include.html
 https://chapel-lang.org/docs/technotes/module_search.html
 https://chapel-lang.org/docs/technotes/nilChecking.html
 https://chapel-lang.org/docs/technotes/noinit.html
-https://chapel-lang.org/docs/technotes/operatorMethods.html
 https://chapel-lang.org/docs/technotes/optimization.html
 https://chapel-lang.org/docs/technotes/overloadSets.html
 https://chapel-lang.org/docs/technotes/partialInstantiations.html
@@ -626,6 +632,12 @@ https://chapel-lang.org/docs/usingchapel/building.html
 https://chapel-lang.org/docs/usingchapel/chplenv.html
 https://chapel-lang.org/docs/usingchapel/compiling.html
 https://chapel-lang.org/docs/usingchapel/debugging.html
+https://chapel-lang.org/docs/usingchapel/debugging/bkc.html
+https://chapel-lang.org/docs/usingchapel/debugging/launchers.html
+https://chapel-lang.org/docs/usingchapel/debugging/memory.html
+https://chapel-lang.org/docs/usingchapel/debugging/multilocale.html
+https://chapel-lang.org/docs/usingchapel/debugging/sanitizers.html
+https://chapel-lang.org/docs/usingchapel/debugging/tasks.html
 https://chapel-lang.org/docs/usingchapel/editor-support.html
 https://chapel-lang.org/docs/usingchapel/executing.html
 https://chapel-lang.org/docs/usingchapel/launcher.html
@@ -730,6 +742,7 @@ https://chapel-lang.org/presentations/ChapelForCopenhagen-presented.pdf
 https://chapel-lang.org/presentations/ChapelForEAGE2017.pdf
 https://chapel-lang.org/presentations/ChapelForECPProdBoF-presented.pdf
 https://chapel-lang.org/presentations/ChapelForETH-distributeme.pdf
+https://chapel-lang.org/presentations/ChapelForGalois-presented.pdf
 https://chapel-lang.org/presentations/ChapelForGoogle2011.pdf
 https://chapel-lang.org/presentations/ChapelForGoogleScalability-distribute.pdf
 https://chapel-lang.org/presentations/ChapelForHPCKM-presented.pdf
@@ -790,12 +803,14 @@ https://chapel-lang.org/presentations/ClaridgeTechForum.pdf
 https://chapel-lang.org/presentations/CUG2024.pdf
 https://chapel-lang.org/presentations/Duncan-WomenTechmakers.pdf
 https://chapel-lang.org/presentations/EnginAMD2024-static-public.pdf
+https://chapel-lang.org/presentations/EnginLANL2025.pdf
 https://chapel-lang.org/presentations/EnginWACCPD-SC24.pdf
 https://chapel-lang.org/presentations/Eric_SC_2024.pdf
 https://chapel-lang.org/presentations/Europar2024.pdf
 https://chapel-lang.org/presentations/GHC_OSD_ChapelSetup_2022.pdf
 https://chapel-lang.org/presentations/HPCSurveyForSIAMPP10-presented.pdf
 https://chapel-lang.org/presentations/HPEDevMeetup2024-GPUs.pdf
+https://chapel-lang.org/presentations/HPSF-perf-tracking.pdf
 https://chapel-lang.org/presentations/Helbecque-defense.pdf
 https://chapel-lang.org/presentations/ICS2015-Bertolacci.pdf
 https://chapel-lang.org/presentations/Jeremiah-Pangeo-Showcase.pdf
