@@ -33,7 +33,7 @@
 
 [distributions-demo]
   title="Distributions Demo/Exercise Session"
-  authors=""
+  authors="Brandon Neth"
   description="This session demos distributions, a key abstraction in Chapel for reasoning about data locality and movement. It also offers a short coding exercise that uses these features."
   start="11:30"
   end="12:10"
@@ -76,7 +76,7 @@
 
 [serializer-demo]
   title="Serializers Demo/Exercise Session"
-  authors=""
+  authors="Ben Harshbarger"
   description="This session demos Chapel's serializer and deserializer support for reading and writing custom data structures. It also includes a short coding exercise that uses these features."
   start="10:20"
   end="11:00"
@@ -463,9 +463,9 @@ programming frameworks: Chapel, MPI, OpenSHMEM, Conveyors, and Lamellar. """
   end="12:50"
 
 [invited_todd]
-  title="(Invited) Spack"
+  title="(Invited) Spack: The Community's Road to the HPSF and Version 1.0"
   authors="Todd Gamblin"
-  description=""
+  description="The past year has been transformative for the twelve-year-old Spack project, starting with its inclusion in the High Performance Software Foundation (HPSF) and culminating in its 1.0 release. Spack v1.0, released in July, is the first version to offer a stable package API and to integrate true compiler dependencies into its core model—features developed over many years. This talk will cover how the Spack community evolved to this point and detail the decision-making process behind joining the HPSF and finally taking the plunge and going 1.0."
   start="12:50"
   end="13:50"
 

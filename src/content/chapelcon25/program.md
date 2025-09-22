@@ -60,7 +60,6 @@
 {{< chapelcon-session "typelevel" >}}
 {{< chapelcon-session "pythonlike" >}}
 {{< chapelcon-session "formal" >}}
-{{< chapelcon-session "julia" >}}
 {{< chapelcon-session "break4_3" >}}
 {{< chapelcon-session "sorting" >}}
 {{< chapelcon-session "radix" >}}
