@@ -5,11 +5,99 @@
   start="9:00"
   end="9:10"
 
+[tutorial-presentation1]
+  title="An Introduction to Chapel"
+  authors="Daniel Fedorin"
+  description="This session introduces the Chapel programming language, its key features, and its place within the HPC ecosystem. The focus is on how Chapel's design philosophy makes it unique amongst programming languages. No prior experience necessary."
+  start="9:10"
+  end="9:40"
+
+[io-demo]
+  title="IO Demo/Exercise Session"
+  authors="Lydia Duncan"
+  description="This session demos key I/O features in Chapel and offers a short coding exercise for participants to do that uses the demonstrated features."
+  start="9:40"
+  end="10:20"
+
+[loops-demo]
+  title="Parallel Loops Demo/Exercise Session"
+  authors="Shreyas Khandekar"
+  description="This session demos Chapel's key parallel looping constructs and offers a short coding exercise for participants to do that uses the demonstrated features."
+  start="10:20"
+  end="11:00"
+
+[break1_1]
+  title="Break"
+  start="11:00"
+  end="11:30"
+
+[distributions-demo]
+  title="Distributions Demo/Exercise Session"
+  authors=""
+  description="This session demos distributions, a key abstraction in Chapel for reasoning about data locality and movement. It also offers a short coding exercise that uses these features."
+  start="11:30"
+  end="12:10"
+
+[data-structures-demo]
+  title="Aggregate Data Structures Demo/Exercise Session"
+  authors="Jade Abraham"
+  description="This session demos Chapel's aggregate data structures (classes and records) and Chapel's approach to memory management. It also offers a short coding exercise that uses these features."
+  start="12:10"
+  end="12:50"
+
+[freecode1]
+  title="Free Code Session"
+  description="The free code session is unstructured time for participants to work on their own Chapel projects in the company of other Chapel users and developers. Participants are encouraged to apply any lessons from the day's demo sessions and discuss / ask questions about their projects."
+  start="12:50"
+  end="14:00"
+
+
+[welcome2]
+  title="Welcome/Introduction"
+  authors="Brandon Neth"
+  description="Opening session to welcome participants and share the schedule for the day."
+  start="9:00"
+  end="9:10"
+
+
+[tutorial-presentation2]
+  title="Chapel's Advanced Features"
+  authors="Daniel Fedorin"
+  description="This session introduces Chapel language features that play a role in the rest of the day's tutorial topics. Key topics include generic types and compile- and run-time expressions."
+  start="9:10"
+  end="9:40"
+
+[performance-demo]
+  title="Performance Debugging Demo/Exercise Session"
+  authors="Engin Kayraklıoğlu"
+  description="This session covers common causes of performance issues in Chapel applications and how to diagnose and resolve them. It includes a short coding exercise for participants."
+  start="9:40"
+  end="10:20"
+
+[serializer-demo]
+  title="Serializers Demo/Exercise Session"
+  authors=""
+  description="This session demos Chapel's serializer and deserializer support for reading and writing custom data structures. It also includes a short coding exercise that uses these features."
+  start="10:20"
+  end="11:00"
+
+[freecode2]
+  title="Free Code Session"
+  description="The free code session is unstructured time for participants to work on their own Chapel projects in the company of other Chapel users and developers. Participants are encouraged to apply any lessons from the day's demo sessions and discuss / ask questions about their projects."
+  start="11:00"
+  end="13:20"
+
+[iterators-demo]
+  title="Parallel Iterators Demo/Exercise Session"
+  authors="Daniel Fedorin"
+  description="This session demos Chapel's parallel iterators, which can be used to define custom iteration schemes for user-defined data structures. It includes a short exercise for participants to practice using these features."
+  start="13:20"
+  end="14:00"
+
 [welcome3]
   title="Welcome/Introduction"
   authors="Brandon Neth"
   description="Opening session to welcome participants and share the schedule for the day."
-  slides="https://www.google.com"
   start="9:00"
   end="9:10"
 
@@ -86,9 +174,9 @@ inference."""
   end="10:45"
 
 [keynote]
-  title="Keynote: ..."
+  title="Keynote: The Software Engineering of Julia's Scientific Machine Learning (SciML)"
   authors="Chris Rackakous"
-  description="..."
+  description="Scientific machine learning, denoted SciML, is the integration of machine learning into scientific computing. While it has become an academic discipline in its own right, one of the key drivers to the adoption of SciML has been the ongoing creation of readily-available software. In this talk I will introduce the key tenannts of SciML with a focus towards the implications for HPC software development. Showcases of methods such as universal differential equations and their successes for generating more accurate physical models from data will be intertwined with stories about the software architecture which as enabled the sustainable development of the Open Source SciML software ecosystem. The audience should leave with a deep understanding of how the trade-off between research software and reusable open source development can be managed in a way that is beneficial to both the research community and the broader scientific computing community."
   start="10:45"
   end="11:45"
 
@@ -184,7 +272,7 @@ next steps.
   start="14:00"
   end="??"
 
-[welcome2]
+[welcome4]
   title="Welcome"
   authors=""
   description=""
@@ -192,16 +280,18 @@ next steps.
   end="9:05"
 
 [state]
-  title="State of the Project: Brad"
+  title="State of the Project"
   authors="Brad Chamberlain"
-  description=""
+  description="This talk will give a brief summary of highlights and milestones achieved within the Chapel project since last year."
   start="9:05"
   end="9:35"
 
 [invited_lumi]
-  title="Invited: LUMI"
+  title="(Invited) LUMI: The Supercomputer of the North"
   authors=""
-  description=""
+  description="""In this talk we will introduce LUMI, starting with a view on the consortium and how you can request resources, then focusing on its hardware (in detail, the LUMI-C and LUMI-G node architectures, and the network architecture). Then we will introduce the LUMI user support team, it's way of working and its duties.
+
+Finally, we will provide a short demo on how to install and run a simple Chapel program"""
   start="9:35"
   end="10:05"
 
@@ -360,7 +450,7 @@ Software written for distributed-memory parallel processing typically uses a dis
 portability across super-computers and cluster systems.
 These frameworks vary in their capabilities and support for managing communication and
 synchronization overhead to achieve scalability. We implemented a communicationintensive distributed radix sort algorithm to examine and compare the performance,
-scalability, usability, and productivity diFerences between five distributed-memory parallel
+scalability, usability, and productivity differences between five distributed-memory parallel
 programming frameworks: Chapel, MPI, OpenSHMEM, Conveyors, and Lamellar. """
   start="12:20"
   end="12:40"
@@ -373,8 +463,8 @@ programming frameworks: Chapel, MPI, OpenSHMEM, Conveyors, and Lamellar. """
   end="12:50"
 
 [invited_todd]
-  title="Invited: Todd?"
-  authors=""
+  title="(Invited) Spack"
+  authors="Todd Gamblin"
   description=""
   start="12:50"
   end="13:50"
