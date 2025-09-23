@@ -31,8 +31,8 @@ headless: true
 ## October 9: Conference, Day 1
 {{< session-table >}}
 {{< chapelcon-session "welcome3" >}}
-{{< chapelcon-session "transformers">}}
 {{< chapelcon-session "chai" >}}
+{{< chapelcon-session "transformers">}}
 {{< chapelcon-session "break3_1" >}}
 
 {{< chapelcon-session "hipermotif" >}}

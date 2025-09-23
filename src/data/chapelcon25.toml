@@ -105,8 +105,8 @@
   title="Transformers from Scratch"
   authors="Thitrin Sastarasadhit and Kenjiro Taura"
   description=""
-  start="9:05"
-  end="9:25"
+  start="9:25"
+  end="9:45"
   session="AI/ML"
 
 
@@ -133,8 +133,8 @@ measured a 105x speedup when scaling from a single node to
 into the Chapel-powered Arkouda data science framework,
 enabling interactive, ML-enabled data science over massive
 datasets."""
-  start="9:25"
-  end="9:45"
+  start="9:05"
+  end="9:25"
 
 [break3_1]
   title="Break"
