@@ -26,14 +26,14 @@
             background-color: rgba(255, 255, 255, 0.8);
             padding: 1em;
             border: 0.05em solid #fafafa;
-            border-radius: 0.15em;
+            border-radius: 0.4em;
             max-width: 40rem;
             box-sizing: border-box;
             box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 
             font-size: 1.2rem;
-            margin-bottom: 7rem;
-            margin-top: 7rem;
+            margin-bottom: 3rem;
+            margin-top: 3rem;
         }
 
         .banner.wide {
@@ -46,9 +46,9 @@
         }
 
         .banner.wide img {
-            border-radius: 0.4rem;
+            border-radius: 50%;
             max-width: 10em;
-            padding-bottom: 0.0em;
+            margin-right: 1em;
         }
 
         h1 {
@@ -56,7 +56,7 @@
             margin-bottom: 0.25em;
         }
 
-        h2 {
+        .keynote h2 {
             font-size: 2.5rem;
             margin-top: 0;
             margin-bottom: 0.25em;
@@ -74,6 +74,10 @@
         }
         p {
             font-size: 1.3rem;
+        }
+
+        figure {
+            margin: 0;
         }
 
         li {
@@ -116,6 +120,7 @@
             font-size: 1.2rem;
 
             transition: background-color 0.2s;
+            margin-right: 0.2em;
         }
 
         a.button:hover {
@@ -135,44 +140,48 @@
             padding: 2rem;
         }
 
+        /* for this section, invert the size of the h2 and h3 */
+        section.program h2 {
+            font-size: 1.8rem;
+        }
+
+        section.program h3 {
+            font-size: 2.5rem;
+            margin-top: 2rem;
+        }
+
         .side-by-side {
             display: flex;
         }
 
         .element {
-            border: 0.075rem solid rgba(0, 0, 0, 0.15);
             border-radius: 0.4rem;
             padding: 2rem;
             flex-grow: 1;
             flex-basis: 0;
             margin: 1rem;
-            background-color: rgba(255, 255, 255, 0.8);
             box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+            background-color: white;
         }
 
         .element.small {
             flex-grow: 0;
         }
 
-        .banner > .side-by-side > .element > figure {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100%;
-        }
         .banner > .side-by-side {
             align-items: center;
         }
-        
+
         .banner > .side-by-side .element {
             border: none;
-            padding: 0;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 0.25em;
+            margin-top: 0;
         }
 
         img {
-            border-radius: 0.2rem;
+            border-radius: 0.4rem;
         }
 
         .element:first-child {
@@ -242,29 +251,6 @@
             font-size: 1.1em;
             margin-bottom: 0.4em;
             max-width: 800px;
-        }
-
-        .side-by-side .element p {
-            padding: 0.5em;
-        }
-        .side-by-side .element h2 {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-        .side-by-side .element h3 {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-        .side-by-side .element h4 {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-        th {
-            text-align: right;
-            font-weight: bold;
-            font-size: 1.2em;
-            padding-right: 1em;
         }
 
     </style>

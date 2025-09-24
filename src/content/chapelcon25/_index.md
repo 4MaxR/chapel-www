@@ -19,12 +19,11 @@ nav:
 ---
 
 {{< section "banner.md" >}}
-
 {{< section "summary.md" "white" >}}
 {{< section "keynote.md">}}
 {{< section "invited.md">}}
-{{< section "program.md">}}
-{{< section "days.md" "white">}}
+{{< section "program.md" "white program" >}}
+{{< section "days.md" >}}
 {{< section "timeline.md" "white" >}}
 {{< section "session-details.md" "white" >}}
 {{< section "organization.md" "white" >}}
