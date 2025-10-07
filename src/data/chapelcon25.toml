@@ -4,6 +4,7 @@
   description="Opening session to welcome participants and share the schedule for the day."
   start="9:00"
   end="9:10"
+  slides="ChapelCon/2025/ChapelCon25Day1.pdf"
 
 [tutorial-presentation1]
   title="An Introduction to Chapel"
@@ -11,6 +12,7 @@
   description="This session introduces the Chapel programming language, its key features, and its place within the HPC ecosystem. The focus is on how Chapel's design philosophy makes it unique amongst programming languages. No prior experience necessary."
   start="9:10"
   end="9:40"
+  slides="ChapelCon/2025/coding-day-intro-ChapelCon2025.pdf"
 
 [io-demo]
   title="IO Demo/Exercise Session"
@@ -18,6 +20,7 @@
   description="This session demos key I/O features in Chapel and offers a short coding exercise for participants to do that uses the demonstrated features."
   start="9:40"
   end="10:20"
+  slides="ChapelCon/2025/IO-ChapelCon2025.pdf"
 
 [loops-demo]
   title="Parallel Loops Demo/Exercise Session"
@@ -25,6 +28,7 @@
   description="This session demos Chapel's key parallel looping constructs and offers a short coding exercise for participants to do that uses the demonstrated features."
   start="10:20"
   end="11:00"
+  slides="https://github.com/chapel-lang/chapelcon25-demos/tree/main/ParallelLoops"
 
 [break1_1]
   title="Break"
@@ -37,6 +41,7 @@
   description="This session demos distributions, a key abstraction in Chapel for reasoning about data locality and movement. It also offers a short coding exercise that uses these features."
   start="11:30"
   end="12:10"
+  slides="https://github.com/chapel-lang/chapelcon25-demos/tree/main/Distributions"
 
 [data-structures-demo]
   title="Aggregate Data Structures Demo/Exercise Session"
@@ -44,6 +49,7 @@
   description="This session demos Chapel's aggregate data structures (classes and records) and Chapel's approach to memory management. It also offers a short coding exercise that uses these features."
   start="12:10"
   end="12:50"
+  slides="ChapelCon/2025/ClassesAndRecords.pdf"
 
 [freecode1]
   title="Free-Code Session"
