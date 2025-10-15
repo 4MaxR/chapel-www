@@ -192,10 +192,10 @@ and call <code>myAdd()</code> with just a few lines of Chapel code:</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">DynamicLoading</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">DynamicLoading</span><span class="p">,</span><span class="w"> </span><span class="nx">CTypes</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">const</span><span class="w"> </span><span class="nx">lib</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">binary</span><span class="p">.</span><span class="nx">load</span><span class="p">(</span><span class="s">'./libMyAdd.so'</span><span class="p">),</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">add</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">lib</span><span class="p">.</span><span class="nx">retrieve</span><span class="p">(</span><span class="s">'myAdd'</span><span class="p">,</span><span class="w"> </span><span class="nx">proc</span><span class="p">(</span><span class="nx">x</span><span class="p">:</span><span class="w"> </span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="p">:</span><span class="w"> </span><span class="kt">int</span><span class="p">):</span><span class="w"> </span><span class="kt">int</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">add</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">lib</span><span class="p">.</span><span class="nx">retrieve</span><span class="p">(</span><span class="s">'myAdd'</span><span class="p">,</span><span class="w"> </span><span class="nx">proc</span><span class="p">(</span><span class="nx">x</span><span class="p">:</span><span class="w"> </span><span class="nx">c_int</span><span class="p">,</span><span class="w"> </span><span class="nx">y</span><span class="p">:</span><span class="w"> </span><span class="nx">c_int</span><span class="p">):</span><span class="w"> </span><span class="nx">c_int</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">const</span><span class="w"> </span><span class="nx">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">add</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">writeln</span><span class="p">(</span><span class="nx">n</span><span class="p">);</span><span class="w">
@@ -213,7 +213,7 @@ locale:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">on</span><span class="w"> </span><span class="nx">Locales</span><span class="p">.</span><span class="nx">last</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">add</span><span class="p">(</span><span class="nx">here</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span><span class="w"> </span><span class="nx">here</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">add</span><span class="p">(</span><span class="nx">here</span><span class="p">.</span><span class="nx">id</span><span class="p">:</span><span class="w"> </span><span class="nx">c_int</span><span class="p">,</span><span class="w"> </span><span class="nx">here</span><span class="p">.</span><span class="nx">id</span><span class="p">:</span><span class="w"> </span><span class="nx">c_int</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">writeln</span><span class="p">(</span><span class="nx">n</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -936,6 +936,21 @@ group</a>, or one of our other
 addition, we’re always interested in hearing about how we can make
 the Chapel language, libraries, implementation, and tools more
 useful to you.</p>
+<span class="change-table"></span>
+<table>
+<thead>
+<tr>
+<th style="text-align: left">Date</th>
+<th style="text-align: left">Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left">Sept 26, 2025</td>
+<td style="text-align: left">Fixed dynamic library calls to use <code>c_int</code> rather than <code>int</code></td>
+</tr>
+</tbody>
+</table>
 </div>
 </main>
 <div class="container">
