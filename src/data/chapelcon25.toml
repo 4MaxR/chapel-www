@@ -82,6 +82,7 @@
   start="9:40"
   end="10:20"
   slides="https://github.com/chapel-lang/chapelcon25-demos/tree/main/PerformanceDebugging"
+  video="https://youtu.be/mjIHrQ7Gxvo"
 
 [serializer-demo]
   title="Serializers Demo/Exercise Session"
@@ -90,6 +91,7 @@
   start="10:20"
   end="11:00"
   slides="ChapelCon/2025/serializers-chapelcon25.pdf"
+  video="https://youtu.be/-sSHU4um9hM"
 
 [freecode2]
   title="Free-Code Session"
@@ -104,6 +106,7 @@
   start="13:20"
   end="14:00"
   slides="https://github.com/chapel-lang/chapelcon25-demos/tree/main/ParallelIterators"
+  video="https://youtu.be/WqkmXa-mhEc"
 
 [welcome3]
   title="Welcome/Introduction"
@@ -149,6 +152,7 @@ datasets."""
   start="9:05"
   end="9:25"
   slides="ChapelCon/2025/chai.pdf"
+  video="https://youtu.be/bHCrfHNkW6E"
 
 [break3_1]
   title="Break"
@@ -168,6 +172,7 @@ datasets like the H01 connectome (150M edges) that existing methods cannot handl
   start="10:00"
   end="10:10"
   slides="ChapelCon/2025/HiPerMotif.pdf"
+  video="https://youtu.be/acvyLakS6gA"
 
 [accelerating]
  title="Accelerating Probabilistic Inference of Hypergraph Algorithms Using PGAS and Chapel"
@@ -180,6 +185,7 @@ inference."""
   start="10:10"
   end="10:30"
   slides="ChapelCon/2025/ramli-hypergraph.pdf"
+  video="https://youtu.be/VoSJFRyxtx0"
 
 [break3_2]
   title="Break"
@@ -193,6 +199,8 @@ inference."""
   description="Scientific machine learning, denoted SciML, is the integration of machine learning into scientific computing. While it has become an academic discipline in its own right, one of the key drivers to the adoption of SciML has been the ongoing creation of readily-available software. In this talk I will introduce the key tenannts of SciML with a focus towards the implications for HPC software development. Showcases of methods such as universal differential equations and their successes for generating more accurate physical models from data will be intertwined with stories about the software architecture which has enabled the sustainable development of the Open Source SciML software ecosystem. The audience should leave with a deep understanding of how the trade-off between research software and reusable open source development can be managed in a way that is beneficial to both the research community and the broader scientific computing community."
   start="10:45"
   end="11:45"
+  slides="ChapelCon/2025/sciml-keynote.pdf"
+  video="https://youtu.be/5ornbvwZJp8"
 
 [break3_3]
   title="Break"
@@ -218,6 +226,7 @@ remainder	of	the	session	will	focus	on	key	improvements	made	since	the	last	Chap
   start="12:00"
   end="12:30"
   slides="ChapelCon/2025/ChapelCon25-Arkouda-Bulletin-Final.pdf"
+  video="https://youtu.be/-f5MyTN6Ed8"
 
 [champs]
   title="ChapelCon ’25: Recent Developments in the CHApel MultiPhysics Simulation Software"
@@ -235,6 +244,7 @@ community.
   start="12:30"
   end="13:00"
   slides="ChapelCon/2025/champs-chapelcon25.pdf"
+  url="https://youtu.be/61v5CY9ytSI"
 
 [break3_4]
   title="Break"
@@ -264,6 +274,9 @@ next steps.
 """
   start="13:15"
   end="13:35"
+  slides="ChapelCon/2025/autodiff.pdf"
+  video="https://youtu.be/ioqxdmSprBM"
+
 
 [multigpu]
   title="A Portable Low-Level Multi-GPU Branch-and-Bound: A Comparison Against Chapel"
@@ -272,6 +285,7 @@ next steps.
   start="13:35"
   end="13:55"
   slides="ChapelCon/2025/branch-and-bound.pdf"
+  video="https://youtu.be/psITBRGGXHo"
 
 [cloud]
   title="Running Chapel on the Cloud"
@@ -279,6 +293,7 @@ next steps.
   description="A summary of experience distributing and testing Chapel on Fedora GNU/Linux and suggestions for integration within wider ecosystems."
   start="13:55"
   end="14:00"
+  video="https://youtu.be/j5VL_tPM78Y"
 
 [discussion]
   title="Open Community Discussion"
@@ -301,7 +316,8 @@ next steps.
   start="9:05"
   end="9:35"
   slides="ChapelCon/2025/ChapelCon25-SoP.pdf"
-
+  video="https://youtu.be/TU8inpSS16w"
+  
 [invited_lumi]
   title="(Invited) LUMI: The Supercomputer of the North"
   authors="Emanuele Vitali, Jorik van Kemenade"
@@ -310,6 +326,7 @@ next steps.
 Finally, we will provide a short demo on how to install and run a simple Chapel program"""
   start="9:35"
   end="10:05"
+  slides="ChapelCon/2025/LUMI_chapelcon.pdf"
 
 
 [break4_1]
@@ -325,7 +342,7 @@ Finally, we will provide a short demo on how to install and run a simple Chapel 
   start="10:20"
   end="10:30"
   slides="ChapelCon/2025/recslice.pdf"
-
+  video="https://youtu.be/vwRHeVTaQho"
 [vectorlib]
   title="Unlocking Portable and Performant Vector Programming with chpl Vector Library"
   authors="Jade Abraham"
@@ -349,6 +366,7 @@ improvements for the library going forward.
   start="10:30"
   end="10:50"
   slides="ChapelCon/2025/chapel-vector-library.pdf"
+  video="https://youtu.be/9zyjphsI2nA"
 
 [break4_2]
   title="Break"
@@ -389,6 +407,7 @@ no runtime overhead.
   start="10:55"
   end="11:15"
   slides="ChapelCon/2025/compile-time-programming-ChapelCon2025.pdf"
+  video="https://youtu.be/-x1zYQSuaT4"
 
 [pythonlike]
   title="If it walks like Python and quacks like Python, it must be….Chapel?"
@@ -413,7 +432,7 @@ this can be useful with libraries like numpy, scipy, and pandas."""
   start="11:15"
   end="11:35"
   slides="ChapelCon/2025/PythonInteropTalk.pdf"
-
+  video="https://youtu.be/a4qMMD7OAVw"
 
 [formal]
   title="Using Formal Methods to Discover a Bug in the Chapel Compiler"
@@ -439,6 +458,7 @@ validate the compiler’s behavior."""
   start="11:35"
   end="11:45"
   slides="ChapelCon/2025/formal-methods-ChapelCon2025.pdf"
+  video="https://youtu.be/Tv04Tfj4plA"
 
 [julia]
   title="Chapel Julia interoperability"
@@ -460,7 +480,7 @@ validate the compiler’s behavior."""
   start="12:00"
   end="12:20"
   slides="ChapelCon/2025/chapelcon-2025-sort.pdf"
-
+  video="https://youtu.be/h-cefs6nGLc"
 [radix]
   title="Comparing Distributed-Memory Programming Frameworks with Radix Sort"
   authors="Shreyas Khandekar and Matt Drozt"
@@ -476,6 +496,7 @@ programming frameworks: Chapel, MPI, OpenSHMEM, Conveyors, and Lamellar. """
   start="12:20"
   end="12:40"
   slides="ChapelCon/2025/sort-comparison.pdf"
+  video="https://youtu.be/quLnZakIUi0"
 
 [break4_4]
   title="Break"
@@ -489,6 +510,7 @@ programming frameworks: Chapel, MPI, OpenSHMEM, Conveyors, and Lamellar. """
   description="The past year has been transformative for the twelve-year-old Spack project, starting with its inclusion in the High Performance Software Foundation (HPSF) and culminating in its 1.0 release. Spack v1.0, released in July, is the first version to offer a stable package API and to integrate true compiler dependencies into its core model—features developed over many years. This talk will cover how the Spack community evolved to this point and detail the decision-making process behind joining the HPSF and finally taking the plunge and going 1.0."
   start="12:50"
   end="13:50"
+  slides="ChapelCon/2025/spack-chapelcon-2025-10-09.pdf"
 
 [break4_5]
   title="Break"
@@ -514,6 +536,7 @@ libraries, Repartition offers a flexible and powerful tool for managing data lay
   start="14:00"
   end="14:10"
   slides="ChapelCon/2025/repartitioning-for-performance.pdf"
+  video="https://youtu.be/_Xt-ed3y6lc"
 
 [nvshmem]
   title="Efficient Multi-GPU Communication with NVSHMEM in Chapel"
@@ -546,6 +569,7 @@ The third part outlines a roadmap for developing a generalized aggregation frame
   start="14:20"
   end="14:40"
   slides="ChapelCon/2025/2025-10-08-Custom-Aggregators.pdf"
+  video="https://youtu.be/Jqk6KXtwQhk"
 
 [discussion2]
   title="Open Community Discussion"
