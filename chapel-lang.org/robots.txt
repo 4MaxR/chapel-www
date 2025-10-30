@@ -33,6 +33,9 @@ Disallow: /docs/2.5/
 Disallow: /docs/2.6/
 Disallow: /docs/main/
 
+User-agent: * 
+Crawl-Delay: 10
+
 Sitemap: https://chapel-lang.org/sitemap.xml
 Sitemap: https://chapel-lang.org/sitemap.txt
 Sitemap: https://chapel-lang.org/blog/sitemap.xml
