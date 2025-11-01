@@ -115,9 +115,46 @@ disableKinds = ['taxonomy', 'term']
 
 [[menu.main]]
     name       = "Community"
-    identifier = "section.community"
+    identifier = "menu.community"
     url        = "/community"
     weight     = 6
+
+[[menu.main]]
+    name       = "Get Involved"
+    url        = "/getinvolved"
+    weight     = 1
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "Social Media"
+    url        = "/socials"
+    weight     = 2
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "Q&A / Discussions"
+    url        = "/forums"
+    weight     = 3
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "Community Meetings"
+    url        = "/meetings"
+    weight     = 4
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "Calendar"
+    url        = "/calendar"
+    weight     = 5
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "ChapelCon"
+    url        = "/chapelcon"
+    weight     = 6
+    parent     = "menu.community"
+
 
 [[menu.main]]
     name       = "Blog"
