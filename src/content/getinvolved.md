@@ -20,6 +20,10 @@ Chapel community:
 - Attend weekly project and/or deep-dive [meetings](/meetings)
 - Attend the monthly educators' [meeting](/meetings)
 - Ask questions on Chapel [discussion forums](/forums)
+- Invite a Chapel community member to...
+  - speak at a seminar you run
+  - run a demonstration for your group
+  - take part in an interview on your blog/podcast
 
 
 ### Use Chapel
@@ -29,6 +33,7 @@ Chapel community:
   - from the `$CHPL_HOME/examples/` directory
   - from the website's [front page](/)
   - from the examples [page](/examples) and [repo](https://github.com/chapel-lang/ChapelExamplesAndTeachingMaterials)
+- Pair-program with a Chapel developer to explore writing code patterns of interest
 - [Learn](/learn) Chapel
 - Write your own applications in Chapel
 - Share your work with the community by
