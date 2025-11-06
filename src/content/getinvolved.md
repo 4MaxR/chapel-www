@@ -20,7 +20,7 @@ community:
 - Attend weekly project and/or deep-dive [meetings](/meetings)
 - Attend the monthly educators [meeting](/meetings)
 - Ask questions on Chapel [discussion forums](/forums)
-- Invite a Chapel community member to...
+- [Invite a Chapel community member](/forums) to...
   - speak at a seminar you're involved with
   - run a demonstration for your group
   - take part in an interview on your blog/podcast
@@ -32,10 +32,11 @@ community:
 - Compile and run sample codes:
   - from the [`examples/` directory](https://github.com/chapel-lang/chapel/tree/main/test/release/examples) of your installation
   - from the website's [front page](/)
-  - from the examples [page](/examples) and [repo](https://github.com/chapel-lang/ChapelExamplesAndTeachingMaterials)
-- Pair-program with a Chapel developer to explore writing code patterns of interest
+  - from the [examples page](/examples) and [repo](https://github.com/chapel-lang/ChapelExamplesAndTeachingMaterials)
+- [Reach out to a Chapel developer](/forums) to explore pair-programming code patterns of interest
 - [Learn](/learn) Chapel
-- Write your own applications in Chapel
+- Write [your own applications](/blog/series/7-questions-for-chapel-users/) in Chapel
+- Report any bugs you encounter or feature requests you wish for as [GitHub issues](https://github.com/chapel-lang/chapel/issues)
 - Share your work with the community by
   - mentioning it [on Discord](https://discord.gg/xu2xg45yqH)
   - doing a 5-minute demo in our [weekly project meeting](https://github.com/chapel-lang/chapel/discussions/categories/weekly-meeting-topics)
@@ -47,7 +48,6 @@ community:
 
 ### Help Improve Chapel[^1]
 
-- Get familiar with the [Developer Certificate of Origin](/docs/developer/bestPractices/DCO.html)
 - Improve or extend Chapel's [documentation](/docs) by editing [its sources](https://github.com/chapel-lang/chapel/tree/main/doc)
 - Improve the Chapel [website](https://github.com/chapel-lang/chapel-www)
 - Add, improve, or extend Chapel's [standard](/docs/modules/standard.html) or [package](/docs/modules/packages.html) library modules
@@ -55,7 +55,7 @@ community:
 - Browse Chapel's [documentation for contributors](/docs/developer/)
 - Compare, analyze, and improve Chapel performance relative to other approaches
 - Conduct and publish original research relating to Chapel
-- Port Chapel to, or support it on, a new platform
+- Port Chapel to, support it on, or package it for a new platform
 - Help improve the Chapel compiler and/or runtime
 
 
