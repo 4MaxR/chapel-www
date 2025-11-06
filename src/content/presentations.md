@@ -32,6 +32,7 @@ title = "Presentations"
   {{<artifact-listing "galois2025">}}
   {{<artifact-listing "hpsf-perf2025">}}
   {{<artifact-listing "lanl2025">}}
+  {{<artifact-listing "isc2025">}}
   {{<artifact-listing "hpsfcon2025">}}
   {{<artifact-listing "UofA2025">}}
   {{<artifact-listing "runtime-overview">}}
