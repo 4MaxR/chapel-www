@@ -946,7 +946,7 @@
   venue = "ChapelCon 2024"
   date = "June 5, 2024"
   description = "75-minute recorded tutorial presented at ChapelCon 2024"
-  slides = "/ChapelCon/2024/chapel-tutorial.pdf"
+  slides = "/chapelcon/2024/chapel-tutorial.pdf"
   video = "https://www.youtube.com/watch?v=N2LWN3A9rck"
   type = ["presentation", "video"]
 

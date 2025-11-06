@@ -38,6 +38,7 @@ Redirect /overview.html /
 # redirect CHIUW page
 Redirect /CHIUW.html /chapelcon
 Redirect /ChapelCon.html /chapelcon
+Redirect /ChapelCon/ /chapelcon/
 
 # redirect old docs links
 Redirect /docs/latest/ /docs/

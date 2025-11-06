@@ -29,6 +29,7 @@ linkstuff:
 	-ln -s $(WEBSITE_DIR)/presentations/* $(PUBLIC_DIR)/presentations/ >& /dev/null
 	-ln -s $(WEBSITE_DIR)/papers/* $(PUBLIC_DIR)/papers/ >& /dev/null
 	-ln -s $(WEBSITE_DIR)/tutorials/* $(PUBLIC_DIR)/tutorials/ >& /dev/null
+	-ln -s $(WEBSITE_DIR)/chapelcon/* $(PUBLIC_DIR)/chapelcon/ >& /dev/null
 
 news: $(ACTIVATE)
 	$(SETUP) && python3 process_rss.py
