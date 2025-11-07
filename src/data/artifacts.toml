@@ -7,6 +7,7 @@
   description = "This lightning talk briefly introduces scalable data analysis in Arkouda, as powered by Chapel."
   extraLink = "/presentations/Chamberlain-LSSDA-panel.pdf"
   extraLinkText = "Recap for panel"
+  video = "https://youtu.be/f43u1GduhAA?si=SqGKfxOI3wedvdew"
   type = ["presentation"]
 
 [westerhout2025]
@@ -28,7 +29,7 @@
   type = ["presentation"]
 
 [lumi2025]
-  title = "Scalable Parallel Programming with Chapel: From Multicore CPUs to GPU-Powered Supercomputers — a.k.a What Chapel Users Get Done and How"
+  title = "Scalable Parallel Programming with Chapel: From Multicore CPUs to GPU-Powered Supercomputers (a.k.a What Chapel Users Get Done and How)"
   authors = "Engin Kayraklioglu"
   venue = "LUMI User Coffee Breaks"
   date = "October 15, 2025"
@@ -287,7 +288,7 @@
 [clsac24]
   title = "Arkouda and Chapel: Updates I'd Want Mike to Know (Highlights Since CLSAC 2022)"
   authors = "Brad Chamberlain"
-  venue = "CLSAC 2024"
+  venue = "CLSAC 2024 Random Access Talk"
   date = "November 6, 2024"
   url = "ChapelForCLSAC2024-presented.pdf"
   description = "A run-down of highlights from the Arkouda and Chapel projects since CLSAC 2022, the last time I talked to Arkouda PI Mike Merrill before his passing."
@@ -501,6 +502,15 @@
   url = "/CHIUW/2022/C.pdf"
   slides = "/papers/CUG_2022.pdf"
   type = ["paper", "presentation"]
+
+[zagorac2022]
+  title = "A Light in the Dark: Ultralight Dark Matter Phenomenology in Simulations"
+  authors = "Jovana (Luna) Zagorac"
+  venue = "Yale University Ph.D. Dissertation"
+  date = "May 2022"
+  url = "https://elischolar.library.yale.edu/gsas_dissertations/684/"
+  description = "Luna Zagorac's dissertation focuses on the study of Ultralight Dark Matter using code written in Chapel."
+  type = ["paper"]
 
 [pmam22]
   title = "A performance-oriented comparative study of the Chapel high-productivity language to conventional programming environments"

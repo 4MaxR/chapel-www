@@ -2,76 +2,79 @@
 title = "Presentations"
 +++
 
-{{<publication-list "featured" "Featured Chapel Presentations">}}
+{{<publication-list "featured" "Featured Chapel Presentations with Video">}}
   {{<artifact-listing "lumi2025">}}
+  {{<artifact-listing "HiRSE2025">}}
   {{<artifact-listing "kaust25">}}
-  {{<artifact-listing "hips2025-keynote">}}
   {{<artifact-listing "hpeDevMeetup23">}}
   {{<artifact-listing "jhu-apl">}}
 {{</publication-list>}}
 
-{{<publication-list "featured-apps" "Featured Presentations of Chapel Applications">}}
+{{<publication-list "lightning-talks" "Lightning Talks with Video">}}
+  {{<artifact-listing "hpsfcon2025">}}
+  {{<artifact-listing "pnw-plse24">}}
+  {{<artifact-listing "pnw-plse25">}}
+  {{<artifact-listing "pnw-plse23">}}
+  {{<artifact-listing "slac-lssda2025">}}
+{{</publication-list>}}
+
+{{<publication-list "featured" "Featured Chapel Presentations">}}
+  {{<artifact-listing "hips2025-keynote">}}
+  {{<artifact-listing "radboud2025">}}
+  {{<artifact-listing "hpsf-perf2025">}}
+  {{<artifact-listing "lanl2025">}}
+  {{<artifact-listing "innerSourcing2">}}
+{{</publication-list>}}
+
+{{<publication-list "featured-apps" "Featured Arkouda Presentations">}}
+  {{<artifact-listing "chiuw20">}}
+  {{<artifact-listing "pangeo">}}
+  {{<artifact-listing "bader">}}
+  {{<artifact-listing "paw-atm19-merrill">}}
+  {{<artifact-listing "hppss-sc24">}}
+{{</publication-list>}}
+
+{{<publication-list "featured-apps" "Featured Presentations of Other Chapel Applications">}}
+  {{<artifact-listing "cug25">}}
   {{<artifact-listing "gtc2025">}}
   {{<artifact-listing "nasa-champs2025">}}
-  {{<artifact-listing "pangeo">}}
   {{<artifact-listing "paw-atm23-bachman">}}
   {{<artifact-listing "paw-atm23-westerhout">}}
 {{</publication-list>}}
 
-{{<publication-list "lightning-talks" "Chapel Lightning Talks">}}
-  {{<artifact-listing "pnw-plse24">}}
-  {{<artifact-listing "pnw-plse25">}}
-  {{<artifact-listing "pnw-plse23">}}
+{{<publication-list "lightning-talks" "Lightning Talks">}}
+  {{<artifact-listing "clsac2025">}}
+  {{<artifact-listing "isc2025">}}
+  {{<artifact-listing "eduhpc24">}}
+  {{<artifact-listing "clsac24">}}
 {{</publication-list>}}
 
 {{<publication-list "recent" "Other Recent Chapel Presentations">}}
-  {{<artifact-listing "slac-lssda2025">}}
-  {{<artifact-listing "radboud2025">}}
-  {{<artifact-listing "clsac2025">}}
-  {{<artifact-listing "HiRSE2025">}}
   {{<artifact-listing "galois2025">}}
-  {{<artifact-listing "hpsf-perf2025">}}
-  {{<artifact-listing "lanl2025">}}
-  {{<artifact-listing "isc2025">}}
-  {{<artifact-listing "hpsfcon2025">}}
-  {{<artifact-listing "UofA2025">}}
   {{<artifact-listing "runtime-overview">}}
   {{<artifact-listing "hpsfapp">}}
-  {{<artifact-listing "sc24demo">}}
-  {{<artifact-listing "eduhpc24">}}
-  {{<artifact-listing "clsac24">}}
-  {{<artifact-listing "nasa24">}}
-  {{<artifact-listing "innerSourcing2">}}
-{{</publication-list>}}
-
-{{<publication-list "recent-apps" "Other Recent Presentations of Chapel Applications">}}
-  {{<artifact-listing "cug25">}}
-  {{<artifact-listing "hppss-sc24">}}
-  {{<artifact-listing "paw-atm24-champs">}}
-  {{<artifact-listing "paw-atm24-suffix">}}
-  {{<artifact-listing "ccdsc24">}}
 {{</publication-list>}}
 
 {{<publication-list "timeless" "Timeless Talks">}}
   {{<artifact-listing "chiuw21">}}
-  {{<artifact-listing "chiuw20">}}
   {{<artifact-listing "chiuw17">}}
   {{<artifact-listing "chiuw16">}}
 {{</publication-list>}}
 
-{{<publication-list "overviews" "Other Chapel Overviews">}}
+{{<publication-list "recent-apps" "Chapel Applications">}}
+  {{<artifact-listing "paw-atm24-champs">}}
+  {{<artifact-listing "paw-atm24-suffix">}}
+  {{<artifact-listing "ccdsc24">}}
+  {{<artifact-listing "wamta23">}}
+  {{<artifact-listing "paw-atm19-padmanabhan">}}
+{{</publication-list>}}
+
+{{<publication-list "overviews" "Chapel Overviews">}}
   {{<artifact-listing "uwplselunch">}}
+  {{<artifact-listing "nasa24">}}
   {{<artifact-listing "openSourceConnector24">}}
   {{<artifact-listing "linuxcon23">}}
   {{<artifact-listing "hpeDevTalk22">}}
-{{</publication-list>}}
-
-{{<publication-list "other-apps" "Other Applications of Chapel">}}
-  {{<artifact-listing "bader">}}
-  {{<artifact-listing "cug23">}}
-  {{<artifact-listing "wamta23">}}
-  {{<artifact-listing "paw-atm19-padmanabhan">}}
-  {{<artifact-listing "paw-atm19-merrill">}}
 {{</publication-list>}}
 
 {{<publication-list "gpus" "GPU Computing in Chapel">}}
@@ -90,7 +93,7 @@ title = "Presentations"
   {{<artifact-listing "lyon-hpcLanguages13">}}
 {{</publication-list>}}
 
-{{<publication-list "design" "Chapel Design and Philosophy">}}
+{{<publication-list "design" "Chapel Design, Philosophy, and Editorials">}}
   {{<artifact-listing "doe-psrf22">}}
   {{<artifact-listing "dagstuhl17">}}
   {{<artifact-listing "embrace17">}}
@@ -101,5 +104,10 @@ title = "Presentations"
   {{<artifact-listing "bmw10">}}
 {{</publication-list>}}
 
+&nbsp;<p>
 
-### [Presentation Archives](/presentations-archived/)
+#### [Presentation Archives (Reverse Chronological)](/presentations-archived/)<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(Also be sure to check out presentations from [ChapelCon](/chapelcon/))
+
+&nbsp;<p>
+
+#### 
