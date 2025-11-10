@@ -29,7 +29,7 @@
   description="This session demos Chapel's key parallel looping constructs and offers a short coding exercise for participants to do that uses the demonstrated features."
   start="10:20"
   end="11:00"
-  slides="https://github.com/chapel-lang/chapelcon25-demos/tree/main/ParallelLoops"
+  code="https://github.com/chapel-lang/chapelcon25-demos/tree/main/ParallelLoops"
 
 [break1_1]
   title="Break"
