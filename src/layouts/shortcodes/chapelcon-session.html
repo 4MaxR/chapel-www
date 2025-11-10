@@ -15,13 +15,13 @@
     <!-- Title line -->
     <div class="session-title", id="{{ $var }}">
     <a href="#{{ $var }}", style="color: black">{{ .title }}</a> 
-    {{ if or (isset . "video") (isset . "slides") (isset . "extraLink")}}
+    {{ if or (isset . "video") (isset . "slides") (isset . "code")}}
       [
       {{ if isset . "video" }} <a href="{{ .video }}">Video</a> {{ end }}
       {{ if and (isset . "video") (isset . "slides") }} | {{ end }}
       {{ if isset . "slides" }} <a href="{{ .slides }}">Slides</a> {{ end }}
-      {{ if and (or (isset . "video") (isset . "slides")) (isset . "extraLink") }} | {{ end }}
-      {{ if isset . "extraLink" }} <a href="{{ .extraLink }}"> {{ .extraLinkText }} </a> {{ end }}
+      {{ if and (or (isset . "video") (isset . "slides")) (isset . "code") }} | {{ end }}
+      {{ if isset . "code" }} <a href="{{ .code }}">Code</a> {{ end }}
       ]
     {{ end }}
     </div>
