@@ -6,7 +6,7 @@
     <description>Recent content in Community on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doing science in Python?  Wishing for more speed or scalability?</title>
@@ -21,6 +21,13 @@
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/chapelcon24-retro/</guid>
       <description>This post is a retrospective on ChapelCon &amp;lsquo;24</description>
+    </item>
+    <item>
+      <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 8: Striving Toward Adoptability</title>
+      <link>https://chapel-lang.org/blog/posts/10myths-part8/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/10myths-part8/</guid>
+      <description>The eighth and final archival post from the 2012 IEEE TCSC blog series, with a current reflection on it</description>
     </item>
     <item>
       <title>Announcing ChapelCon &#39;25!</title>

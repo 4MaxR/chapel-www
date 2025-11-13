@@ -1,16 +1,16 @@
 [
   {
-    "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 7: Minimalist Language Designs",
-    "date": "2025-10-15 00:00:00+00:00",
-    "url": "https://chapel-lang.org/blog/posts/10myths-part7/",
-    "description": "The seventh archival post from the 2012 IEEE TCSC blog series with a current reflection on it",
+    "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 8: Striving Toward Adoptability",
+    "date": "2025-11-12 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/10myths-part8/",
+    "description": "The eighth and final archival post from the 2012 IEEE TCSC blog series, with a current reflection on it",
     "authors": [
       {
         "name": "Brad Chamberlain",
         "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
       }
     ],
-    "image": "img/news/10mythspart7.jpg"
+    "image": "img/news/10mythspart8.jpg"
   },
   {
     "title": "Announcing Chapel 2.6!",
