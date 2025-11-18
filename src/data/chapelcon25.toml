@@ -561,7 +561,7 @@ for larger transfers compared to Chapel’s native copy operations.
   start="14:10"
   end="14:20"
   slides="/ChapelCon/2025/chapelcon2025_sosuke_hosokawa.pdf"
-  video="https://youtu.be/34Raoq0CKD8"
+  video="https://youtu.be/f5oZwvFH4EE"
 
 [aggregation]
   title="Towards A General Aggregation Framework in Chapel"
