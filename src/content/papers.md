@@ -3,6 +3,7 @@ title = "Papers"
 +++
 
 {{<publication-list "featured" "Featured Publications">}}
+  {{<artifact-listing "paw-atm2025">}}
   {{<artifact-listing "bachman-eco-ind">}}
   {{<artifact-listing "hpec24-vf2-ps">}}
   {{<artifact-listing "hcw2024">}}
@@ -25,6 +26,7 @@ title = "Papers"
   {{<artifact-listing "helbecque2025">}}
   {{<artifact-listing "rolinger2023">}}
   {{<artifact-listing "zagorac2022">}}
+  {{<artifact-listing "kayraklioglu2020">}}
 {{</publication-list>}}
 
 {{<publication-list "overviews" "Chapel Overviews and History">}}

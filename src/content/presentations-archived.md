@@ -14,6 +14,7 @@ talk you're looking for that's not listed here, please let us know.
 
 <!-- Nov 2025 -->
 
+{{<artifact-listing "paw-atm2025">}}
 {{<artifact-listing "seagl2025">}}
 
 <!-- Oct 2025 -->

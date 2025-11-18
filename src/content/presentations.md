@@ -19,6 +19,7 @@ title = "Presentations"
 {{</publication-list>}}
 
 {{<publication-list "featured" "Featured Chapel Presentations">}}
+  {{<artifact-listing "paw-atm2025">}}
   {{<artifact-listing "hips2025-keynote">}}
   {{<artifact-listing "radboud2025">}}
   {{<artifact-listing "hpsf-perf2025">}}

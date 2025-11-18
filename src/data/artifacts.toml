@@ -1,3 +1,13 @@
+[paw-atm2025]
+  title = "Comparing Distributed-Memory Programming Frameworks with Radix Sort"
+  authors = "Michael Ferguson, Ryan Friese, Shreyas Khandekar, Matt Drozt"
+  venue = "PAW-ATM 2025"
+  date = "November 16, 2025"
+  url = "https://dl.acm.org/doi/10.1145/3731599.3767500"
+  slides = "/presentations/paw-atm-sort-cmp-noanimation.pdf"
+  description = "This paper and presentation compare implementations of radix sort in Chapel, MPI, SHMEM, and Lamellar in terms of productivity and performance"
+  type = ["presentation", "paper"]
+
 [seagl2025]
   title = "Productive Parallel Programming from Laptops to Supercomputers with Chapel"
   authors = "Brad Chamberlain"
@@ -26,6 +36,7 @@
   venue = "Radboud University, Ph.D. dissertation"
   date = "October 17, 2025"
   url = "https://repository.ubn.ru.nl/handle/2066/323998"
+  slides = "/papers/westerhout-slides2025.pdf"
   description = "This is Tom Westerhout's Ph.D. dissertation, which focuses on the use of modern computing technologies, including Chapel, on quantum many-body simulations."
   type = ["paper"]
 
@@ -636,6 +647,16 @@
   description = "This paper uses Chapel to study the design and implementation of distributed Branch-and-Bound algorithms for solving large combinatorial optimization problems. Experiments on the proposed algorithms are performed using the Flow-shop scheduling problem as a test-case. The Chapel-based application is compared to a state-of-the-art MPI+Pthreads-based counterpart in terms of performance, scalability, and productivity."
   url = "https://www.sciencedirect.com/science/article/abs/pii/S0167739X1930946X"
   type = ["paper"]
+
+[kayraklioglu2020]
+  title = "Productive Machine Learning Support for Locality Optimizations in Distributed Memory Systems"
+  authors = "Engin Kayraklioglu"
+  venue = "George Washington University, Ph.D. dissertation"
+  date = "January 10, 2020"
+  url = "https://www.proquest.com/openview/43c2b65d0c79743d68e44790e7d16dc0/1?pq-origsite=gscholar&cbl=18750&diss=y"
+  description = "Engin Kayraklioglu's Ph.D. dissertation focuses on expressing locality optimizations through combinations of programmer, compiler, and runtime with ML components."
+  type = ["paper"]
+
 
 [hpec19]
   title = "Graph Algorithms in PGAS: Chapel and UPC++"
