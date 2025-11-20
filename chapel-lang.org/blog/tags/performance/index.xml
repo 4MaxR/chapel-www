@@ -6,7 +6,7 @@
     <description>Recent content in Performance on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parallel Processing of a Billion Rows of Data in Chapel</title>
@@ -28,6 +28,13 @@
       <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/announcing-chapel-2.2/</guid>
       <description>A summary of highlights from the September 2024 release of Chapel 2.2</description>
+    </item>
+    <item>
+      <title>Transformers From Scratch in Chapel and C&#43;&#43;, Part 1</title>
+      <link>https://chapel-lang.org/blog/posts/transformer-part1/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/transformer-part1/</guid>
+      <description>An implementation of a transformer using Chapel, comparing to C++ and PyTorch</description>
     </item>
     <item>
       <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 6: Performance of Higher-Level Languages</title>
