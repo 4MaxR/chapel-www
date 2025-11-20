@@ -1,5 +1,18 @@
 [
   {
+    "title": "Transformers From Scratch in Chapel and C++, Part 1",
+    "date": "2025-11-20 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/transformer-part1/",
+    "description": "An implementation of a transformer using Chapel, comparing to C++ and PyTorch",
+    "authors": [
+      {
+        "name": "Thitrin Sastarasadhit",
+        "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+      }
+    ],
+    "image": "https://chapel-lang.org/blog/posts/transformer-part1/each-backward.png"
+  },
+  {
     "title": "10 Myths About Scalable Parallel Programming Languages (Redux),  Part 8: Striving Toward Adoptability",
     "date": "2025-11-12 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/10myths-part8/",

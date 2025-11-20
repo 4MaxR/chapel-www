@@ -528,5 +528,11 @@
       "name": "Brad Chamberlain",
       "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
     }
+  ],
+  "https://chapel-lang.org/blog/posts/transformer-part1/": [
+    {
+      "name": "Thitrin Sastarasadhit",
+      "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+    }
   ]
 }
