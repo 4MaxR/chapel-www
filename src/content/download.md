@@ -87,7 +87,6 @@ The packages can be installed as follows:
    - For Debian based distributions (Debian, Ubuntu, etc), use: `apt install ./<chapel package name>`
 
 Caveats:
-- Using these packages means that parts of the Chapel runtime may not be compiled optimally for your architecture (e.g. the BigInteger and Regex modules may result in degraded performance). Users wanting maximum performance that makes use of their specific hardware should build Chapel from source, [manually](#source) or using [Spack](#spack).
 - The bundled GASNet multi-locale configuration is a portable implementation based on GASNet-EX/UDP, so won't take advantage of high-performance networks.
 - The bundled SLURM/libfabric multi-locale configuration is experimental and may not work with all providers. It is known to work with the tcp and efa providers.
 """
