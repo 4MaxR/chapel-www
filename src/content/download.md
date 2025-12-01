@@ -83,6 +83,7 @@ The packages can be installed as follows:
 
 3. Install using the system package manager.
    - For RPM based distributions (Fedora, RHEL, etc), use: `dnf install ./<chapel package name>`
+      - For RHEL/RockyLinux/AlmaLinux, you will need to install EPEL first: `dnf install epel-release`
    - For Debian based distributions (Debian, Ubuntu, etc), use: `apt install ./<chapel package name>`
 
 Caveats:
