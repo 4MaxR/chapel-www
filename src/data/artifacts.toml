@@ -168,6 +168,7 @@
   venue = "NJIT Ph.D. dissertation"
   date = "May 2025"
   url = "https://www.proquest.com/docview/3237606780"
+  slides = "/presentations/rodriguez_defense.pdf"
   description = "This is Oliver's dissertation, which focuses on extending Arkouda to support graph analytics through Arachne."
   type = ["paper"]
 
