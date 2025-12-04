@@ -12,6 +12,8 @@ talk you're looking for that's not listed here, please let us know.
 
 <!-- Dec 2025 -->
 
+{{<artifact-listing "uw-escience2025">}}
+
 <!-- Nov 2025 -->
 
 {{<artifact-listing "paw-atm2025">}}

@@ -1,3 +1,12 @@
+[uw-escience2025]
+  title = "Interactive Data Science at Massive Scales using Python and Arkouda"
+  authors = "Brad Chamberlain and Jade Abraham"
+  venue = "UW Data Science Seminar, eScience Institute"
+  date = "December 2, 2025"
+  url = "/presentations/ArkoudaForUWeScience-presented.pdf"
+  description = "This talk introduces Arkouda for data science communities"
+  type = ["presentation"]
+
 [paw-atm2025]
   title = "Comparing Distributed-Memory Programming Frameworks with Radix Sort"
   authors = "Michael Ferguson, Ryan Friese, Shreyas Khandekar, Matt Drozt"
