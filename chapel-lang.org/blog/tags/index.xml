@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChapelCon</title>
+      <link>https://chapel-lang.org/blog/tags/chapelcon/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/chapelcon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>https://chapel-lang.org/blog/tags/community/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/community/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Benchmarks</title>
       <link>https://chapel-lang.org/blog/tags/benchmarks/</link>
@@ -41,13 +55,6 @@
       <link>https://chapel-lang.org/blog/tags/archival-posts-/-reprints/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/archival-posts-/-reprints/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>https://chapel-lang.org/blog/tags/community/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/community/</guid>
       <description></description>
     </item>
     <item>
@@ -153,13 +160,6 @@
       <link>https://chapel-lang.org/blog/tags/safety/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/safety/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ChapelCon</title>
-      <link>https://chapel-lang.org/blog/tags/chapelcon/</link>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/chapelcon/</guid>
       <description></description>
     </item>
     <item>

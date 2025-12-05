@@ -6,8 +6,15 @@
     <description>Recent content in Community on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflections on ChapelCon &#39;25</title>
+      <link>https://chapel-lang.org/blog/posts/chapelcon25-retro/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/chapelcon25-retro/</guid>
+      <description>A retrospective on ChapelCon &amp;lsquo;25 from general chair Brandon Neth</description>
+    </item>
     <item>
       <title>Doing science in Python?  Wishing for more speed or scalability?</title>
       <link>https://chapel-lang.org/blog/posts/python-science-collabs/</link>

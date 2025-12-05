@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://chapel-lang.org/blog/posts/chapelcon25-retro/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://chapel-lang.org/blog/posts/welcome/</loc>
     <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,10 +60,25 @@
     <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/authors/brandon-neth/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/chapelcon/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/community/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/posts/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/</loc>
+    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/benchmarks/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
@@ -69,12 +87,6 @@
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/performance/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/posts/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/thitrin-sastarasadhit/</loc>
@@ -93,9 +105,6 @@
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/brad-chamberlain/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/community/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/editorial/</loc>
@@ -203,9 +212,6 @@
     <loc>https://chapel-lang.org/blog/tags/sparse-arrays/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/authors/brandon-neth/</loc>
-    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/posts/fortran-marbl1/</loc>
     <lastmod>2025-04-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -219,9 +225,6 @@
     <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/chapelcon25-announcement/</loc>
-    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/chapelcon/</loc>
     <lastmod>2025-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/python/</loc>
