@@ -34,8 +34,8 @@
   date = "October 21, 2025"
   url = "/presentations/Chamberlain-LSSDA-talk.pdf"
   description = "This lightning talk briefly introduces scalable data analysis in Arkouda, as powered by Chapel."
-  extraLink = "/presentations/Chamberlain-LSSDA-panel.pdf"
-  extraLinkText = "Recap for panel"
+  extraLink = "https://youtu.be/UC0aXNLK188?si=zV7xiMzWOhw5FIA8"
+  extraLinkText = "Panel Discussion Video"
   video = "https://youtu.be/f43u1GduhAA?si=SqGKfxOI3wedvdew"
   type = ["presentation"]
 
