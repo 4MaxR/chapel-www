@@ -540,5 +540,11 @@
       "name": "Brandon Neth",
       "url": "https://chapel-lang.org/blog/authors/brandon-neth"
     }
+  ],
+  "https://chapel-lang.org/blog/posts/transformer-part2/": [
+    {
+      "name": "Thitrin Sastarasadhit",
+      "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+    }
   ]
 }

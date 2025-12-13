@@ -1,5 +1,18 @@
 [
   {
+    "title": "Transformers From Scratch in Chapel and C++, Part 2",
+    "date": "2025-12-12 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/transformer-part2/",
+    "description": "Comparison of transformers in Chapel, C++, and PyTorch focusing on multi-threaded CPUs",
+    "authors": [
+      {
+        "name": "Thitrin Sastarasadhit",
+        "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+      }
+    ],
+    "image": "https://chapel-lang.org/blog/posts/transformer-part2/speedup-total.png"
+  },
+  {
     "title": "Reflections on ChapelCon '25",
     "date": "2025-12-05 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/chapelcon25-retro/",
@@ -14,7 +27,7 @@
   },
   {
     "title": "Transformers From Scratch in Chapel and C++, Part 1",
-    "date": "2025-11-20 00:00:00+00:00",
+    "date": "1025-11-20 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/transformer-part1/",
     "description": "An implementation of a transformer using Chapel, comparing to C++ and PyTorch",
     "authors": [
