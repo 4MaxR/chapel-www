@@ -20,6 +20,9 @@
     <loc>https://chapel-lang.org/blog/series/10-myths-about-scalable-parallel-programming-languages-redux/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://chapel-lang.org/blog/series/transformers-from-scratch-in-chapel-and-c&#43;&#43;/</loc>
+    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://chapel-lang.org/blog/series/navier-stokes-in-chapel/</loc>
     <lastmod>2024-11-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -77,6 +80,9 @@
     <loc>https://chapel-lang.org/blog/posts/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://chapel-lang.org/blog/series/</loc>
+    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://chapel-lang.org/blog/tags/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -111,9 +117,6 @@
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/editorial/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/series/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/10myths-part7/</loc>

@@ -6,7 +6,7 @@
     <description>Recent content in Series on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPU Programming in Chapel</title>
@@ -21,6 +21,13 @@
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/series/10-myths-about-scalable-parallel-programming-languages-redux/</guid>
       <description>&lt;p&gt;A series published on the IEEE TCSC blog in 2012, revisited from a&#xA;2025 perspective.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformers From Scratch in Chapel and C&#43;&#43;</title>
+      <link>https://chapel-lang.org/blog/series/transformers-from-scratch-in-chapel-and-c&#43;&#43;/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/series/transformers-from-scratch-in-chapel-and-c&#43;&#43;/</guid>
+      <description>&lt;p&gt;A pair of articles about writing Transformers in Chapel and C++,&#xA;comparing to each other and PyTorch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Navier-Stokes in Chapel</title>
