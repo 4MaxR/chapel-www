@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmarks</title>
+      <link>https://chapel-lang.org/blog/tags/benchmarks/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/benchmarks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language Comparison</title>
+      <link>https://chapel-lang.org/blog/tags/language-comparison/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/language-comparison/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://chapel-lang.org/blog/tags/performance/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>User Experiences</title>
+      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
+      <description></description>
+    </item>
     <item>
       <title>ChapelCon</title>
       <link>https://chapel-lang.org/blog/tags/chapelcon/</link>
@@ -20,34 +48,6 @@
       <link>https://chapel-lang.org/blog/tags/community/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/community/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Benchmarks</title>
-      <link>https://chapel-lang.org/blog/tags/benchmarks/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/benchmarks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Language Comparison</title>
-      <link>https://chapel-lang.org/blog/tags/language-comparison/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/language-comparison/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>https://chapel-lang.org/blog/tags/performance/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/performance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>User Experiences</title>
-      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
       <description></description>
     </item>
     <item>
