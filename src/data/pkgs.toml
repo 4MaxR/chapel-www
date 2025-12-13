@@ -9,6 +9,11 @@
   minimal=true
 
 [[pkgConfigs]]
+  name="CentOS Stream 10"
+  path="el10"
+  minimal=false
+
+[[pkgConfigs]]
   name="Debian 12"
   path="debian12"
   minimal=false
