@@ -28,12 +28,11 @@ title = "Presentations"
 {{</publication-list>}}
 
 {{<publication-list "featured-apps" "Featured Arkouda Presentations">}}
+  {{<artifact-listing "uw-escience2025">}}
   {{<artifact-listing "chiuw20">}}
   {{<artifact-listing "pangeo">}}
-  {{<artifact-listing "uw-escience2025">}}
-  {{<artifact-listing "bader">}}
-  {{<artifact-listing "paw-atm19-merrill">}}
   {{<artifact-listing "hppss-sc24">}}
+  {{<artifact-listing "bader">}}
 {{</publication-list>}}
 
 {{<publication-list "featured-apps" "Featured Presentations of Other Chapel Applications">}}

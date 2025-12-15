@@ -4,7 +4,8 @@
   venue = "UW Data Science Seminar, eScience Institute"
   date = "December 2, 2025"
   url = "/presentations/ArkoudaForUWeScience-presented.pdf"
-  description = "This talk introduces Arkouda for data science communities"
+  description = "This talk introduces Arkouda for data science communities and includes a 10-minute interactive demo"
+  video = "https://youtu.be/kOKmJdimYnI?si=c_o0S6_FV-XKS72i"
   type = ["presentation"]
 
 [paw-atm2025]
