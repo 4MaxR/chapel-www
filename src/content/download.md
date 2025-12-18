@@ -87,9 +87,13 @@ The packages can be installed as follows:
    - For Debian based distributions (Debian, Ubuntu, etc), use: `apt install ./<chapel package name>`
 
 Caveats:
-- The bundled GASNet multi-locale configurations will not take advantage of high-performance networks. Users wanting that configuration should build Chapel
-from source, [manually](#source) or using [Spack](#spack).
-- The bundled libfabric multi-locale configuration is experimental and may not work with all providers. It is known to work with the tcp and efa providers.
+- For the optimal performance when using Chapel's BigInteger support, users
+  should build Chapel from source, [manually](#source) or using [Spack](#spack).
+- The bundled GASNet multi-locale configurations will not take advantage of
+  high-performance networks. Users wanting that configuration should build
+  Chapel from source, [manually](#source) or using [Spack](#spack).
+- The bundled libfabric multi-locale configuration is experimental and may
+  not work with all providers. It is known to work with the tcp and efa providers.
 """
 +++
 
