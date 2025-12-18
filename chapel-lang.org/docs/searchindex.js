@@ -1,1 +1,1 @@
-2.6/searchindex.js
+2.7/searchindex.js
