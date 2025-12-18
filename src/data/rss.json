@@ -1,5 +1,34 @@
 [
   {
+    "title": "Announcing Chapel 2.7!",
+    "date": "2025-12-18 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/announcing-chapel-2.7/",
+    "description": "Highlights from the December 2025 release of Chapel 2.7",
+    "authors": [
+      {
+        "name": "Jade Abraham",
+        "url": "https://chapel-lang.org/blog/authors/jade-abraham"
+      },
+      {
+        "name": "Engin Kayraklioglu",
+        "url": "https://chapel-lang.org/blog/authors/engin-kayraklioglu"
+      },
+      {
+        "name": "Daniel Fedorin",
+        "url": "https://chapel-lang.org/blog/authors/daniel-fedorin"
+      },
+      {
+        "name": "Ben Harshbarger",
+        "url": "https://chapel-lang.org/blog/authors/ben-harshbarger"
+      },
+      {
+        "name": "Brad Chamberlain",
+        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+      }
+    ],
+      "image": "img/news/v2.7.jpg"
+  },
+  {
     "title": "Transformers From Scratch in Chapel and C++, Part 2",
     "date": "2025-12-12 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/transformer-part2/",
