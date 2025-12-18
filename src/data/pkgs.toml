@@ -24,13 +24,13 @@
   minimal=false
 
 [[pkgConfigs]]
-  name="Fedora 41"
-  path="fc41"
+  name="Fedora 42"
+  path="fc42"
   minimal=false
 
 [[pkgConfigs]]
-  name="Fedora 42"
-  path="fc42"
+  name="Fedora 43"
+  path="fc43"
   minimal=false
 
 [[pkgConfigs]]
