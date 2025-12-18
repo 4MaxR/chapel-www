@@ -83,12 +83,17 @@ The packages can be installed as follows:
 
 3. Install using the system package manager.
    - For RPM based distributions (Fedora, RHEL, etc), use: `dnf install ./<chapel package name>`
+      - For RHEL/RockyLinux/AlmaLinux, you will need to install EPEL first: `dnf install epel-release`
    - For Debian based distributions (Debian, Ubuntu, etc), use: `apt install ./<chapel package name>`
 
 Caveats:
-- Using these packages means that parts of the Chapel runtime may not be compiled optimally for your architecture (e.g. the BigInteger and Regex modules may result in degraded performance). Users wanting maximum performance that makes use of their specific hardware should build Chapel from source, [manually](#source) or using [Spack](#spack).
-- The bundled GASNet multi-locale configuration is a portable implementation based on GASNet-EX/UDP, so won't take advantage of high-performance networks.
-- The bundled SLURM/libfabric multi-locale configuration is experimental and may not work with all providers. It is known to work with the tcp and efa providers.
+- For the optimal performance when using Chapel's BigInteger support, users
+  should build Chapel from source, [manually](#source) or using [Spack](#spack).
+- The bundled GASNet multi-locale configurations will not take advantage of
+  high-performance networks. Users wanting that configuration should build
+  Chapel from source, [manually](#source) or using [Spack](#spack).
+- The bundled libfabric multi-locale configuration is experimental and may
+  not work with all providers. It is known to work with the tcp and efa providers.
 """
 +++
 
