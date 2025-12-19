@@ -43,8 +43,7 @@ https://chapel-lang.org/chapelcon/2025/chapelcon-2025-sort.pdf
 https://chapel-lang.org/chapelcon/2025/chapelcon2025_sosuke_hosokawa.pdf
 https://chapel-lang.org/chapelcon/2025/coding-day-advanced-ChapelCon2025.pdf
 https://chapel-lang.org/chapelcon/2025/coding-day-intro-ChapelCon2025.pdf
-https://chapel-lang.org/chapelcon/2025/compile-time-programming-ChapelCon2025.p\
-df
+https://chapel-lang.org/chapelcon/2025/compile-time-programming-ChapelCon2025.pdf
 https://chapel-lang.org/chapelcon/2025/formal-methods-ChapelCon2025.pdf
 https://chapel-lang.org/chapelcon/2025/ramli-hypergraph.pdf
 https://chapel-lang.org/chapelcon/2025/recslice.pdf
