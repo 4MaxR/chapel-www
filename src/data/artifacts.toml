@@ -1,3 +1,12 @@
+[fgcs26]
+  title = "Efficient and scalable branch-and-bound algorithm for exact qubit allocation"
+  authors = "Jean-Philippe Valois, Guillaume Helbecque, Nouredine Melab"
+  venue = "Future Generation Computer Systems, volume 179, pages 108342"
+  date = "June 2026"
+  description = "This paper uses a Chapel-based parallel branch-and-bound framework for exactly solving challenging qubit allocation instances. Experimental results show near-linear intra-node scaling and strong multi-node performance, and deliver new reference optimal solutions for benchmark circuits of up to 26 qubits, exceeding previously reported instances."
+  url = "https://www.sciencedirect.com/science/article/pii/S0167739X25006363"
+  type = ["paper"]
+
 [uw-escience2025]
   title = "Interactive Data Science at Massive Scales using Python and Arkouda"
   authors = "Brad Chamberlain and Jade Abraham"
@@ -435,7 +444,7 @@
   slides = "/papers/IPDPS_2024_Rolinger_v2.pdf"
   description = "This paper presents a compiler optimization that targets irregular memory access patterns in Chapel programs. The optimization employs prefetching into Chapel's remote data cache for irregular memory access patterns and will dynamically adjust the prefetching behavior as the program executes."
   type = ["paper", "presentation"]
-  
+
 
 [hcw2024]
   title = "Performance Portability of the Chapel Language on Heterogeneous Architectures"
@@ -564,7 +573,7 @@
   type = ["misc"]
 
 [hpca07]
-  title = "Parallel Programmability and the Chapel Language" 
+  title = "Parallel Programmability and the Chapel Language"
   authors = "Bradford L. Chamberlain, David Callahan, Hans P. Zima"
   venue = "International Journal of High Performance Computing Applications, August 2007, 21(3): 291-312"
   date = "August 2007"
@@ -615,7 +624,7 @@
   title = "LLVM-based Communication Optimizations for PGAS Programs"
   authors = "Akihiro Hayashi, Jisheng Zhao, Michael Ferguson, Vivek Sarkar"
   venue = "2nd Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC2)"
-  date = "November 2015" 
+  date = "November 2015"
   description = "This paper describes how LLVM passes can optimize communication in PGAS languages like Chapel. In particular, by representing potentially remote addresses using a distinct address space, existing LLVM optimization passes can be used to reduce communication"
   url = "https://ahayashi.blogs.rice.edu/files/2013/07/Chapel_LLVM_camera_ready-q6usv4.pdf"
   type = ["paper"]
