@@ -36,6 +36,15 @@
   description = "This presentation introduces Chapel's high-level features for local, distributed, and GPU parallel programming using Bale Index Gather and user applications"
   type = ["presentation"]
 
+[bmw2025]
+  title = "Parallel programming languages for micrometeorological research: the case for Chapel"
+  authors = "Nelson Luís Dias"
+  venue = "XIV Brazilian Micrometeorology Workshop"
+  date = "October 21–24, 2025"
+  url = "/presentations/parmicro.pdf"
+  description = "This presentation introduces Professor Dias' research area in atmospheric physics and how he is using Chapel in his work."
+  type = ["presentation"]
+
 [slac-lssda2025]
   title = "Interactive, HPC-scale Exploratory Data Analysis in Arkouda: Past Successes and Future Challenges"
   authors = "Brad Chamberlain"

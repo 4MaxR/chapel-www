@@ -35,7 +35,8 @@ title = "Presentations"
   {{<artifact-listing "bader">}}
 {{</publication-list>}}
 
-{{<publication-list "featured-apps" "Featured Presentations of Other Chapel Applications">}}
+{{<publication-list "featured-apps" "Featured Presentations of Chapel Applications">}}
+  {{<artifact-listing "bmw2025">}}
   {{<artifact-listing "cug25">}}
   {{<artifact-listing "gtc2025">}}
   {{<artifact-listing "nasa-champs2025">}}

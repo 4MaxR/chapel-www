@@ -24,6 +24,7 @@ please let us know.
 
 <!-- Oct 2025 -->
 
+{{<artifact-listing "bmw2025">}}
 {{<artifact-listing "slac-lssda2025">}}
 {{<artifact-listing "radboud2025">}}
 {{<artifact-listing "lumi2025">}}
