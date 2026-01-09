@@ -14,6 +14,7 @@ title = "Papers"
 {{</publication-list>}}
 
 {{<publication-list "recent" "Other Recent Publications">}}
+  {{<artifact-listing "fgcs26">}}
   {{<artifact-listing "hpec24-deploy">}}
   {{<artifact-listing "iccs2024">}}
   {{<artifact-listing "pdco24">}}
@@ -53,7 +54,6 @@ title = "Papers"
 {{</publication-list>}}
 
 {{<publication-list "applicationPapers" "Applications of Chapel">}}
-  {{<artifact-listing "fgcs26">}}
   {{<artifact-listing "pdco22">}}
   {{<artifact-listing "pmam22">}}
   {{<artifact-listing "sec20">}}
