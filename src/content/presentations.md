@@ -108,7 +108,9 @@ title = "Presentations"
 
 &nbsp;<p>
 
-#### [Presentation Archives (Reverse Chronological)](/presentations-archived/)<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(Also be sure to check out presentations from [ChapelCon](/chapelcon/))
+#### [Chronological Presentation Archives](/presentations-archived/)<br>&nbsp;<br>
+
+#### [ChapelCon / CHIUW Presentations](/chapelcon)
 
 &nbsp;<p>
 

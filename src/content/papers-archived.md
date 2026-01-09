@@ -1,130 +1,120 @@
 +++
-title = "Presentation Archives (Reverse Chronological)"
+title = "Papers Archive (Reverse Chronological)"
 +++
 
 
 The following is a(n incomplete) reverse chronological listing of
-Chapel presentations.  Note that our archives include many talks that
-have not made it onto this new website yet, some of which can be found
-on the [old
-website](https://chapel-lang.org/presentations-archived.html)).  If
-there is a specific talk you're looking for that's not listed here,
-please let us know.
+Chapel publications and papers.  Note that our archives include many
+talks that have not made it onto this new website yet, some of which
+can be found on the [old
+website](https://chapel-lang.org/papers-archived.html).  If there is a
+specific paper you're looking for that's not listed here, please let
+us know.
+
+### 2026
+
+<!-- Dec 2026 -->
+
+<!-- Nov 2026 -->
+
+<!-- Oct 2026 -->
+
+<!-- Sep 2026 -->
+
+<!-- Aug 2026 -->
+
+<!-- Jul 2026 -->
+
+<!-- Jun 2026 -->
+
+{{<artifact-listing "fgcs26">}}
+
+<!-- May 2026 -->
+
+<!-- Apr 2026 -->
+
+<!-- Mar 2026 -->
+
+<!-- Feb 2026 -->
+
+<!-- Jan 2026 -->
+
 
 ### 2025
 
 <!-- Dec 2025 -->
 
-{{<artifact-listing "uw-escience2025">}}
-
 <!-- Nov 2025 -->
 
 {{<artifact-listing "paw-atm2025">}}
-{{<artifact-listing "seagl2025">}}
 
 <!-- Oct 2025 -->
 
-{{<artifact-listing "slac-lssda2025">}}
-{{<artifact-listing "radboud2025">}}
-{{<artifact-listing "lumi2025">}}
-{{<artifact-listing "clsac2025">}}
+{{<artifact-listing "westerhout2025">}}
 
 <!-- Sep 2025 -->
-
-{{<artifact-listing "HiRSE2025">}}
 
 <!-- Aug 2025 -->
 
 <!-- Jul 2025 -->
 
-{{<artifact-listing "galois2025">}}
-{{<artifact-listing "hpsf-perf2025">}}
-
 <!-- Jun 2025 -->
-
-{{<artifact-listing "lanl2025">}}
-{{<artifact-listing "hips2025-keynote">}}
 
 <!-- May 2025 -->
 
-{{<artifact-listing "kaust25">}}
-{{<artifact-listing "pnw-plse25">}}
-{{<artifact-listing "cug25">}}
-{{<artifact-listing "hpsfcon2025">}}
+{{<artifact-listing "rodriguez2025">}}
 
 <!-- Apr 2025 -->
 
-{{<artifact-listing "UofA2025">}}
-
 <!-- Mar 2025 -->
-
-{{<artifact-listing "gtc2025">}}
 
 <!-- Feb 2025 -->
 
-{{<artifact-listing "nasa-champs2025">}}
-{{<artifact-listing "runtime-overview">}}
-
 <!-- Jan 2025 -->
 
-{{<artifact-listing "uwplselunch">}}
-{{<artifact-listing "hpsfapp">}}
+{{<artifact-listing "helbecque2025">}}
 
 
 ### 2024
 
 <!-- Dec 2024 -->
 
+{{<artifact-listing "bachman-eco-ind">}}
+
 <!-- Nov 2024 -->
 
-{{<artifact-listing "pangeo">}}
-{{<artifact-listing "sc24demo">}}
-{{<artifact-listing "hppss-sc24">}}
-{{<artifact-listing "eduhpc24">}}
-
-{{<artifact-listing "paw-atm24-champs">}}
-{{<artifact-listing "paw-atm24-suffix">}}
-{{<artifact-listing "clsac24">}}
-
+{{<artifact-listing "waccpd24">}}
 
 <!-- Oct 2024 -->
 
-{{<artifact-listing "nasa24">}}
-{{<artifact-listing "jhu-apl">}}
-{{<artifact-listing "innerSourcing2">}}
-
 <!-- Sep 2024 -->
 
-{{<artifact-listing "ccdsc24">}}
+{{<artifact-listing "hpec24-vf2-ps">}}
+{{<artifact-listing "hpec24-deploy">}}
 
 <!-- Aug 2024 -->
 
+{{<artifact-listing "europar24">}}
+
 <!-- Jul 2024 -->
 
-{{<artifact-listing "hpeDevMeetup23">}}
+{{<artifact-listing "iccs2024">}}
 
 <!-- Jun 2024 -->
 
 <!-- May 2024 -->
 
-{{<artifact-listing "amd2024">}}
-{{<artifact-listing "cug24">}}
-{{<artifact-listing "pnw-plse24">}}
+{{<artifact-listing "pdco24">}}
+{{<artifact-listing "ipdps2024">}}
+{{<artifact-listing "hcw2024">}}
 
 <!-- Apr 2024 -->
-
-{{<artifact-listing "bader">}}
-{{<artifact-listing "linuxcon24">}}
 
 <!-- Mar 2024 -->
 
 <!-- Feb 2024 -->
 
-{{<artifact-listing "openSourceConnector24">}}
-
 <!-- Jan 2024 -->
-
-{{<artifact-listing "hpeTechTalk24">}}
 
 
 ### 2023
@@ -132,9 +122,6 @@ please let us know.
 <!-- Dec 2023 -->
 
 <!-- Nov 2023 -->
-
-{{<artifact-listing "paw-atm23-bachman">}}
-{{<artifact-listing "paw-atm23-westerhout">}}
 
 <!-- Oct 2023 -->
 
@@ -144,21 +131,21 @@ please let us know.
 
 <!-- Jul 2023 -->
 
+{{<artifact-listing "ccpe23">}}
+
 <!-- Jun 2023 -->
+
+{{<artifact-listing "ems23">}}
 
 <!-- May 2023 -->
 
-{{<artifact-listing "linuxcon23">}}
-{{<artifact-listing "cug23">}}
-{{<artifact-listing "pnw-plse23">}}
-
 <!-- Apr 2023 -->
+
+{{<artifact-listing "rolinger2023">}}
 
 <!-- Mar 2023 -->
 
 <!-- Feb 2023 -->
-
-{{<artifact-listing "wamta23">}}
 
 <!-- Jan 2023 -->
 
@@ -171,28 +158,30 @@ please let us know.
 
 <!-- Oct 2022 -->
 
+{{<artifact-listing "lcpc22">}}
+
 <!-- Sep 2022 -->
 
 <!-- Aug 2022 -->
-
-{{<artifact-listing "amte22">}}
 
 <!-- Jul 2022 -->
 
 <!-- Jun 2022 -->
 
+{{<artifact-listing "pdco22">}}
+
 <!-- May 2022 -->
+
+{{<artifact-listing "zagorac2022">}}
+{{<artifact-listing "cug22">}}
 
 <!-- Apr 2022 -->
 
-{{<artifact-listing "hpeDevTalk22">}}
+{{<artifact-listing "pmam22">}}
 
 <!-- Mar 2022 -->
 
 <!-- Feb 2022 -->
-
-{{<artifact-listing "doe-psrf22">}}
-{{<artifact-listing "siam-pp22">}}
 
 <!-- Jan 2022 -->
 
@@ -205,9 +194,9 @@ please let us know.
 
 <!-- Oct 2021 -->
 
-<!-- Sep 2021 -->
+{{<artifact-listing "lcpc21">}}
 
-{{<artifact-listing "openSHMEM21">}}
+<!-- Sep 2021 -->
 
 <!-- Aug 2021 -->
 
@@ -215,7 +204,7 @@ please let us know.
 
 <!-- Jun 2021 -->
 
-{{<artifact-listing "chiuw21">}}
+{{<artifact-listing "tpds21">}}
 
 <!-- May 2021 -->
 
@@ -227,6 +216,8 @@ please let us know.
 
 <!-- Jan 2021 -->
 
+{{<artifact-listing "aiaa21">}}
+
 
 ### 2020
 
@@ -236,9 +227,10 @@ please let us know.
 
 <!-- Oct 2020 -->
 
-{{<artifact-listing "pact20">}}
-
 <!-- Sep 2020 -->
+
+{{<artifact-listing "sec20">}}
+{{<artifact-listing "waw20">}}
 
 <!-- Aug 2020 -->
 
@@ -248,15 +240,19 @@ please let us know.
 
 <!-- May 2020 -->
 
-{{<artifact-listing "chiuw20">}}
-
 <!-- Apr 2020 -->
 
+{{<artifact-listing "fgcs20">}}
+
 <!-- Mar 2020 -->
+
+{{<artifact-listing "hpcs20">}}
 
 <!-- Feb 2020 -->
 
 <!-- Jan 2020 -->
+
+{{<artifact-listing "kayraklioglu2020">}}
 
 
 ### 2019
@@ -265,12 +261,11 @@ please let us know.
 
 <!-- Nov 2019 -->
 
-{{<artifact-listing "paw-atm19-padmanabhan">}}
-{{<artifact-listing "paw-atm19-merrill">}}
-
 <!-- Oct 2019 -->
 
 <!-- Sep 2019 -->
+
+{{<artifact-listing "hpec19">}}
 
 <!-- Aug 2019 -->
 
@@ -299,13 +294,20 @@ please let us know.
 
 <!-- Sep 2018 -->
 
+{{<artifact-listing "taco18">}}
+
 <!-- Aug 2018 -->
 
 <!-- Jul 2018 -->
 
 <!-- Jun 2018 -->
 
+{{<artifact-listing "ics18">}}
+
 <!-- May 2018 -->
+
+{{<artifact-listing "cug18">}}
+{{<artifact-listing "cf18">}}
 
 <!-- Apr 2018 -->
 
@@ -324,8 +326,6 @@ please let us know.
 
 <!-- Oct 2017 -->
 
-{{<artifact-listing "dagstuhl17">}}
-
 <!-- Sep 2017 -->
 
 <!-- Aug 2017 -->
@@ -333,9 +333,6 @@ please let us know.
 <!-- Jul 2017 -->
 
 <!-- Jun 2017 -->
-
-{{<artifact-listing "embrace17">}}
-{{<artifact-listing "chiuw17">}}
 
 <!-- May 2017 -->
 
@@ -364,17 +361,11 @@ please let us know.
 
 <!-- Jun 2016 -->
 
-{{<artifact-listing "array16">}}
-
 <!-- May 2016 -->
-
-{{<artifact-listing "chiuw16">}}
 
 <!-- Apr 2016 -->
 
 <!-- Mar 2016 -->
-
-{{<artifact-listing "umd16">}}
 
 <!-- Feb 2016 -->
 
@@ -385,17 +376,25 @@ please let us know.
 
 <!-- Dec 2015 -->
 
+{{<artifact-listing "pmfpc15">}}
+
 <!-- Nov 2015 -->
+
+{{<artifact-listing "llvm-hpc15">}}
 
 <!-- Oct 2015 -->
 
 <!-- Sep 2015 -->
+
+{{<artifact-listing "pgas15">}}
 
 <!-- Aug 2015 -->
 
 <!-- Jul 2015 -->
 
 <!-- Jun 2015 -->
+
+{{<artifact-listing "ics15">}}
 
 <!-- May 2015 -->
 
@@ -414,8 +413,6 @@ please let us know.
 
 <!-- Nov 2014 -->
 
-{{<artifact-listing "sc14">}}
-
 <!-- Oct 2014 -->
 
 <!-- Sep 2014 -->
@@ -425,8 +422,6 @@ please let us know.
 <!-- Jul 2014 -->
 
 <!-- Jun 2014 -->
-
-{{<artifact-listing "ascr14">}}
 
 <!-- May 2014 -->
 
@@ -455,9 +450,9 @@ please let us know.
 
 <!-- Jun 2013 -->
 
-{{<artifact-listing "lyon-hpcLanguages13">}}
-
 <!-- May 2013 -->
+
+{{<artifact-listing "cug13">}}
 
 <!-- Apr 2013 -->
 
@@ -502,6 +497,8 @@ please let us know.
 <!-- Nov 2011 -->
 
 <!-- Oct 2011 -->
+o
+{{<artifact-listing "pgas11">}}
 
 <!-- Sep 2011 -->
 
@@ -509,11 +506,11 @@ please let us know.
 
 <!-- Jul 2011 -->
 
-{{<artifact-listing "doe-exascale11">}}
-
 <!-- Jun 2011 -->
 
 <!-- May 2011 -->
+
+{{<artifact-listing "cug11">}}
 
 <!-- Apr 2011 -->
 
@@ -532,8 +529,6 @@ please let us know.
 
 <!-- Oct 2010 -->
 
-{{<artifact-listing "bmw10">}}
-
 <!-- Sep 2010 -->
 
 <!-- Aug 2010 -->
@@ -541,6 +536,8 @@ please let us know.
 <!-- Jul 2010 -->
 
 <!-- Jun 2010 -->
+
+{{<artifact-listing "hotpar10">}}
 
 <!-- May 2010 -->
 
@@ -622,6 +619,8 @@ please let us know.
 <!-- Sep 2007 -->
 
 <!-- Aug 2007 -->
+
+{{<artifact-listing "hpca07">}}
 
 <!-- Jul 2007 -->
 
