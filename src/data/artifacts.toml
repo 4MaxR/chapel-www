@@ -34,7 +34,6 @@
   date = "November 7, 2025"
   url = "/presentations/ChapelForSeaGL-presented.pdf"
   description = "This presentation introduces Chapel's high-level features for local, distributed, and GPU parallel programming using Bale Index Gather and user applications"
-  video = "https://www.youtube.com/live/_AdCEujbOlg?si=LGrfm0mN_tPxKbb3&t=1078"
   type = ["presentation"]
 
 [slac-lssda2025]
