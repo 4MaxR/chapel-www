@@ -6,8 +6,43 @@
     <description>Recent content in Authors on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ben Harshbarger</title>
+      <link>https://chapel-lang.org/blog/authors/ben-harshbarger/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/ben-harshbarger/</guid>
+      <description>Jade is a member of the Chapel team at HPE.</description>
+    </item>
+    <item>
+      <title>Brad Chamberlain</title>
+      <link>https://chapel-lang.org/blog/authors/brad-chamberlain/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/brad-chamberlain/</guid>
+      <description>Brad is the technical lead of the Chapel project and the editor of the Chapel blog.</description>
+    </item>
+    <item>
+      <title>Daniel Fedorin</title>
+      <link>https://chapel-lang.org/blog/authors/daniel-fedorin/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/daniel-fedorin/</guid>
+      <description>Daniel is a compiler developer on the Chapel team who also does web development for this blog.</description>
+    </item>
+    <item>
+      <title>Engin Kayraklioglu</title>
+      <link>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</guid>
+      <description>Engin is a member of the Chapel team at HPE and currently leads the GPU subteam.</description>
+    </item>
+    <item>
+      <title>Jade Abraham</title>
+      <link>https://chapel-lang.org/blog/authors/jade-abraham/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/authors/jade-abraham/</guid>
+      <description>Jade is a member of the Chapel team at HPE.</description>
+    </item>
     <item>
       <title>Thitrin Sastarasadhit</title>
       <link>https://chapel-lang.org/blog/authors/thitrin-sastarasadhit/</link>
@@ -23,27 +58,6 @@
       <description>Brandon is a member of the Advanced Programming Team and leads the Community Management subteam.</description>
     </item>
     <item>
-      <title>Brad Chamberlain</title>
-      <link>https://chapel-lang.org/blog/authors/brad-chamberlain/</link>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/brad-chamberlain/</guid>
-      <description>Brad is the technical lead of the Chapel project and the editor of the Chapel blog.</description>
-    </item>
-    <item>
-      <title>Ben Harshbarger</title>
-      <link>https://chapel-lang.org/blog/authors/ben-harshbarger/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/ben-harshbarger/</guid>
-      <description>Jade is a member of the Chapel team at HPE.</description>
-    </item>
-    <item>
-      <title>Daniel Fedorin</title>
-      <link>https://chapel-lang.org/blog/authors/daniel-fedorin/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/daniel-fedorin/</guid>
-      <description>Daniel is a compiler developer on the Chapel team who also does web development for this blog.</description>
-    </item>
-    <item>
       <title>David Longnecker</title>
       <link>https://chapel-lang.org/blog/authors/david-longnecker/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
@@ -51,25 +65,11 @@
       <description>David is a developer on the Chapel project specializing on the compiler and language features.</description>
     </item>
     <item>
-      <title>Jade Abraham</title>
-      <link>https://chapel-lang.org/blog/authors/jade-abraham/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/jade-abraham/</guid>
-      <description>Jade is a member of the Chapel team at HPE.</description>
-    </item>
-    <item>
       <title>Lydia Duncan</title>
       <link>https://chapel-lang.org/blog/authors/lydia-duncan/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/authors/lydia-duncan/</guid>
       <description>Lydia is a member of the Chapel team at HPE and currently leads the stabilization subteam.</description>
-    </item>
-    <item>
-      <title>Engin Kayraklioglu</title>
-      <link>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</link>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</guid>
-      <description>Engin is a member of the Chapel team at HPE and currently leads the GPU subteam.</description>
     </item>
     <item>
       <title>Michael Ferguson</title>

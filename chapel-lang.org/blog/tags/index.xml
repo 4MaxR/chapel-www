@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging</title>
+      <link>https://chapel-lang.org/blog/tags/debugging/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dyno</title>
+      <link>https://chapel-lang.org/blog/tags/dyno/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/dyno/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mason</title>
+      <link>https://chapel-lang.org/blog/tags/mason/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/mason/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release Announcements</title>
+      <link>https://chapel-lang.org/blog/tags/release-announcements/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/release-announcements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://chapel-lang.org/blog/tags/tools/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vectorization</title>
+      <link>https://chapel-lang.org/blog/tags/vectorization/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/vectorization/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Benchmarks</title>
       <link>https://chapel-lang.org/blog/tags/benchmarks/</link>
@@ -65,38 +107,10 @@
       <description></description>
     </item>
     <item>
-      <title>Debugging</title>
-      <link>https://chapel-lang.org/blog/tags/debugging/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/debugging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dyno</title>
-      <link>https://chapel-lang.org/blog/tags/dyno/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/dyno/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Interoperability</title>
       <link>https://chapel-lang.org/blog/tags/interoperability/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/interoperability/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Release Announcements</title>
-      <link>https://chapel-lang.org/blog/tags/release-announcements/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/release-announcements/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tools</title>
-      <link>https://chapel-lang.org/blog/tags/tools/</link>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/tools/</guid>
       <description></description>
     </item>
     <item>

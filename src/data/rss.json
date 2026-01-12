@@ -1,5 +1,47 @@
 [
   {
+    "title": "Announcing Chapel 2.7!",
+    "date": "2025-12-18 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/announcing-chapel-2.7/",
+    "description": "Highlights from the December 2025 release of Chapel 2.7",
+    "authors": [
+      {
+        "name": "Jade Abraham",
+        "url": "https://chapel-lang.org/blog/authors/jade-abraham"
+      },
+      {
+        "name": "Engin Kayraklioglu",
+        "url": "https://chapel-lang.org/blog/authors/engin-kayraklioglu"
+      },
+      {
+        "name": "Daniel Fedorin",
+        "url": "https://chapel-lang.org/blog/authors/daniel-fedorin"
+      },
+      {
+        "name": "Ben Harshbarger",
+        "url": "https://chapel-lang.org/blog/authors/ben-harshbarger"
+      },
+      {
+        "name": "Brad Chamberlain",
+        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+      }
+    ],
+      "image": "img/news/v2.7.jpg"
+  },
+  {
+    "title": "Transformers From Scratch in Chapel and C++, Part 2",
+    "date": "2025-12-12 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/transformer-part2/",
+    "description": "Comparison of transformers in Chapel, C++, and PyTorch focusing on multi-threaded CPUs",
+    "authors": [
+      {
+        "name": "Thitrin Sastarasadhit",
+        "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+      }
+    ],
+    "image": "https://chapel-lang.org/blog/posts/transformer-part2/speedup-total.png"
+  },
+  {
     "title": "Reflections on ChapelCon '25",
     "date": "2025-12-05 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/chapelcon25-retro/",
@@ -14,7 +56,7 @@
   },
   {
     "title": "Transformers From Scratch in Chapel and C++, Part 1",
-    "date": "2025-11-20 00:00:00+00:00",
+    "date": "1025-11-20 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/transformer-part1/",
     "description": "An implementation of a transformer using Chapel, comparing to C++ and PyTorch",
     "authors": [

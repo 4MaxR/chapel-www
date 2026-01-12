@@ -27,16 +27,8 @@ title = "Presentations"
   {{<artifact-listing "innerSourcing2">}}
 {{</publication-list>}}
 
-{{<publication-list "featured-apps" "Featured Arkouda Presentations">}}
-  {{<artifact-listing "chiuw20">}}
-  {{<artifact-listing "pangeo">}}
-  {{<artifact-listing "uw-escience2025">}}
-  {{<artifact-listing "bader">}}
-  {{<artifact-listing "paw-atm19-merrill">}}
-  {{<artifact-listing "hppss-sc24">}}
-{{</publication-list>}}
-
-{{<publication-list "featured-apps" "Featured Presentations of Other Chapel Applications">}}
+{{<publication-list "featured-apps" "Featured Presentations of Chapel Applications">}}
+  {{<artifact-listing "bmw2025">}}
   {{<artifact-listing "cug25">}}
   {{<artifact-listing "gtc2025">}}
   {{<artifact-listing "nasa-champs2025">}}
@@ -44,11 +36,12 @@ title = "Presentations"
   {{<artifact-listing "paw-atm23-westerhout">}}
 {{</publication-list>}}
 
-{{<publication-list "lightning-talks" "Lightning Talks">}}
-  {{<artifact-listing "clsac2025">}}
-  {{<artifact-listing "isc2025">}}
-  {{<artifact-listing "eduhpc24">}}
-  {{<artifact-listing "clsac24">}}
+{{<publication-list "arkouda" "Featured Arkouda Presentations">}}
+  {{<artifact-listing "uw-escience2025">}}
+  {{<artifact-listing "chiuw20">}}
+  {{<artifact-listing "pangeo">}}
+  {{<artifact-listing "hppss-sc24">}}
+  {{<artifact-listing "bader">}}
 {{</publication-list>}}
 
 {{<publication-list "recent" "Other Recent Chapel Presentations">}}
@@ -56,6 +49,13 @@ title = "Presentations"
   {{<artifact-listing "galois2025">}}
   {{<artifact-listing "runtime-overview">}}
   {{<artifact-listing "hpsfapp">}}
+{{</publication-list>}}
+
+{{<publication-list "lightning-talks" "Lightning Talks">}}
+  {{<artifact-listing "clsac2025">}}
+  {{<artifact-listing "isc2025">}}
+  {{<artifact-listing "eduhpc24">}}
+  {{<artifact-listing "clsac24">}}
 {{</publication-list>}}
 
 {{<publication-list "timeless" "Timeless Talks">}}
@@ -109,7 +109,9 @@ title = "Presentations"
 
 &nbsp;<p>
 
-#### [Presentation Archives (Reverse Chronological)](/presentations-archived/)<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;(Also be sure to check out presentations from [ChapelCon](/chapelcon/))
+#### [Chronological Presentation Archives](/presentations-archived/)<br>&nbsp;<br>
+
+#### [ChapelCon / CHIUW Presentations](/chapelcon)
 
 &nbsp;<p>
 

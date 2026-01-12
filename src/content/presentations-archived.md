@@ -3,10 +3,13 @@ title = "Presentation Archives (Reverse Chronological)"
 +++
 
 
-The following is an (incomplete) reverse chronological listing of
+The following is a(n incomplete) reverse chronological listing of
 Chapel presentations.  Note that our archives include many talks that
-have not made it onto this new website yet.  If there is a specific
-talk you're looking for that's not listed here, please let us know.
+have not made it onto this new website yet, some of which can be found
+on the [old
+website](https://chapel-lang.org/presentations-archived.html)).  If
+there is a specific talk you're looking for that's not listed here,
+please let us know.
 
 ### 2025
 
@@ -21,6 +24,7 @@ talk you're looking for that's not listed here, please let us know.
 
 <!-- Oct 2025 -->
 
+{{<artifact-listing "bmw2025">}}
 {{<artifact-listing "slac-lssda2025">}}
 {{<artifact-listing "radboud2025">}}
 {{<artifact-listing "lumi2025">}}

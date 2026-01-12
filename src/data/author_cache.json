@@ -540,5 +540,33 @@
       "name": "Brandon Neth",
       "url": "https://chapel-lang.org/blog/authors/brandon-neth"
     }
+  ],
+  "https://chapel-lang.org/blog/posts/transformer-part2/": [
+    {
+      "name": "Thitrin Sastarasadhit",
+      "url": "https://chapel-lang.org/blog/authors/thitrin-sastarasadhit"
+    }
+  ],
+  "https://chapel-lang.org/blog/posts/announcing-chapel-2.7/": [
+    {
+      "name": "Jade Abraham",
+      "url": "https://chapel-lang.org/blog/authors/jade-abraham"
+    },
+    {
+      "name": "Engin Kayraklioglu",
+      "url": "https://chapel-lang.org/blog/authors/engin-kayraklioglu"
+    },
+    {
+      "name": "Daniel Fedorin",
+      "url": "https://chapel-lang.org/blog/authors/daniel-fedorin"
+    },
+    {
+      "name": "Ben Harshbarger",
+      "url": "https://chapel-lang.org/blog/authors/ben-harshbarger"
+    },
+    {
+      "name": "Brad Chamberlain",
+      "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+    }
   ]
 }
