@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HPSF on Chapel Language Blog</title>
+    <link>https://chapel-lang.org/blog/tags/hpsf/</link>
+    <description>Recent content in HPSF on Chapel Language Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/hpsf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charting the Future of High Performance Software: HPSF Year in Review and What’s Ahead</title>
+      <link>https://hpsf.io/blog/2026/charting-the-future-of-high-performance-software-hpsf-year-in-review-and-whats-ahead/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hpsf.io/blog/2026/charting-the-future-of-high-performance-software-hpsf-year-in-review-and-whats-ahead/</guid>
+      <description>A 2025 retrospective and 2026 preview for HPSF and its projects, including Chapel</description>
+    </item>
+    <item>
+      <title>High Performance Software Foundation Welcomes Chapel as HPSF Project</title>
+      <link>https://hpsf.io/blog/2025/hpsf-welcomes-chapel/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://hpsf.io/blog/2025/hpsf-welcomes-chapel/</guid>
+      <description>HPSF&amp;rsquo;s official announcement of Chapel joining the foundation as an established project</description>
+    </item>
+    <item>
+      <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 8: Striving Toward Adoptability</title>
+      <link>https://chapel-lang.org/blog/posts/10myths-part8/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/10myths-part8/</guid>
+      <description>The eighth and final archival post from the 2012 IEEE TCSC blog series, with a current reflection on it</description>
+    </item>
+  </channel>
+</rss>

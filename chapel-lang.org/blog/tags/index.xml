@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>External Posts</title>
+      <link>https://chapel-lang.org/blog/tags/external-posts/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/external-posts/</guid>
+      <description>&lt;p&gt;Chapel-related articles published externally to this blog&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HPSF</title>
+      <link>https://chapel-lang.org/blog/tags/hpsf/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/hpsf/</guid>
+      <description>&lt;p&gt;Articles about the &lt;a href=&#34;https://hpsf.io/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High-Performance Software&#xA;Foundation&lt;/a&gt; (a part of the &lt;a href=&#34;https://www.linuxfoundation.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linux&#xA;Foundation&lt;/a&gt;), which Chapel is an&#xA;established project within.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Debugging</title>
       <link>https://chapel-lang.org/blog/tags/debugging/</link>
@@ -182,13 +196,6 @@
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/python/</guid>
       <description>&lt;p&gt;Articles about interoperating with Python in Chapel (see also the&#xA;&lt;a href=&#34;../tags/arkouda/&#34;&gt;Arkouda tag&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>External Posts</title>
-      <link>https://chapel-lang.org/blog/tags/external-posts/</link>
-      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/external-posts/</guid>
-      <description>&lt;p&gt;Chapel-related articles published externally to this blog&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arkouda</title>

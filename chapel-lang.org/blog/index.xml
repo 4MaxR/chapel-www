@@ -6,7 +6,7 @@
     <description>Recent content on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reflections on ChapelCon &#39;25</title>
@@ -107,6 +107,13 @@
       <description>The Chapel team&amp;rsquo;s plan for blogging during Advent of Code 2022.</description>
     </item>
     <item>
+      <title>Charting the Future of High Performance Software: HPSF Year in Review and What’s Ahead</title>
+      <link>https://hpsf.io/blog/2026/charting-the-future-of-high-performance-software-hpsf-year-in-review-and-whats-ahead/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hpsf.io/blog/2026/charting-the-future-of-high-performance-software-hpsf-year-in-review-and-whats-ahead/</guid>
+      <description>A 2025 retrospective and 2026 preview for HPSF and its projects, including Chapel</description>
+    </item>
+    <item>
       <title>Announcing Chapel 2.7!</title>
       <link>https://chapel-lang.org/blog/posts/announcing-chapel-2.7/</link>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
@@ -126,6 +133,13 @@
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/posts/transformer-part1/</guid>
       <description>An implementation of a transformer using Chapel, comparing to C++ and PyTorch</description>
+    </item>
+    <item>
+      <title>High Performance Software Foundation Welcomes Chapel as HPSF Project</title>
+      <link>https://hpsf.io/blog/2025/hpsf-welcomes-chapel/</link>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://hpsf.io/blog/2025/hpsf-welcomes-chapel/</guid>
+      <description>HPSF&amp;rsquo;s official announcement of Chapel joining the foundation as an established project</description>
     </item>
     <item>
       <title>10 Myths About Scalable Parallel Programming Languages (Redux),  Part 8: Striving Toward Adoptability</title>
