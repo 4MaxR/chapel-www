@@ -150,9 +150,15 @@ disableKinds = ['taxonomy', 'term']
     parent     = "menu.community"
 
 [[menu.main]]
+    name       = "Newsletters"
+    url        = "https://chapel.discourse.group/c/newsletters/"
+    weight     = 6
+    parent     = "menu.community"
+
+[[menu.main]]
     name       = "Calendar"
     url        = "/calendar"
-    weight     = 5
+    weight     = 7
     parent     = "menu.community"
 
 
