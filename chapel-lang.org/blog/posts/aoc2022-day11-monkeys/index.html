@@ -608,7 +608,7 @@ today:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">IO</span><span class="p">,</span><span class="w"> </span><span class="nx">List</span><span class="p">,</span><span class="w"> </span><span class="nx">Collectives</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html"><span class="nx">IO</span></a><span class="p">,</span><span class="w"> </span><a href="../../../docs/modules/standard/List.html"><span class="nx">List</span></a><span class="p">,</span><span class="w"> </span><a href="../../../docs/modules/standard/Collectives.html"><span class="nx">Collectives</span></a><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p><code>IO</code> is a module we’ve used daily in this series, and here I’ll need
@@ -693,7 +693,7 @@ depending on whether or not their worry level is divisible by
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">items</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="nx">list</span><span class="p">(</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="nx">parSafe</span><span class="o">=</span><span class="kc">true</span><span class="p">),</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">items</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><a href="../../../docs/modules/standard/List.html#List.list"><span class="nx">list</span></a><span class="p">(</span><span class="kt">int</span><span class="p">,</span><span class="w"> </span><span class="nx">parSafe</span><span class="o">=</span><span class="kc">true</span><span class="p">),</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">current</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nx">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numInspected</span><span class="p">:</span><span class="w"> </span><span class="kt">int</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -799,7 +799,7 @@ objects back to me, which I then store in an array named <code>Monkeys</code>:</
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">const</span><span class="w"> </span><span class="nx">Monkeys</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">readMonkeys</span><span class="p">(),</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numMonkeys</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Monkeys</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numMonkeys</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Monkeys</span><span class="p">.</span><a href="../../../docs/language/spec/arrays.html#ChapelArray.size"><span class="nx">size</span></a><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Though the fields within my <code>Monkey</code> classes will change as the
@@ -938,7 +938,7 @@ we need to declare a variable representing the barrier now:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="nx">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nx">barrier</span><span class="p">(</span><span class="nx">numMonkeys</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="nx">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><a href="../../../docs/modules/standard/Collectives.html#Collectives.barrier"><span class="nx">barrier</span></a><span class="p">(</span><span class="nx">numMonkeys</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>This declares an instance of the <code>barrier</code> type defined by the
@@ -1169,7 +1169,7 @@ I then zero out that monkey’s <code>numInspected</code> field and run a second
 <pre class="chroma" tabindex="0"><code><span class="lnt">50
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="nx">writeln</span><span class="p">(</span><span class="nx">max</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">max2</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="nx">max</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nx">max2</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>(I could then store <code>max</code> back into <code>Monkeys[loc]</code>’s <code>numInspected</code>
@@ -1220,7 +1220,7 @@ yet:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">54
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">canFinishTurn</span><span class="p">.</span><span class="nx">readXX</span><span class="p">()</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nx">id</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><span class="nx">size</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="nx">canFinishTurn</span><span class="p">.</span><span class="nx">readXX</span><span class="p">()</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="nx">id</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><a href="../../../docs/modules/standard/List.html#List.list.size"><span class="nx">size</span></a><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>As long as it does not, monkeys preceding us are still running and
@@ -1335,8 +1335,8 @@ while-loop checks for items and processes them if there are any:</p>
 </span><span class="lnt">58
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><span class="nx">size</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">var</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><span class="nx">popBack</span><span class="p">();</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><a href="../../../docs/modules/standard/List.html#List.list.size"><span class="nx">size</span></a><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="kd">var</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">currentItems</span><span class="p">().</span><a href="../../../docs/modules/standard/List.html#List.list.popBack"><span class="nx">popBack</span></a><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numInspected</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -1524,7 +1524,7 @@ base class, <code>MathOp</code>:</p>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">class</span><span class="w"> </span><span class="nc">MathOp</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">proc</span><span class="w"> </span><span class="nf">apply</span><span class="p">(</span><span class="nx">item</span><span class="p">):</span><span class="w"> </span><span class="nx">item</span><span class="p">.</span><span class="kd">type</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">halt</span><span class="p">(</span><span class="s">"We should never end up calling '.apply' on the base class"</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><a href="../../../docs/modules/standard/Errors.html#Errors.halt"><span class="nx">halt</span></a><span class="p">(</span><span class="s">"We should never end up calling '.apply' on the base class"</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -1662,7 +1662,7 @@ input channel, <code>stdin</code>:</p>
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">iter</span><span class="w"> </span><span class="nf">readMonkeys</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">do</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">yield</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="nx">Monkey</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="nx">stdin</span><span class="p">.</span><span class="nx">matchNewline</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.stdin"><span class="nx">stdin</span></a><span class="p">.</span><a href="../../../docs/modules/standard/IO.html#IO.fileReader.matchNewline"><span class="nx">matchNewline</span></a><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -1708,9 +1708,9 @@ since the whole point of them is to create something out of nothing.</p>
 </span><span class="lnt">124
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="nx">readf</span><span class="p">(</span><span class="s">"Monkey "</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">read</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">readf</span><span class="p">(</span><span class="s">":"</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">"Monkey "</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.read"><span class="nx">read</span></a><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">":"</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Here, I’ve used <code>readf()</code> to read in the fixed formatting from the
@@ -1731,12 +1731,12 @@ named <code>tempItems</code>:</p>
 </span><span class="lnt">131
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="nx">readf</span><span class="p">(</span><span class="s">" Starting items:"</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">tempItems</span><span class="p">:</span><span class="w"> </span><span class="nx">list</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">" Starting items:"</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">tempItems</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/modules/standard/List.html#List.list"><span class="nx">list</span></a><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">do</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">read</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">tempItems</span><span class="p">.</span><span class="nx">pushBack</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="nx">stdin</span><span class="p">.</span><span class="nx">matchLiteral</span><span class="p">(</span><span class="s">","</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.read"><span class="nx">read</span></a><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">tempItems</span><span class="p">.</span><a href="../../../docs/modules/standard/List.html#List.list.pushBack"><span class="nx">pushBack</span></a><span class="p">(</span><span class="nx">val</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.stdin"><span class="nx">stdin</span></a><span class="p">.</span><a href="../../../docs/modules/standard/IO.html#IO.fileReader.matchLiteral"><span class="nx">matchLiteral</span></a><span class="p">(</span><span class="s">","</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>I use <code>tempItems</code> here because an object’s fields must be
@@ -1754,8 +1754,8 @@ this to initialize the <code>op</code> field:</p>
 </span><span class="lnt">135
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">operation</span><span class="p">,</span><span class="w"> </span><span class="nx">operand</span><span class="p">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">readf</span><span class="p">(</span><span class="s">" Operation: new = old %s %s"</span><span class="p">,</span><span class="w"> </span><span class="nx">operation</span><span class="p">,</span><span class="w"> </span><span class="nx">operand</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">operation</span><span class="p">,</span><span class="w"> </span><span class="nx">operand</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/language/spec/strings.html#String.string"><span class="kt">string</span></a><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">" Operation: new = old %s %s"</span><span class="p">,</span><span class="w"> </span><span class="nx">operation</span><span class="p">,</span><span class="w"> </span><span class="nx">operand</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">op</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">opStringsToOp</span><span class="p">(</span><span class="nx">operation</span><span class="p">,</span><span class="w"> </span><span class="nx">operand</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -1766,8 +1766,8 @@ this to initialize the <code>op</code> field:</p>
 </span><span class="lnt">138
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="nx">readf</span><span class="p">(</span><span class="s">" Test: divisible by "</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">divisor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">read</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">" Test: divisible by "</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">this</span><span class="p">.</span><span class="nx">divisor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.read"><span class="nx">read</span></a><span class="p">(</span><span class="kt">int</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Then I read and store the target monkeys:</p>
@@ -1797,7 +1797,7 @@ current items list:</p>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">init</span><span class="w"> </span><span class="k">this</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="nx">tempItems</span><span class="w"> </span><span class="k">do</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">items</span><span class="p">[</span><span class="nx">current</span><span class="p">].</span><span class="nx">pushBack</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">items</span><span class="p">[</span><span class="nx">current</span><span class="p">].</span><a href="../../../docs/modules/standard/List.html#List.list.pushBack"><span class="nx">pushBack</span></a><span class="p">(</span><span class="nx">item</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>

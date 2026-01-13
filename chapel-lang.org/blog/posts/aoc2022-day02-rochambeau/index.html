@@ -219,7 +219,7 @@ about code size or performance (though neither one is too shabby).</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">IO</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html"><span class="nx">IO</span></a><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="nx">outcome</span><span class="p">,</span><span class="w"> </span><span class="nx">shape</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -517,7 +517,7 @@ them back to the callsite as a 2-tuple of entries:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">iter</span><span class="w"> </span><span class="nf">readGuide</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">abc</span><span class="p">,</span><span class="w"> </span><span class="nx">xyz</span><span class="p">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">abc</span><span class="p">,</span><span class="w"> </span><span class="nx">xyz</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/language/spec/strings.html#String.string"><span class="kt">string</span></a><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="nx">readf</span><span class="p">(</span><span class="s">"%s %s"</span><span class="p">,</span><span class="w"> </span><span class="nx">abc</span><span class="p">,</span><span class="w"> </span><span class="nx">xyz</span><span class="p">)</span><span class="w"> </span><span class="k">do</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">yield</span><span class="w"> </span><span class="p">(</span><span class="nx">abc</span><span class="p">:</span><span class="nx">entry</span><span class="p">,</span><span class="w"> </span><span class="nx">xyz</span><span class="p">:</span><span class="nx">entry</span><span class="p">);</span><span class="w">

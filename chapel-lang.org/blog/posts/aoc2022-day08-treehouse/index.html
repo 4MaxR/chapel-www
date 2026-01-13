@@ -193,10 +193,10 @@ storing them as an inferred-size array named <code>Lines</code>:</p>
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">const</span><span class="w"> </span><span class="nx">Lines</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">readLines</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">iter</span><span class="w"> </span><span class="nf">readLines</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">use</span><span class="w"> </span><span class="nx">IO</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html"><span class="nx">IO</span></a><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">line</span><span class="p">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="nx">readLine</span><span class="p">(</span><span class="nx">line</span><span class="p">,</span><span class="w"> </span><span class="nx">stripNewline</span><span class="o">=</span><span class="kc">true</span><span class="p">)</span><span class="w"> </span><span class="k">do</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">line</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/language/spec/strings.html#String.string"><span class="kt">string</span></a><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.readLine"><span class="nx">readLine</span></a><span class="p">(</span><span class="nx">line</span><span class="p">,</span><span class="w"> </span><span class="nx">stripNewline</span><span class="o">=</span><span class="kc">true</span><span class="p">)</span><span class="w"> </span><span class="k">do</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">yield</span><span class="w"> </span><span class="nx">line</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -255,8 +255,8 @@ of rows and columns in the forest:</p>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">const</span><span class="w"> </span><span class="nx">numRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Lines</span><span class="p">.</span><span class="nx">size</span><span class="p">,</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numCols</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Lines</span><span class="p">.</span><span class="nx">first</span><span class="p">.</span><span class="nx">size</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">const</span><span class="w"> </span><span class="nx">numRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Lines</span><span class="p">.</span><a href="../../../docs/language/spec/arrays.html#ChapelArray.size"><span class="nx">size</span></a><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">numCols</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Lines</span><span class="p">.</span><a href="../../../docs/language/spec/arrays.html#ChapelArray.first"><span class="nx">first</span></a><span class="p">.</span><a href="../../../docs/language/spec/strings.html#String.string.size"><span class="nx">size</span></a><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>I compute the number of rows (<code>numRows</code>) by querying the size of my
@@ -688,7 +688,7 @@ and <code>writeln()</code> routine to do so:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">26
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="nx">writeln</span><span class="p">(</span><span class="o">+</span><span class="w"> </span><span class="k">reduce</span><span class="w"> </span><span class="nx">visible</span><span class="p">(</span><span class="nx">ForestSpace</span><span class="p">,</span><span class="w"> </span><span class="nx">Forest</span><span class="p">));</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="o">+</span><span class="w"> </span><span class="k">reduce</span><span class="w"> </span><span class="nx">visible</span><span class="p">(</span><span class="nx">ForestSpace</span><span class="p">,</span><span class="w"> </span><span class="nx">Forest</span><span class="p">));</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>And there you have it.  Hopefully you did not have any trouble seeing

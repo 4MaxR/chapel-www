@@ -241,7 +241,7 @@ statement that gives me access to some standard modules:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">IO</span><span class="p">,</span><span class="w"> </span><span class="nx">Set</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html"><span class="nx">IO</span></a><span class="p">,</span><span class="w"> </span><a href="../../../docs/modules/standard/Set.html"><span class="nx">Set</span></a><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The first is <code>IO</code>, which will be familiar to readers of this series:
@@ -259,7 +259,7 @@ statements that I want to execute when my program starts running:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="nx">Rucksacks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">readRucksacks</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">writeln</span><span class="p">(</span><span class="nx">sumOfPriorities</span><span class="p">(</span><span class="nx">Rucksacks</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="w"></span></a><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="nx">sumOfPriorities</span><span class="p">(</span><span class="nx">Rucksacks</span><span class="p">));</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The first statement calls an iterator that I’ve written to read in and
@@ -339,7 +339,7 @@ all of the input data.  Here’s the first part of that iterator:</p>
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">iter</span><span class="w"> </span><span class="nf">readRucksacks</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">rucksack</span><span class="p">:</span><span class="w"> </span><span class="kt">bytes</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="nx">readLine</span><span class="p">(</span><span class="nx">rucksack</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.readLine"><span class="nx">readLine</span></a><span class="p">(</span><span class="nx">rucksack</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>As in my <a href="../../posts/aoc2022-day01-calories/">day 1</a> solution, I’m relying
@@ -585,7 +585,7 @@ looking for an item that is already in the set.</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">items</span><span class="p">:</span><span class="w"> </span><span class="nx">set</span><span class="p">(</span><span class="kt">uint</span><span class="p">(</span><span class="mi">8</span><span class="p">));</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">items</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/modules/standard/Set.html#Set.set"><span class="nx">set</span></a><span class="p">(</span><span class="kt">uint</span><span class="p">(</span><span class="mi">8</span><span class="p">));</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Chapel’s standard <code>set</code> type is generic and parameterized by the type
@@ -601,7 +601,7 @@ is written <code>uint(8)</code>.  So the type specifier <code>set(uint(8))</code
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="nx">compartment1</span><span class="w"> </span><span class="k">do</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">items</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nx">items</span><span class="p">.</span><a href="../../../docs/modules/standard/Set.html#Set.set.add"><span class="nx">add</span></a><span class="p">(</span><span class="nx">item</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>The default iterator for the <code>bytes</code> type yields <code>uint(8)</code> values
@@ -617,7 +617,7 @@ a problem due the nature of the <code>set</code> type.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="nx">item</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="nx">compartment2</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="nx">items</span><span class="p">.</span><span class="nx">contains</span><span class="p">(</span><span class="nx">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="nx">items</span><span class="p">.</span><a href="../../../docs/modules/standard/Set.html#Set.set.contains"><span class="nx">contains</span></a><span class="p">(</span><span class="nx">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Here, we’re using the set’s <code>.contains()</code> method to see whether the

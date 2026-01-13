@@ -361,7 +361,7 @@ is used before it is initialized.</p>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-chapel" data-lang="chapel"><span class="line"><span class="cl"><span class="k">proc</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">x</span><span class="p">:</span><span class="w"> </span><span class="kt">int</span><span class="p">;</span><span class="w">  </span><span class="c1">// integer variables are set to 0 if not initialized
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><span class="nx">writeln</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">  </span><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="nx">x</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -613,7 +613,7 @@ unsafe program like the above in C++ too.</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="nx">greeting</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">"Hello "</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">greeting</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="nx">who</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">writeln</span><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="w"></span></a><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -951,7 +951,7 @@ result.</p>
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">var</span><span class="w"> </span><span class="nx">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="k">owned</span><span class="w"> </span><span class="nx">C</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">writeln</span><span class="p">(</span><span class="nx">b</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="nx">b</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -1255,7 +1255,7 @@ array and accesses an index provided on the command line:</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">array</span><span class="p">[</span><span class="nx">idx</span><span class="p">];</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">writeln</span><span class="p">(</span><span class="s">"array at index "</span><span class="p">,</span><span class="w"> </span><span class="nx">idx</span><span class="p">,</span><span class="w"> </span><span class="s">" is "</span><span class="p">,</span><span class="w"> </span><span class="nx">x</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="w"></span></a><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="s">"array at index "</span><span class="p">,</span><span class="w"> </span><span class="nx">idx</span><span class="p">,</span><span class="w"> </span><span class="s">" is "</span><span class="p">,</span><span class="w"> </span><span class="nx">x</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div>
@@ -1640,16 +1640,16 @@ the index provided on the command line (which might be out of bounds):</p>
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-chpl" data-lang="chpl"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">BlockDist</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-chpl" data-lang="chpl"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/dists/BlockDist.html"><span class="nx">BlockDist</span></a><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">config</span><span class="w"> </span><span class="kd">const</span><span class="w"> </span><span class="nx">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">    </span><span class="c1">// enable command-line options like --idx=2
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// create a distributed array storing 100 elements
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span><span class="w"> </span><span class="nx">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">blockDist</span><span class="p">.</span><span class="nx">createArray</span><span class="p">(</span><span class="mi">0</span><span class="o">..#</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">var</span><span class="w"> </span><span class="nx">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><a href="../../../docs/modules/dists/BlockDist.html#BlockDist.blockDist"><span class="nx">blockDist</span></a><span class="p">.</span><a href="../../../docs/modules/dists/BlockDist.html#BlockDist.blockDist.createArray"><span class="nx">createArray</span></a><span class="p">(</span><span class="mi">0</span><span class="o">..#</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">var</span><span class="w"> </span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">array</span><span class="p">[</span><span class="nx">idx</span><span class="p">];</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nx">writeln</span><span class="p">(</span><span class="s">"array at index "</span><span class="p">,</span><span class="w"> </span><span class="nx">idx</span><span class="p">,</span><span class="w"> </span><span class="s">" is "</span><span class="p">,</span><span class="w"> </span><span class="nx">x</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="w"></span></a><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">(</span><span class="s">"array at index "</span><span class="p">,</span><span class="w"> </span><span class="nx">idx</span><span class="p">,</span><span class="w"> </span><span class="s">" is "</span><span class="p">,</span><span class="w"> </span><span class="nx">x</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div>

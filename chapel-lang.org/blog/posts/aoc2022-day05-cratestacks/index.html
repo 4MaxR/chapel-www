@@ -255,7 +255,7 @@ bit more familiar to those who’ve been following this series.</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><span class="nx">IO</span><span class="p">,</span><span class="w"> </span><span class="nx">List</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">use</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html"><span class="nx">IO</span></a><span class="p">,</span><span class="w"> </span><a href="../../../docs/modules/standard/List.html"><span class="nx">List</span></a><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p><code>IO</code> is the module that we’ll rely on for helping us read the input.
@@ -299,7 +299,7 @@ line, using <code>%i</code> to indicate where an <code>int</code> should be read
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="kd">var</span><span class="w"> </span><span class="nx">num</span><span class="p">,</span><span class="w"> </span><span class="nx">from</span><span class="p">,</span><span class="w"> </span><span class="nx">to</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="kt">int</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="nx">readf</span><span class="p">(</span><span class="s">"move %i from %i to %i\n"</span><span class="p">,</span><span class="w"> </span><span class="nx">num</span><span class="p">,</span><span class="w"> </span><span class="nx">from</span><span class="p">,</span><span class="w"> </span><span class="nx">to</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO/FormattedIO.html#FormattedIO.readf"><span class="nx">readf</span></a><span class="p">(</span><span class="s">"move %i from %i to %i\n"</span><span class="p">,</span><span class="w"> </span><span class="nx">num</span><span class="p">,</span><span class="w"> </span><span class="nx">from</span><span class="p">,</span><span class="w"> </span><span class="nx">to</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Note that our format string ends with a newline character (<code>\n</code>).
@@ -327,8 +327,8 @@ specified number of crates to move, <code>num</code>.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="mi">1</span><span class="o">..</span><span class="nx">num</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">crate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">from</span><span class="p">].</span><span class="nx">popBack</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">to</span><span class="p">].</span><span class="nx">pushBack</span><span class="p">(</span><span class="nx">crate</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">crate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">from</span><span class="p">].</span><a href="../../../docs/modules/standard/List.html#List.list.popBack"><span class="nx">popBack</span></a><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">to</span><span class="p">].</span><a href="../../../docs/modules/standard/List.html#List.list.pushBack"><span class="nx">pushBack</span></a><span class="p">(</span><span class="nx">crate</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -363,7 +363,7 @@ this case, it means that <code>stack</code> will refer to the lists in the
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">for</span><span class="w"> </span><span class="nx">stack</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="nx">Stacks</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nx">write</span><span class="p">(</span><span class="nx">stack</span><span class="p">.</span><span class="nx">last</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><a href="../../../docs/modules/standard/IO.html#IO.write"><span class="nx">write</span></a><span class="p">(</span><span class="nx">stack</span><span class="p">.</span><a href="../../../docs/modules/standard/List.html#List.list.last"><span class="nx">last</span></a><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -383,7 +383,7 @@ could have used <code>write("\n");</code>):</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">18
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="nx">writeln</span><span class="p">();</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><a href="../../../docs/modules/standard/IO.html#IO.writeln"><span class="nx">writeln</span></a><span class="p">();</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="an-inherently-sequential-program">
@@ -463,8 +463,8 @@ lines and yields them, similar to previous days’ approaches:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="k">iter</span><span class="w"> </span><span class="nf">readInitState</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">line</span><span class="p">:</span><span class="w"> </span><span class="kt">string</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="nx">readLine</span><span class="p">(</span><span class="nx">line</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">line</span><span class="p">.</span><span class="nx">size</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">do</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">line</span><span class="p">:</span><span class="w"> </span><a href="../../../docs/language/spec/strings.html#String.string"><span class="kt">string</span></a><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="k">while</span><span class="w"> </span><a href="../../../docs/modules/standard/IO.html#IO.readLine"><span class="nx">readLine</span></a><span class="p">(</span><span class="nx">line</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">line</span><span class="p">.</span><a href="../../../docs/language/spec/strings.html#String.string.size"><span class="nx">size</span></a><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="k">do</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">yield</span><span class="w"> </span><span class="nx">line</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
@@ -515,7 +515,7 @@ whitespace that follows (<code> </code> or <code>\n</code>).</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">numStacks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">InitState</span><span class="p">.</span><span class="nx">last</span><span class="p">.</span><span class="nx">size</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nx">charsPerStack</span><span class="p">;</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">numStacks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">InitState</span><span class="p">.</span><a href="../../../docs/language/spec/arrays.html#ChapelArray.last"><span class="nx">last</span></a><span class="p">.</span><a href="../../../docs/language/spec/strings.html#String.string.size"><span class="nx">size</span></a><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nx">charsPerStack</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Here, we’re using the <code>.last</code> method that is available on arrays to
@@ -569,7 +569,7 @@ our declaration for this program:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">36
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">Stacks</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="nx">numStacks</span><span class="p">]</span><span class="w"> </span><span class="nx">list</span><span class="p">(</span><span class="nx">crateID</span><span class="p">);</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">Stacks</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="nx">numStacks</span><span class="p">]</span><span class="w"> </span><a href="../../../docs/modules/standard/List.html#List.list"><span class="nx">list</span></a><span class="p">(</span><span class="nx">crateID</span><span class="p">);</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>For a dense 1D array like this one, a common way to specify the
@@ -617,7 +617,7 @@ the last (which contained the stack labels), we write:</p>
 <pre class="chroma" tabindex="0"><code><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="mi">0</span><span class="o">..&lt;</span><span class="nx">InitState</span><span class="p">.</span><span class="nx">size</span><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="p">{</span><span class="w">
+<pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="mi">0</span><span class="o">..&lt;</span><span class="nx">InitState</span><span class="p">.</span><a href="../../../docs/language/spec/arrays.html#ChapelArray.size"><span class="nx">size</span></a><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Since our <code>InitState</code> array uses Chapel’s default 0-based indexing,
@@ -706,7 +706,7 @@ loop as:</p>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// do a zippered iteration over the stack IDs and
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="c1">// offsets where crate names will be
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="nx">offset</span><span class="p">,</span><span class="w"> </span><span class="nx">stackIdx</span><span class="p">)</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="k">zip</span><span class="p">(</span><span class="mi">1</span><span class="o">..&lt;</span><span class="nx">line</span><span class="p">.</span><span class="nx">size</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="nx">charsPerStack</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">..</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="nx">offset</span><span class="p">,</span><span class="w"> </span><span class="nx">stackIdx</span><span class="p">)</span><span class="w"> </span><span class="kd">in</span><span class="w"> </span><span class="k">zip</span><span class="p">(</span><span class="mi">1</span><span class="o">..&lt;</span><span class="nx">line</span><span class="p">.</span><a href="../../../docs/language/spec/strings.html#String.string.size"><span class="nx">size</span></a><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="nx">charsPerStack</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">..</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>In this <code>zip()</code> expression, the leader is the range <code>1..&lt;line.size by charsPerStack</code>.  This describes the characters in the input that
@@ -751,7 +751,7 @@ our <code>enum</code> values.  Here’s the code to do that:</p>
 <td class="lntd">
 <pre class="chroma" tabindex="0"><code class="language-Chapel" data-lang="Chapel"><span class="line"><span class="cl"><span class="w">      </span><span class="kd">const</span><span class="w"> </span><span class="nx">char</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">line</span><span class="p">[</span><span class="nx">offset</span><span class="p">];</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">char</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s">" "</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">  </span><span class="c1">// blank means no crate here
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">stackIdx</span><span class="p">].</span><span class="nx">pushBack</span><span class="p">(</span><span class="nx">char</span><span class="p">:</span><span class="w"> </span><span class="nx">crateID</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="nx">Stacks</span><span class="p">[</span><span class="nx">stackIdx</span><span class="p">].</span><a href="../../../docs/modules/standard/List.html#List.list.pushBack"><span class="nx">pushBack</span></a><span class="p">(</span><span class="nx">char</span><span class="p">:</span><span class="w"> </span><span class="nx">crateID</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
