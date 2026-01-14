@@ -1,5 +1,6 @@
 +++
 title = "Papers"
+description = "Papers and publications related to the Chapel language"
 +++
 
 {{<publication-list "featured" "Featured Publications">}}

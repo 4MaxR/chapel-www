@@ -1,9 +1,10 @@
 +++
 title = "Presentation Archives (Reverse Chronological)"
+description = "Chapel presentations, listed reverse-chronologically"
 +++
 
 
-The following is a(n incomplete) reverse chronological listing of
+The following is a(n incomplete) reverse-chronological listing of
 Chapel presentations.  Note that our archives include many talks that
 have not made it onto this new website yet, some of which can be found
 on the [old

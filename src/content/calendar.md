@@ -1,6 +1,6 @@
 +++
 title = "Chapel Community Calendar"
-
+description = "Events taking place in the Chapel community"
 
 +++
 

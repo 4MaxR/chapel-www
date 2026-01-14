@@ -1,5 +1,6 @@
 +++
 title = "Presentations"
+description = "Slides and videos from Chapel-related presentations"
 +++
 
 {{<publication-list "featured" "Featured Chapel Presentations with Video">}}

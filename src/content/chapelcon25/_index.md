@@ -1,5 +1,6 @@
 ---
 title: "ChapelCon 2025"
+description: "The Chapel community's flagship event, 2025 edition"
 type: "chapelcon"
 layout: "single"
 image: "repeated-bg.png"
