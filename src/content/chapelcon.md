@@ -1,6 +1,6 @@
 +++
 title = "ChapelCon"
-
+description = "The annual flagship event of the Chapel community"
 
 +++
 

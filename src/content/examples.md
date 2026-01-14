@@ -1,5 +1,6 @@
 +++
 title = "Examples"
+description = "Example uses of Chapel"
 +++
 
 {{<publication-list "featuredExamples" "Featured Examples">}}

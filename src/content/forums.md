@@ -1,5 +1,6 @@
 +++
 title = "Chapel Community Forums for Q&A / Discussion"
+description = "Places to ask questions about Chapel or discuss it"
 
 [[WrittenConversation]]
   name="Stack Overflow"

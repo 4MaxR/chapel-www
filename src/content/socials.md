@@ -1,6 +1,6 @@
 +++
 title = "Chapel Social Media"
-description = "Chapel Social Media Channels"
+description = "Chapel's social media channels"
 
 +++
 

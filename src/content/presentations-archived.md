@@ -1,5 +1,6 @@
 +++
 title = "Presentation Archives (Reverse Chronological)"
+description = "Chapel presentations, listed reverse chronologically"
 +++
 
 

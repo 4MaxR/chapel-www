@@ -1,6 +1,6 @@
 +++
 title = "Chapel Community Resources"
-
+description = "Ways to interact with or follow the Chapel community"
 
 +++
 
