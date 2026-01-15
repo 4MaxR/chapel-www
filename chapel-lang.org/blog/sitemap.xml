@@ -110,7 +110,10 @@
     <loc>https://chapel-lang.org/blog/tags/mason/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/tags/release-announcements/</loc>
+    <loc>https://chapel-lang.org/blog/series/release-announcements/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/series/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/tools/</loc>
@@ -126,9 +129,6 @@
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/performance/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/series/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/thitrin-sastarasadhit/</loc>
