@@ -1,5 +1,22 @@
 [
   {
+    "title": "7 Questions for Oliver Alvarado Rodriguez: Exploiting Chapel's Distributed Arrays for Graph Analysis through Arachne",
+    "date": "2026-01-21 00:00:00+00:00",
+    "url": "https://chapel-lang.org/blog/posts/7qs-rodriguez/",
+    "description": "An interview with Dr. Oliver Alvarado Rodriguez about his use of Chapel in writing graph analytics computations",
+    "authors": [
+      {
+        "name": "Engin Kayraklioglu",
+        "url": "https://chapel-lang.org/blog/authors/engin-kayraklioglu"
+      },
+      {
+        "name": "Brad Chamberlain",
+        "url": "https://chapel-lang.org/blog/authors/brad-chamberlain"
+      }
+    ],
+    "image": "blog/posts/7qs-rodriguez/Oliver.jpg"
+  },
+  {
     "title": "Announcing Chapel 2.7!",
     "date": "2025-12-18 00:00:00+00:00",
     "url": "https://chapel-lang.org/blog/posts/announcing-chapel-2.7/",
