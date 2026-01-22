@@ -63,7 +63,46 @@
     <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/series/7-questions-for-chapel-users/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/posts/7qs-rodriguez/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/arkouda/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/authors/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/authors/brad-chamberlain/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/graph-analytics/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/interviews/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/posts/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/series/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/sparse-arrays/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/user-experiences/</loc>
+    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/hpsf-kickoff-2026/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
@@ -74,22 +113,10 @@
     <loc>https://chapel-lang.org/blog/tags/hpsf/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/posts/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/posts/announcing-chapel-2.7/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/authors/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/authors/ben-harshbarger/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/authors/brad-chamberlain/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/daniel-fedorin/</loc>
@@ -101,9 +128,6 @@
     <loc>https://chapel-lang.org/blog/tags/dyno/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/authors/engin-kayraklioglu/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/authors/jade-abraham/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -111,9 +135,6 @@
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/series/release-announcements/</loc>
-    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/series/</loc>
     <lastmod>2025-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/tools/</loc>
@@ -135,9 +156,6 @@
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/transformer-part2/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/user-experiences/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/brandon-neth/</loc>
@@ -182,16 +200,10 @@
     <loc>https://chapel-lang.org/blog/posts/10myths-part6/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/series/7-questions-for-chapel-users/</loc>
-    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/posts/7qs-asgari/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/earth-sciences/</loc>
-    <lastmod>2025-09-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/interviews/</loc>
     <lastmod>2025-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/ai/ml/</loc>
@@ -236,9 +248,6 @@
     <loc>https://chapel-lang.org/blog/posts/10myths-part1/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/tags/sparse-arrays/</loc>
-    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/posts/fortran-marbl1/</loc>
     <lastmod>2025-04-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -261,9 +270,6 @@
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/7qs-reus/</loc>
-    <lastmod>2025-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/arkouda/</loc>
     <lastmod>2025-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/data-analysis/</loc>
@@ -297,9 +303,6 @@
     <lastmod>2024-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/7qs-bader/</loc>
-    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/graph-analytics/</loc>
     <lastmod>2024-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/bns3/</loc>

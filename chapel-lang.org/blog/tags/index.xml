@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arkouda</title>
+      <link>https://chapel-lang.org/blog/tags/arkouda/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/arkouda/</guid>
+      <description>&lt;p&gt;Articles about the &lt;a href=&#34;https://arkouda-www.github.io&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arkouda&lt;/a&gt; Python library for interactive Data Analytics and HPC&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Analytics</title>
+      <link>https://chapel-lang.org/blog/tags/graph-analytics/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/graph-analytics/</guid>
+      <description>&lt;p&gt;Articles about computing with graphs using Chapel&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interviews</title>
+      <link>https://chapel-lang.org/blog/tags/interviews/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/interviews/</guid>
+      <description>&lt;p&gt;Articles taking an interview format with a member of the community&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sparse Arrays</title>
+      <link>https://chapel-lang.org/blog/tags/sparse-arrays/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/sparse-arrays/</guid>
+      <description>&lt;p&gt;Articles about computing with sparse arrays and matrices in Chapel&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>User Experiences</title>
+      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
+      <description>&lt;p&gt;Articles describing users&amp;rsquo; experiences with Chapel&lt;/p&gt;</description>
+    </item>
     <item>
       <title>External Posts</title>
       <link>https://chapel-lang.org/blog/tags/external-posts/</link>
@@ -79,13 +114,6 @@
       <description>&lt;p&gt;Articles that measure Chapel performance, or are about obtaining&#xA;performance in Chapel&lt;/p&gt;</description>
     </item>
     <item>
-      <title>User Experiences</title>
-      <link>https://chapel-lang.org/blog/tags/user-experiences/</link>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
-      <description>&lt;p&gt;Articles describing users&amp;rsquo; experiences with Chapel&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>ChapelCon</title>
       <link>https://chapel-lang.org/blog/tags/chapelcon/</link>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
@@ -128,13 +156,6 @@
       <description>&lt;p&gt;Articles about performing Earth science computations in Chapel&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Interviews</title>
-      <link>https://chapel-lang.org/blog/tags/interviews/</link>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/interviews/</guid>
-      <description>&lt;p&gt;Articles taking an interview format with a member of the community&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI/ML</title>
       <link>https://chapel-lang.org/blog/tags/ai/ml/</link>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
@@ -170,13 +191,6 @@
       <description>&lt;p&gt;Articles about sorting data using Chapel&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Sparse Arrays</title>
-      <link>https://chapel-lang.org/blog/tags/sparse-arrays/</link>
-      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/sparse-arrays/</guid>
-      <description>&lt;p&gt;Articles about computing with sparse arrays and matrices in Chapel&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Safety</title>
       <link>https://chapel-lang.org/blog/tags/safety/</link>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
@@ -189,13 +203,6 @@
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/python/</guid>
       <description>&lt;p&gt;Articles about interoperating with Python in Chapel (see also the&#xA;&lt;a href=&#34;../tags/arkouda/&#34;&gt;Arkouda tag&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Arkouda</title>
-      <link>https://chapel-lang.org/blog/tags/arkouda/</link>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/arkouda/</guid>
-      <description>&lt;p&gt;Articles about the &lt;a href=&#34;https://arkouda-www.github.io&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arkouda&lt;/a&gt; Python library for interactive Data Analytics and HPC&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Analysis</title>
@@ -238,13 +245,6 @@
       <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/math/</guid>
       <description>&lt;p&gt;Articles related to doing mathematical computations in Chapel&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Graph Analytics</title>
-      <link>https://chapel-lang.org/blog/tags/graph-analytics/</link>
-      <pubDate>Wed, 06 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/graph-analytics/</guid>
-      <description>&lt;p&gt;Articles about computing with graphs using Chapel&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Analysis</title>
