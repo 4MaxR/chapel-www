@@ -149,6 +149,13 @@
       <description>&lt;p&gt;Articles about interoperating between Chapel and other programming languages&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Libraries</title>
+      <link>https://chapel-lang.org/blog/tags/libraries/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/libraries/</guid>
+      <description>&lt;p&gt;Articles about library-based features in Chapel, such as standard and package modules&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Earth Sciences</title>
       <link>https://chapel-lang.org/blog/tags/earth-sciences/</link>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
@@ -170,11 +177,11 @@
       <description>&lt;p&gt;Articles written to teach you how to do something&lt;/p&gt;</description>
     </item>
     <item>
-      <title>GPU Programming</title>
-      <link>https://chapel-lang.org/blog/tags/gpu-programming/</link>
+      <title>GPUs</title>
+      <link>https://chapel-lang.org/blog/tags/gpus/</link>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/gpu-programming/</guid>
-      <description>&lt;p&gt;Articles about using Chapel to write GPU computations&lt;/p&gt;</description>
+      <guid>https://chapel-lang.org/blog/tags/gpus/</guid>
+      <description>&lt;p&gt;Articles about GPU programming and computing with Chapel&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chapel 2.0</title>
@@ -182,6 +189,13 @@
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/chapel-2.0/</guid>
       <description>&lt;p&gt;Articles relating to the Chapel 2.0 release and language stabilization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Language Features</title>
+      <link>https://chapel-lang.org/blog/tags/language-features/</link>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/language-features/</guid>
+      <description>&lt;p&gt;Articles introducing new language features in Chapel&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sorting</title>
@@ -224,6 +238,13 @@
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/trip-reports/</guid>
       <description>&lt;p&gt;Articles reporting on trips taken by the author(s)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimizations</title>
+      <link>https://chapel-lang.org/blog/tags/optimizations/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/optimizations/</guid>
+      <description>&lt;p&gt;Articles about performance optimizations for Chapel programs&lt;/p&gt;</description>
     </item>
     <item>
       <title>Computational Fluid Dynamics</title>
@@ -275,6 +296,13 @@
       <description>&lt;p&gt;Articles about using Chapel on Windows systems&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Portability</title>
+      <link>https://chapel-lang.org/blog/tags/portability/</link>
+      <pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/portability/</guid>
+      <description>&lt;p&gt;Articles about Chapel&amp;rsquo;s portability across platforms or via installation mechanisms&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Compile-Time Computation</title>
       <link>https://chapel-lang.org/blog/tags/compile-time-computation/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
@@ -287,6 +315,13 @@
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/generic-types/</guid>
       <description>&lt;p&gt;Articles about using Chapel&amp;rsquo;s features for generic types and programming&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Co-locales</title>
+      <link>https://chapel-lang.org/blog/tags/co-locales/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/co-locales/</guid>
+      <description>&lt;p&gt;Articles about &lt;a href=&#34;https://chapel-lang.org/docs/usingchapel/multilocale.html#co-locales&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;co-locales&lt;/a&gt;, in which multiple locales share a compute node&lt;/p&gt;</description>
     </item>
     <item>
       <title>Developer Reports</title>

@@ -57,5 +57,19 @@
       <guid>https://chapel-lang.org/blog/posts/announcing-chapel-1.32/</guid>
       <description>A summary of highlights from the September 2023 release of Chapel 1.32.0</description>
     </item>
+    <item>
+      <title>Announcing Chapel 1.31!</title>
+      <link>https://chapel-lang.org/blog/posts/announcing-chapel-1.31/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/announcing-chapel-1.31/</guid>
+      <description>A summary of highlights from the June 2023 release of Chapel 1.31.0</description>
+    </item>
+    <item>
+      <title>Announcing Chapel 1.29.0!</title>
+      <link>https://chapel-lang.org/blog/posts/announcing-chapel-1.29/</link>
+      <pubDate>Thu, 15 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/posts/announcing-chapel-1.29/</guid>
+      <description>A summary of highlights from the December 2022 release of Chapel 1.29.0</description>
+    </item>
   </channel>
 </rss>

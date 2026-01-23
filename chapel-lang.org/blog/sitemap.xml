@@ -194,6 +194,9 @@
     <loc>https://chapel-lang.org/blog/tags/interoperability/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://chapel-lang.org/blog/tags/libraries/</loc>
+    <lastmod>2025-09-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://chapel-lang.org/blog/authors/lydia-duncan/</loc>
     <lastmod>2025-09-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -227,13 +230,16 @@
     <loc>https://chapel-lang.org/blog/posts/10myths-part3/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/tags/gpu-programming/</loc>
+    <loc>https://chapel-lang.org/blog/tags/gpus/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/announcing-chapel-2.5/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/chapel-2.0/</loc>
+    <lastmod>2025-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/language-features/</loc>
     <lastmod>2025-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/michael-ferguson/</loc>
@@ -288,6 +294,9 @@
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/authors/john-hartman/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/optimizations/</loc>
     <lastmod>2024-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/computational-fluid-dynamics/</loc>
@@ -347,6 +356,9 @@
     <loc>https://chapel-lang.org/blog/posts/bns2/</loc>
     <lastmod>2024-07-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://chapel-lang.org/blog/tags/portability/</loc>
+    <lastmod>2024-06-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://chapel-lang.org/blog/tags/compile-time-computation/</loc>
     <lastmod>2024-05-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -376,6 +388,9 @@
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/std-sort-performance/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/co-locales/</loc>
+    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/sc23/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
