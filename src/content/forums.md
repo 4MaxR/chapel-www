@@ -1,5 +1,5 @@
 +++
-title = "Chapel Community Forums for Q&A / Discussion"
+title = "Community Q&A / Discussion Forums"
 description = "Places to ask questions about Chapel or discuss it"
 
 [[WrittenConversation]]
@@ -43,6 +43,10 @@ description = "Places to ask questions about Chapel or discuss it"
   description="Another place for chatting about Chapel"
   url="https://gitter.im/chapel-lang/chapel"
 
+[[WrittenConversation]]
+  name="Email"
+  description="For private topics outside of public forums"
+  url="mailto:chapel+qs@discoursemail.com"
 
 +++
 
