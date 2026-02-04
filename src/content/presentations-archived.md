@@ -12,6 +12,16 @@ website](https://chapel-lang.org/presentations-archived.html)).  If
 there is a specific talk you're looking for that's not listed here,
 please let us know.
 
+
+### 2026
+
+<!-- Feb 2026 -->
+
+{{<artifact-listing "fosdem26">}}
+
+<!-- Jan 2025 -->
+
+
 ### 2025
 
 <!-- Dec 2025 -->

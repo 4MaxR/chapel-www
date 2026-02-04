@@ -1,3 +1,13 @@
+[fosdem26]
+  title = "Productive Parallel Programming with Chapel and Arkouda"
+  authors = "Jade Abraham"
+  venue = "FOSDEM 2026"
+  date = "February 1, 2026"
+  description = "This is an introductory talk on Chapel and Arkouda, representing the Chapel project's first presentation at FOSDEM"
+  url = "/presentations/FOSDEM2026.pdf"
+  video = "https://youtu.be/KEQArjdcwgo?si=MqVwc5LdhTDQCZ41"
+  type = ["presentation"]
+
 [fgcs26]
   title = "Efficient and scalable branch-and-bound algorithm for exact qubit allocation"
   authors = "Jean-Philippe Valois, Guillaume Helbecque, Nouredine Melab"

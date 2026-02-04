@@ -46,6 +46,7 @@ description = "Slides and videos from Chapel-related presentations"
 {{</publication-list>}}
 
 {{<publication-list "recent" "Other Recent Chapel Presentations">}}
+  {{<artifact-listing "fosdem26">}}
   {{<artifact-listing "seagl2025">}}
   {{<artifact-listing "galois2025">}}
   {{<artifact-listing "runtime-overview">}}
