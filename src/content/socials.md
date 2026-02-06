@@ -5,7 +5,10 @@ description = "Chapel's social media channels"
 +++
 
 These are Chapel's official social media channels, which are also linked
-to in the footer of the Chapel website.<br>
+to in the footer of the Chapel website.<br><br>
+If you'd like to highlight your work using Chapel through our social media
+platforms, fill out [this form](https://forms.gle/Dbw24pQN1MDFVSa39) to submit
+your request.
 Please consider following us and amplifying content that resonates
 with you on any of these channels that you use.
 {.content-paragraph}
