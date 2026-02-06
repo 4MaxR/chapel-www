@@ -5,15 +5,14 @@ description = "Chapel's social media channels"
 +++
 
 These are Chapel's official social media channels, which are also linked
-to in the footer of the Chapel website.<br><br>
-If you'd like to highlight your work using Chapel through our social media
-platforms, fill out [this form](https://forms.gle/Dbw24pQN1MDFVSa39) to submit
+in our website's footer.  Please <b>follow us and repost!</b><br>
+<br>
+If you'd like to highlight your work through our social media
+accounts, fill out [this form](https://forms.gle/Dbw24pQN1MDFVSa39) to submit
 your request.
-Please consider following us and amplifying content that resonates
-with you on any of these channels that you use.
 {.content-paragraph}
 
-### Messaging Platforms
+### Chapel Social Media Accounts
 
 * [**BlueSky**](https://bsky.app/profile/chapellanguage.bsky.social)
 * [**Facebook**](https://www.facebook.com/ChapelLanguage)
@@ -22,12 +21,12 @@ with you on any of these channels that you use.
 * [**X / Twitter**](https://x.com/ChapelLanguage)
 {.content-paragraph}
 
-### Open Platforms
+### Chapel Subreddit
 
-* [**Reddit**](https://www.reddit.com/r/chapel/): This is an open reddit community that we post announcements to, similar to the channels above
+* [**Reddit**](https://www.reddit.com/r/chapel/)
 {.content-paragraph}
 
-### Video Platforms
+### Chapel YouTube
 
 * [**YouTube**](https://www.youtube.com/@ChapelLanguage)
 {.content-paragraph}
