@@ -29,7 +29,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 
 [[talks]]
   title=""""I'd like to watch more of a tutorial introduction to Chapel.""""
-  description="""Check out our [**tutorials page**](../resources/#tutorials) for links to videos and slides."""
+  description="""Check out our [**tutorials page**](../tutorials/) for links to videos and slides."""
 
 [[talks]]
   title=""""I'd like to see other Chapel technical talks.""""
@@ -71,7 +71,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 [[recommended]]
   name="Introductory Tutorial"
   description="Learn about the basics of Chapel, including how to compile and run Chapel programs. This tutorial works through a heat diffusion simulation."
-  url="resources/#tutorials"
+  url="/tutorials"
 
 [[recommended]]
   name="Parallel Programming in Chapel"
