@@ -128,7 +128,7 @@ disableKinds = ['taxonomy', 'term']
 [[menu.main]]
     name       = "Social Media"
     url        = "/socials"
-    weight     = 5
+    weight     = 4
     parent     = "menu.community"
 
 [[menu.main]]
@@ -146,7 +146,7 @@ disableKinds = ['taxonomy', 'term']
 [[menu.main]]
     name       = "ChapelCon"
     url        = "/chapelcon"
-    weight     = 4
+    weight     = 7
     parent     = "menu.community"
 
 [[menu.main]]
@@ -158,9 +158,14 @@ disableKinds = ['taxonomy', 'term']
 [[menu.main]]
     name       = "Calendar"
     url        = "/calendar"
-    weight     = 7
+    weight     = 5
     parent     = "menu.community"
 
+[[menu.main]]
+    name       = "Governance"
+    url        = "/governance"
+    weight     = 8
+    parent     = "menu.community"
 
 [[menu.main]]
     name       = "Blog"
