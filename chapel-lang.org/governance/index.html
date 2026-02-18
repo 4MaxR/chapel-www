@@ -7,16 +7,14 @@
 <meta name="googlebot" content="index,follow,snippet,archive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Scaling your Workflows with Chapel</title>
+<title>Chapel Governance</title>
 <meta name="author" content="" />
 
 
 
 
-<meta name="keywords" content="TODO">
 
-
-<meta name="description" content="Scalability results with the Chapel programming language">
+<meta name="description" content="Information about how the Chapel project is governed">
 
 <meta name="generator" content="Hugo 0.145.0">
 
@@ -68,9 +66,9 @@
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:title" content="Scaling your Workflows with Chapel">
+<meta name="twitter:title" content="Chapel Governance">
 
-<meta name="twitter:description" content="Scalability results with the Chapel programming language">
+<meta name="twitter:description" content="Information about how the Chapel project is governed">
 
 
     
@@ -86,10 +84,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand home" href="../">
                     
-                      <img src="../img/Chapel-HPSF-logo-draft.png" alt="Scaling your Workflows with Chapel logo" class="hidden-xl hidden-lg" />
-                      <img src="../img/Chapel-HPSF-logo-draft.png" alt="Scaling your Workflows with Chapel logo" class="visible-xl visible-lg" />
+                      <img src="../img/Chapel-HPSF-logo-draft.png" alt="Chapel Governance logo" class="hidden-xl hidden-lg" />
+                      <img src="../img/Chapel-HPSF-logo-draft.png" alt="Chapel Governance logo" class="visible-xl visible-lg" />
                     
-                    <span class="sr-only">Scaling your Workflows with Chapel - go to homepage</span>
+                    <span class="sr-only">Chapel Governance - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -291,7 +289,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Scaling your Workflows with Chapel</h1>
+                <h1>Chapel Governance</h1>
             </div>
         </div>
     </div>
@@ -308,220 +306,18 @@
                     <div class="col-md-12">
 
                         <div>
-                          <p class="content-paragraph">Workflows written using Chapel scale enormously. The same code written on your laptop can perform on however many nodes you can give it, be it one, dozens, or thousands. Applications written by Chapel users have successfully scaled to more than 8,000 compute nodes, 1,000,000 CPU cores, and 1,000 GPUs. The largest supercomputers in the world run Chapel. No matter the scale of your system, you can scale too.</p>
-<h1 id="scaling-results-with-chapel">Scaling Results with Chapel</h1>
-
-
-<section>
-  <div class="home-carousel">
-      <div class="dark-mask"></div>
-      <div class="container">
-          <div class="homepage owl-carousel"
-              data-autoplay="false"
-              data-slide-speed="2000"
-              data-pagination-speed="1000">
-              
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>Arkouda Argsort</h1>
-                              <p>Arkouda's argsort routine can sort 256 TiB of data in just 31 seconds, scaling to more than 8,000 nodes. All in ~100 lines of Chapel code.</p>
-                              
-                                <a href="https://youtu.be/SuZckfFF_pE?si=jCEHkxaLt5k6q8ec&amp;t=1008">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/arkouda-argsort.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>Navier-Stokes Simulations</h1>
-                              <p>Solve Navier-Stokes equations in Chapel, achieving comparable performance to C++ and MPI with half the code and improved clarity and flexibility.</p>
-                              
-                                <a href="../blog/posts/bns4/">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/navier-stokes-dist.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>Bale Index Gather</h1>
-                              <p>Gather arbitrary elements from distributed arrays or tables in an aggregated manner to scale to thousands of nodes and hundreds of thousands of processor cores.</p>
-                              
-                                <a href="https://youtu.be/ydsM51T7Pts?si=Ahtu-Aq1UH_iOiBm">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/baleIG.jpg" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>STREAM Triad</h1>
-                              <p>The de facto industry standard benchmark for measuring memory performance.</p>
-                              
-                                <a href="https://hpcchallenge.org/hpcc/">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/perf-stream.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>HPCC Random Access</h1>
-                              <p>Measures the performance of concurrent random updates to a distributed array.</p>
-                              
-                                <a href="https://hpcchallenge.org/projectsfiles/hpcc/RandomAccess.html">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/perf-random-access.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>NAS FT</h1>
-                              <p>Computes the FFT of a distributed 3D array by computing 1D FFTs and transposing to localize other dimensions.</p>
-                              
-                                <a href="https://www.nas.nasa.gov/software/npb.html">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/perf-ft.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-              <div class="item">
-                  
-                      <div class="row">
-                          <div class="col-sm-5 switcher-text right">
-                              <h1>PRK Stencil</h1>
-                              <p>Measures the performance of applying a radius-2 star stencil to a distributed 2D array. Emphasizes the performance of nearest-neighbor communication.</p>
-                              
-                                <a href="https://github.com/ParRes/Kernels/tree/main#readme">
-                                    <div class="learn-more-button">Learn More</div>
-                                </a>
-                              
-                          </div>
-                          <div class="col-sm-7">
-                            <img class="img-responsive" src="../img/perf/perf-stencil.png" alt="" style="padding-right: 30px">
-                            
-                          </div>
-                      </div>
-                  
-              </div>
-              
-          </div>
-          
-      </div>
-  </div>
-</section>
-<h1 id="why-chapel-makes-scaling-easier">Why Chapel Makes Scaling Easier</h1>
-
-
-<section class="background-white">
-  <div class="container">
-      
-      
-      
-
-      <div class="row">
-        
-            <div class="attribute-item col-md-4 col-sm-6 col-xs-12">
-                
-
-                <div class="box-simple background-white">
-                    <h3>Global View of Data</h3>
-                    <p>Chapel has built-in support for distributed global arrays, meaning computations written for a single node can run on an entire cluster.</p>
-                </div>
-
-                  
-            </div>
-        
-            <div class="attribute-item col-md-4 col-sm-6 col-xs-12">
-                
-                    <a href="https://chapel-lang.org/docs/users-guide/locality/compilingAndExecutingMultiLocalePrograms.html">
-                
-
-                <div class="box-simple background-white">
-                    <h3>Multi-level Parallelism</h3>
-                    <p>The same language features support parallelism at the node and cluster level. Parallelize once and reap the benefits everywhere.</p>
-                </div>
-
-                
-                    </a>
-                  
-            </div>
-        
-            <div class="attribute-item col-md-4 col-sm-6 col-xs-12">
-                
-                    <a href="https://chapel-lang.org/docs/primers/locales.html">
-                
-
-                <div class="box-simple background-white">
-                    <h3>Data and Computational Locality</h3>
-                    <p>Control where your program&rsquo;s tasks are executed using Chapel&rsquo;s extensive locality features.</p>
-                </div>
-
-                
-                    </a>
-                  
-            </div>
-        
-      </div>
-  </div>
-</section>
+                          <p>Chapel is an established project in the <a href="https://hpsf.io">High Performance Software
+Foundation</a> and by extension, the <a href="https://www.linuxfoundation.org/">Linux
+Foundation</a>.</p>
+<p>Chapel is governed by a Technical Steering Committee (TSC) whose
+topics and meeting notes are <a href="https://github.com/chapel-lang/TSC">tracked on
+GitHub</a>.</p>
+<p>Information about the TSC and Chapel&rsquo;s governance can be found in its
+<a href="https://github.com/chapel-lang/governance/blob/main/TechCharter.pdf">technical
+charter</a>
+and
+<a href="https://github.com/chapel-lang/governance/blob/main/GOVERNANCE.md">GOVERNANCE.md</a>
+documents on <a href="https://github.com/chapel-lang/governance">GitHub</a>.</p>
 
                         </div>
 
