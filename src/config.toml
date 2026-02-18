@@ -126,12 +126,6 @@ disableKinds = ['taxonomy', 'term']
     weight     = 6
 
 [[menu.main]]
-    name       = "Social Media"
-    url        = "/socials"
-    weight     = 5
-    parent     = "menu.community"
-
-[[menu.main]]
     name       = "Q&A / Discussions"
     url        = "/forums"
     weight     = 2
@@ -144,9 +138,15 @@ disableKinds = ['taxonomy', 'term']
     parent     = "menu.community"
 
 [[menu.main]]
-    name       = "ChapelCon"
-    url        = "/chapelcon"
+    name       = "Social Media"
+    url        = "/socials"
     weight     = 4
+    parent     = "menu.community"
+
+[[menu.main]]
+    name       = "Calendar"
+    url        = "/calendar"
+    weight     = 5
     parent     = "menu.community"
 
 [[menu.main]]
@@ -156,11 +156,16 @@ disableKinds = ['taxonomy', 'term']
     parent     = "menu.community"
 
 [[menu.main]]
-    name       = "Calendar"
-    url        = "/calendar"
+    name       = "ChapelCon"
+    url        = "/chapelcon"
     weight     = 7
     parent     = "menu.community"
 
+[[menu.main]]
+    name       = "Governance"
+    url        = "/governance"
+    weight     = 8
+    parent     = "menu.community"
 
 [[menu.main]]
     name       = "Blog"
