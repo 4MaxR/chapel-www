@@ -18,6 +18,11 @@ description = "Places to ask questions about Chapel or discuss it"
   url="https://discord.gg/xu2xg45yqH"
 
 [[WrittenConversation]]
+  name="Slack"
+  description="Another place for chatting about Chapel"
+  url="https://join.slack.com/t/chapelnetwork/shared_invite/zt-3p459bjlh-0TQRloaBPqkZUe_dWz~C~Q"
+
+[[WrittenConversation]]
   name="Discourse"
   description="A place for threaded discussions via email or browser, by category:"
   url="https://chapel.discourse.group/"
@@ -40,7 +45,7 @@ description = "Places to ask questions about Chapel or discuss it"
 
 [[WrittenConversation]]
   name="Gitter"
-  description="Another place for chatting about Chapel"
+  description="A third place for chatting about Chapel (and the least closely watched)"
   url="https://gitter.im/chapel-lang/chapel"
 
 [[WrittenConversation]]

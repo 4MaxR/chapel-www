@@ -510,6 +510,12 @@ writeln(A);
     image = "img/socials/gitter.png"
 
 [[params.forums]]
+    weight = 6
+    name = "Slack"
+    url = "https://join.slack.com/t/chapelnetwork/shared_invite/zt-3p459bjlh-0TQRloaBPqkZUe_dWz~C~Q"
+    image = "img/socials/slack.png"
+
+[[params.forums]]
     weight = 3
     name = "Email"
     url = "mailto:chapel+qs@discoursemail.com"
