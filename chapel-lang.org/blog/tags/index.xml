@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Chapel Language Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>https://chapel-lang.org/blog/tags/community/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/community/</guid>
+      <description>&lt;p&gt;Articles relating to the Chapel community or Chapel participation at&#xA;community events&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>External Posts</title>
+      <link>https://chapel-lang.org/blog/tags/external-posts/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/external-posts/</guid>
+      <description>&lt;p&gt;Chapel-related articles published externally to this blog&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Newsletter</title>
+      <link>https://chapel-lang.org/blog/tags/newsletter/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://chapel-lang.org/blog/tags/newsletter/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arkouda</title>
       <link>https://chapel-lang.org/blog/tags/arkouda/</link>
@@ -42,13 +63,6 @@
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/user-experiences/</guid>
       <description>&lt;p&gt;Articles describing users&amp;rsquo; experiences with Chapel&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>External Posts</title>
-      <link>https://chapel-lang.org/blog/tags/external-posts/</link>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/external-posts/</guid>
-      <description>&lt;p&gt;Chapel-related articles published externally to this blog&lt;/p&gt;</description>
     </item>
     <item>
       <title>HPSF</title>
@@ -119,13 +133,6 @@
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://chapel-lang.org/blog/tags/chapelcon/</guid>
       <description>&lt;p&gt;Articles relating to our annual&#xA;&lt;a href=&#34;https://chapel-lang.org/chapelcon25&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ChapelCon&lt;/a&gt; event&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Community</title>
-      <link>https://chapel-lang.org/blog/tags/community/</link>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://chapel-lang.org/blog/tags/community/</guid>
-      <description>&lt;p&gt;Articles relating to the Chapel community or Chapel participation at&#xA;community events&lt;/p&gt;</description>
     </item>
     <item>
       <title>Archival Posts / Reprints</title>

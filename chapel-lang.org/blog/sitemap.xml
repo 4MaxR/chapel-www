@@ -63,7 +63,25 @@
     <lastmod>2022-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/posts/newsletter-february26/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/community/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/external-posts/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/newsletter/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/posts/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://chapel-lang.org/blog/tags/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/series/7-questions-for-chapel-users/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
@@ -89,25 +107,16 @@
     <loc>https://chapel-lang.org/blog/tags/interviews/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/posts/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/series/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/sparse-arrays/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chapel-lang.org/blog/tags/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://chapel-lang.org/blog/tags/user-experiences/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/hpsf-kickoff-2026/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/external-posts/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/hpsf/</loc>
@@ -162,9 +171,6 @@
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/tags/chapelcon/</loc>
-    <lastmod>2025-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://chapel-lang.org/blog/tags/community/</loc>
     <lastmod>2025-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://chapel-lang.org/blog/posts/transformer-part1/</loc>
