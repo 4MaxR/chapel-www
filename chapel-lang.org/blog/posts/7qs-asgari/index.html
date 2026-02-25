@@ -15,6 +15,8 @@
 <link href="../../scss/code.min.css" media="screen,print" rel="stylesheet"/>
 <link href="../../img/favicon.ico" rel="icon" type="image/png"/>
 <script defer="" src="../../js/dropdown-menu.js"></script>
+<script defer="" src="../../js/toc.js"></script>
+<noscript><style>.table-of-contents.sticky div.wrapper { position: relative; top: auto; }</style></noscript>
 <title>7 Questions for Marjan Asgari: Optimizing Hydrological Models with Chapel</title>
 </head>
 <body>
@@ -44,7 +46,7 @@
 <img alt="Interviewee Photo" class="interview-img" src="../../posts/7qs-asgari/asgari.jpg"/>
 </div>
 </div>
-<div class="post-info"><h2>7 Questions for Marjan Asgari: Optimizing Hydrological Models with Chapel</h2>
+<div class="post-info"><h2>7 Questions for Marjan Asgari:<br/>Optimizing Hydrological Models with Chapel</h2>
 <div class="post-subscript">
 <p>Posted on September 15, 2025.</p>
 <p>
@@ -65,7 +67,7 @@
 </div>
 </div>
 <div class="post-content">
-<div class="table-of-contents">
+<div class="table-of-contents sticky">
 <div class="wrapper">
 <span class="header">Table of Contents</span>
 <nav id="TableOfContents">
@@ -165,15 +167,15 @@ field with my work.</p>
 <p>I really wish the installation of Chapel on HPC systems were easier and more
 straightforward. Relying heavily on SSH as the start-up method can be
 insufficient, as many HPC systems don’t permit SSH between compute nodes.  I
-put in a lot of effort to <span class="sidenote"><label class="sidenote-label" for="sidenote-0">install Chapel on the HPC systems</label><input class="sidenote-checkbox" id="sidenote-0" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -11.5rem"><span class="sidenote-delimiter">[note:</span>After Marjan completed this work, we developed a <a href="https://chapel-lang.org/download/#spack">Spack
-package for Chapel</a>, which should significantly simplify the process of
+put in a lot of effort to <span class="sidenote"><label class="sidenote-label" for="sidenote-0">install Chapel on the HPC systems</label><input class="sidenote-checkbox" id="sidenote-0" type="checkbox"/><span class="sidenote-content sidenote-right" style="margin-top: -11.5rem"><span class="sidenote-delimiter">[note:</span>After Marjan completed this work, we developed a
+<a href="https://chapel-lang.org/download/#spack" rel="noopener" target="_blank">Spack package for Chapel</a>,
+which should significantly simplify the process of
 installing Chapel on HPC systems.  Sorry we didn’t have it at that time, Marjan!<span class="sidenote-delimiter">]</span></span></span> we had, but unfortunately, it didn’t always work in the end.</p>
 <p>Another item on my wish list is that Chapel would support geospatial
 data. If Chapel could work with data structures <span class="sidenote"><label class="sidenote-label" for="sidenote-1">like NumPy arrays or XArrays</label><input class="sidenote-checkbox" id="sidenote-1" type="checkbox"/><span class="sidenote-content sidenote-right"><span class="sidenote-delimiter">[note:</span>Chapel doesn’t natively support
-NumPy arrays or XArrays. However, <a href="https://arkouda-www.github.io/">Arkouda</a> does!  We recommend
-checking Arkouda out if you are interested in using such technologies
-<a href="https://youtube.com/watch?v=v8p0T-RJTCU&amp;embeds_referring_euri=https%3A%2F%2Fdiscourse.pangeo.io%2F&amp;source_ve_path=Mjg2NjY">interactively
-at HPC scales</a>.<span class="sidenote-delimiter">]</span></span></span>, it would be
+NumPy arrays or XArrays. However, <a href="https://arkouda-www.github.io/" rel="noopener" target="_blank">Arkouda</a> does!
+We recommend checking Arkouda out if you are interested in using such technologies
+<a href="https:/youtube.com/watch?v=v8p0T-RJTCU&amp;embeds_referring_euri=https%3A%2F%2Fdiscourse.pangeo.io%2F&amp;source_ve_path=Mjg2NjY%22" rel="noopener" target="_blank">interactively at HPC scales</a>.<span class="sidenote-delimiter">]</span></span></span>, it would be
 a game-changer. In the field of Geomatics, there is immense potential for using
 parallel computing with languages like Chapel, which are not difficult for
 Python programmers to learn. The lack of spatial data support is a significant
