@@ -14,9 +14,14 @@ description = "Regular meetings of the Chapel community"
 
 [[LiveEvents]]
   name="Technical Steering Committee (TSC) Meetings"
-  description="Public meetings of the committee that [governs](https://github.com/chapel-lang/governance/) the Chapel project (held as-needed, often in the deep-dive slot)"
+  description="Public meetings of the committee that [governs](/governance/) the Chapel project (held as-needed, often in the deep-dive slot)"
   url="https://github.com/chapel-lang/TSC/"
 
 +++
 
 {{<social-list "LiveEvents">}}
+
+ 
+
+To view Chapel meeting details, see the [**community calendar**](/calendar)
+{.content-paragraph}
