@@ -109,12 +109,8 @@ description = "Slides and videos from Chapel-related presentations"
   {{<artifact-listing "bmw10">}}
 {{</publication-list>}}
 
-&nbsp;<p>
+ 
 
-#### [Chronological Presentation Archives](/presentations-archived/)<br>&nbsp;<br>
+#### [Chronological Presentation Archives](/presentations-archived/)
 
 #### [ChapelCon / CHIUW Presentations](/chapelcon)
-
-&nbsp;<p>
-
-#### 

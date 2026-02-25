@@ -66,10 +66,8 @@ description = "Papers and publications related to the Chapel language"
   {{<artifact-listing "ics15">}}
 {{</publication-list>}}
 
-&nbsp;<p>
+ 
 
-#### [Chronological Papers Archive](/papers-archived/)<br>
+#### [Chronological Papers Archive](/papers-archived/)
 
 #### [ChapelCon / CHIUW Papers](/chapelcon)
-
-&nbsp;<p>
