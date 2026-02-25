@@ -4,6 +4,6 @@ description = "Events taking place in the Chapel community"
 
 +++
 
-* [**Online Outlook Version**](https://outlook.office365.com/calendar/published/cfd54391a94d41648a8c15e1ccf5d870@hpe.com/1eb05c67756a4576b540c8946faba28915354704168464865139/calendar.html)
-* [**Downloadable ICS**](https://outlook.office365.com/owa/calendar/cfd54391a94d41648a8c15e1ccf5d870@hpe.com/1eb05c67756a4576b540c8946faba28915354704168464865139/calendar.ics) (note that this will not dynamically update once downloaded)
-{.content-paragraph}
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&src=MWNlNTYyNzEzZjFkODdjOGRiNjRiZTBhYmQ1OWNlOTkxNDhmMzgzZmFjMmJjNGQ5ZTVhYTc2MmMxMjYyNGQzZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+#### [iCal format link](https://calendar.google.com/calendar/ical/1ce562713f1d87c8db64be0abd59ce99148f383fac2bc4d9e5aa762c12624d3e%40group.calendar.google.com/public/basic.ics)
