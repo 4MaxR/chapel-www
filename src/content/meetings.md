@@ -20,3 +20,7 @@ description = "Regular meetings of the Chapel community"
 +++
 
 {{<social-list "LiveEvents">}}
+
+<br>
+
+To view Chapel meeting details, see the [**community calendar**](/calendar)
